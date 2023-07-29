@@ -5,6 +5,7 @@ const expiration = '2h';
 
 module.exports = {
   authMiddleware: context => {
+    const { req } = context
     let token = req.body.token || req.query.token || req.headers.authorization;
 
     if (req.headers.authorization) {

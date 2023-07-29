@@ -48,7 +48,7 @@ userSchema.methods.isCorrectPassword = async function (password) {
 };
 
 // when we query a user, we'll also get another field called `bookCount` with the number of saved books we have
-userSchema.virtual('gameCount').get(function () {
+userSchema.virtual('bookCount').get(function () {
   return this.savedBooks.length;
 });
 
