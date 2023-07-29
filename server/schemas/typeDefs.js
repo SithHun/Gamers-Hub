@@ -38,3 +38,17 @@ const typeDefs = gql`
     user(username: String!): User
     books(username: String): [Book]
   }
+
+  type Mutation {
+    login(email: String!, password: String!): Auth
+    createUser(username: String!, email: String!, password: String!): Auth
+    saveBook(bookData: BookInput!): User
+    removeBook(bookId: ID!): User
+  }
+
+  extend type Query {
+    searchGoogleBooks(query: String!): [Book]
+  }
+`;
+
+module.exports = typeDefs;
