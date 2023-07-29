@@ -22,3 +22,26 @@ export const CREATE_USER = gql`
     }
   }
 `;
+
+// Login user
+export const LOGIN_USER = gql`
+  mutation login($email: String!, $password: String!) {
+    login(email: $email, password: $password) {
+      token
+      user {
+        _id
+        bookCount
+        email
+        savedBooks {
+          authors
+          bookId
+          description
+          image
+          link
+          title
+        }
+        username
+      }
+    }
+  }
+`;
