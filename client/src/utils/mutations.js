@@ -45,3 +45,22 @@ export const LOGIN_USER = gql`
     }
   }
 `;
+
+// Save book for a logged in user
+export const SAVE_BOOK = gql`
+  mutation saveBook($bookData: BookInput!) {
+    saveBook(bookData: $bookData) {
+      _id
+      username
+      email
+      savedBooks {
+        bookId
+        authors
+        description
+        title
+        image
+        link
+      }
+    }
+  }
+`;
