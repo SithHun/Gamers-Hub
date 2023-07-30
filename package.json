@@ -13,9 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.1.0"
-  },
-  "dependencies": {
+    "concurrently": "^5.1.0",
     "axios": "^1.4.0",
     "inquirer": "^9.2.9"
   }
