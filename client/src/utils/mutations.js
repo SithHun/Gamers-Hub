@@ -7,11 +7,10 @@ export const CREATE_USER = gql`
       token
       user {
         _id
-        bookCount
+        gameCount
         email
-        savedBooks {
-          authors
-          bookId
+        savedGames {
+          gameId
           description
           image
           link
@@ -30,10 +29,9 @@ export const LOGIN_USER = gql`
       token
       user {
         _id
-        bookCount
+        gameCount
         email
-        savedBooks {
-          authors
+        savedGames {
           bookId
           description
           image
@@ -47,15 +45,14 @@ export const LOGIN_USER = gql`
 `;
 
 // Save book for a logged in user
-export const SAVE_BOOK = gql`
-  mutation saveBook($bookData: BookInput!) {
-    saveBook(bookData: $bookData) {
+export const SAVE_GAME = gql`
+  mutation saveGame($gameData: GameInput!) {
+    saveGame(gameData: $gameData) {
       _id
       username
       email
-      savedBooks {
-        bookId
-        authors
+      savedGames {
+        gameId
         description
         title
         image
@@ -66,15 +63,14 @@ export const SAVE_BOOK = gql`
 `;
 
 // Remove saved book data for a logged in user
-export const REMOVE_BOOK = gql`
-  mutation removeBook($bookId: ID!) {
-    removeBook(bookId: $bookId) {
+export const REMOVE_GAME = gql`
+  mutation removeGame($gameId: ID!) {
+    removeGame(gameId: $gameId) {
       _id
       username
       email
-      savedBooks {
-        bookId
-        authors
+      savedGames {
+        gameId
         description
         title
         image
