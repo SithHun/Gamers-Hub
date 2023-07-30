@@ -15,7 +15,7 @@ inquirer
 
     for(let page=1; page<=2; page++) {
       try {
-        const response = await axios.get(`https://api.rawg.io/api/games?page_size=25&page=${page}&dates=${answers.year}-01-01,${answers.year}-12-31&key=2ce1ade5c6ce4ac487c93348d52fab6f`);
+        const response = await axios.get(`https://api.rawg.io/api/games?page_size=25&page=${page}&dates=${answers.year}-01-01,${answers.year}-12-31&key=ENTER_YOUR_API_KEY_HERE`);
         const games = response.data.results;
         const newGames = games.map(game => ({
           id: game.id,
