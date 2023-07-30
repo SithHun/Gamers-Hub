@@ -1,5 +1,5 @@
 {
-  "name": "googlebooks-app",
+  "name": "gamershub-app",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^5.1.0",
+    "axios": "^1.4.0",
+    "inquirer": "^9.2.9"
   }
 }

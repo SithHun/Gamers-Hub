@@ -7,9 +7,8 @@ export const QUERY_ME = gql`
       _id
       username
       email
-      savedBooks {
-        bookId
-        authors
+      savedGames {
+        gameId
         description
         title
         image
@@ -19,12 +18,10 @@ export const QUERY_ME = gql`
   }
 `;
 
-// Server-side resolver API
-export const SEARCH_GOOGLE_BOOKS = gql`
-  query searchGoogleBooks($query: String!) {
-    searchGoogleBooks(query: $query) {
-      bookId
-      authors
+export const SEARCH_RAWG_GAMES = gql`
+  query searchRawgGames($query: String!) {
+    searchRAWGGames(query: $query) {
+      gameId
       description
       title
       image
