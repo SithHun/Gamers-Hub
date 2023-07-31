@@ -92,7 +92,7 @@ const SearchGames = () => {
 
   return (
     <>
-      <div className="text-light bg-dark p-5">
+      <div className="text-light bg-transparent p-5">
         <Container>
           <h1>Search for Games!</h1>
           <Form onSubmit={handleFormSubmit}>
