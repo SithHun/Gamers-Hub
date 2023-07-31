@@ -5,6 +5,7 @@ import { searchRAWGGames } from "../utils/API";
 import { SAVE_GAME } from "../utils/mutations";
 import Auth from "../utils/auth";
 import { saveGameIds, getSavedGameIds } from "../utils/localStorage";
+import GameCarousel from "../components/GameCarousel";
 
 const SearchGames = () => {
   const [searchedGames, setSearchedGames] = useState([]);
@@ -81,7 +82,6 @@ const SearchGames = () => {
 
       console.log("saveGame response: ", data); // logging saveGame response
 
-
       if (data.saveGame) {
         setSavedGameIds([...savedGameIds, gameToSave.gameId]);
       }
@@ -121,6 +121,8 @@ const SearchGames = () => {
           </Form>
         </Container>
       </div>
+
+      <GameCarousel />
 
       {error && <div className="error">{error}</div>}
 
