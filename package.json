@@ -13,8 +13,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.1.0",
     "axios": "^1.4.0",
+    "concurrently": "^5.1.0",
     "inquirer": "^9.2.9"
+  },
+  "dependencies": {
+    "react-particles": "^2.11.0",
+    "tsparticles-slim": "^2.11.1"
   }
 }
