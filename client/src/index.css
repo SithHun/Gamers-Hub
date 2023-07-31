@@ -31,3 +31,11 @@ h6 {
 .carousel-item {
   height: 600px;
 }
+
+.footer {
+  width: 100%;
+}
+
+.bg-slate {
+  background-color: #081417;
+}

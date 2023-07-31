@@ -19,15 +19,15 @@ const NavbarParticles = (props) => {
         links: {
           color: "#4CBB17",
           enable: true,
-          distance: 130,
-          opacity: 0.3,
+          distance: 100,
+          opacity: 0.8,
         },
         move: {
           enable: true,
           speed: { min: 0.1, max: 2 },
         },
         opacity: {
-          value: { min: 0.3, max: 0.4 },
+          value: { min: 0.3, max: 0.7 },
         },
         size: {
           value: { min: 0.4, max: 1 },
