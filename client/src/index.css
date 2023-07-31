@@ -16,8 +16,16 @@ h6 {
   font-style: italic;
 }
 
+.carousel-inner .carousel-caption {
+  display: flex;
+  justify-content: center;
+}
+
 .carousel-caption {
   background-color: rgba(39, 39, 39, 0.6);
+  border: 2mm ridge rgba(5, 5, 5, 0.4);
+  border-radius: 0.5rem;
+  -webkit-text-stroke: 2px black;
 }
 
 .carousel-item {
