@@ -4,6 +4,7 @@ import { Navbar, Nav, Container, Modal, Tab } from "react-bootstrap";
 import SignUpForm from "./SignupForm";
 import LoginForm from "./LoginForm";
 import NavbarParticles from "./NavbarParticles";
+import Header from "./Header";
 
 import Auth from "../utils/auth";
 
@@ -16,7 +17,7 @@ const AppNavbar = () => {
       <Navbar bg='transparent' variant="dark" expand="lg">
         <Container fluid>
           <Navbar.Brand as={Link} to="/">
-            RAWG Games Search
+            <Header />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar" />
           <Navbar.Collapse id="navbar" className="d-flex flex-row-reverse">
