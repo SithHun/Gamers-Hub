@@ -32,7 +32,7 @@ export const LOGIN_USER = gql`
         gameCount
         email
         savedGames {
-          bookId
+          gameId
           description
           image
           link
