@@ -1,4 +1,4 @@
-// const RAWG_API_KEY =  process.env.REACT_APP_RAWG_API_KEY;
+const RAWG_API_KEY =  process.env.REACT_APP_RAWGAPIKEY;
 
 
 const RAWG_API_URL = 'https://api.rawg.io/api/games';
