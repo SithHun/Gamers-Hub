@@ -14,7 +14,7 @@ const AppNavbar = () => {
 
   return (
     <>
-      <Navbar bg='transparent' variant="dark" expand="lg">
+      <Navbar bg="transparent" variant="dark" expand="lg">
         <Container fluid>
           <Navbar.Brand as={Link} to="/">
             <Header />
@@ -22,7 +22,7 @@ const AppNavbar = () => {
           <Navbar.Toggle aria-controls="navbar" />
           <Navbar.Collapse id="navbar" className="d-flex flex-row-reverse">
             <Nav className="ml-auto d-flex">
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/search">
                 Search For Games
               </Nav.Link>
               {/* if user is logged in show saved books and logout */}

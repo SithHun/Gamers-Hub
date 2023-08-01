@@ -31,3 +31,22 @@ h6 {
 .carousel-item {
   height: 600px;
 }
+
+.btn-footer {
+  width: 55px;
+  height: 55px;
+  border-radius: 0.5rem;
+  background-color: rgba(52, 200, 150);
+  outline: 2px ridge white;
+}
+
+.btn-footer:hover {
+  padding: 4px;
+  cursor: pointer;
+  background-color: white;
+  outline: 3px solid rgb(52, 202, 152);
+}
+
+.bg-slate {
+  background-color: #081417;
+}

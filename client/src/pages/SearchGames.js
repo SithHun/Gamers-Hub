@@ -50,6 +50,7 @@ const SearchGames = () => {
 
       setLoading(false);
       setError(null);
+      console.log(gameData);
     } catch (err) {
       setLoading(false);
       setError("An error occurred while searching.");
@@ -121,8 +122,6 @@ const SearchGames = () => {
           </Form>
         </Container>
       </div>
-
-      <GameCarousel />
 
       {error && <div className="error">{error}</div>}
 
