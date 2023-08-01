@@ -41,8 +41,10 @@ const SearchGames = () => {
       const gameData = results.map((game) => ({
         gameId: game.id,
         title: game.name,
-        description: game.description_raw,
+        rating: game.rating,
         image: game.background_image || "",
+        released: game.released,
+        genres: game.genres.map(genre => genre.name).join(', ')
       }));
 
       setSearchedGames(gameData);
@@ -69,9 +71,11 @@ const SearchGames = () => {
 
     const gameData = {
       title: gameToSave.title,
-      description: gameToSave.description || "No description available", // use a default value if no description
       gameId: gameToSave.gameId.toString(),
       image: gameToSave.image,
+      rating: gameToSave.rating,
+      released: gameToSave.released,
+      genres: gameToSave.genres
     };
 
     console.log("gameData: ", gameData); // logging gameData
@@ -145,7 +149,9 @@ const SearchGames = () => {
                   ) : null}
                   <Card.Body>
                     <Card.Title>{game.title}</Card.Title>
-                    <Card.Text>{game.description}</Card.Text>
+                    <Card.Text>{game.rating}</Card.Text>
+                    <Card.Text>{game.released}</Card.Text>
+                    <Card.Text>{game.genres}</Card.Text>
                     {Auth.loggedIn() && (
                       <Button
                         disabled={savedGameIds?.some(

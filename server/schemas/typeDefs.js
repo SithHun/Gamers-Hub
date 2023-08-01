@@ -7,6 +7,7 @@ const typeDefs = gql`
     image: String
     link: String
     title: String!
+    score: Float
   }
 
   type User {
