@@ -123,8 +123,6 @@ const SearchGames = () => {
         </Container>
       </div>
 
-      <GameCarousel />
-
       {error && <div className="error">{error}</div>}
 
       <Container>
