@@ -10,7 +10,7 @@ export default function SiteFooter() {
         <div className="container d-flex justify-content-center py-5">
           <img
             className="btn-footer mx-4"
-            src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
           ></img>
           <img
             onClick={() => openNewTab("https://facebook.com")}

@@ -4,7 +4,7 @@ export default function Review(props) {
     return (
         <div className="reviewCard">
       <h4 className="quote">"<span className="title">{props.title} </span>"</h4>
-      <div className="flexWrapper">
+      <div className="flexWrapper gamePanel">
         <img className="thumbnail" src={props.image}></img>
         <h5 className="game">{props.game}</h5>
         <h5 className="reviewRating">{props.rating}<span className="outOf">/100</span></h5>

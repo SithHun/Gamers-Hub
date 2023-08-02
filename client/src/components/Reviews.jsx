@@ -7,9 +7,9 @@ const reviewsArr = [
       "https://www.giantbomb.com/a/uploads/scale_small/41/414731/3094375-emberfallboxart.jpg",
     title: "An Epic Journey through a Rich Fantasy World",
     author: "Ned",
-    game: "The Chronicles of Emberfall",
+    game: "Emberfall",
     rating: 94,
-    body: "The Chronicles of Emberfall is an absolute gem of a video game. From the moment I stepped foot into the beautifully crafted",
+    body: "Emberfall is an absolute gem of a video game. From the moment I stepped foot into the beautifully crafted world, to the first time I discovered",
     date: "June 12, 2017",
   },
   {
@@ -29,7 +29,7 @@ const reviewsArr = [
     author: "Lloyd",
     game: "CyberPunk 2077",
     rating: 84,
-    body: "CyberPunk 2077 offers a mesmerizing journey into a dystopian future. The game's broody aesthetic and pulsating",
+    body: "CyberPunk 2077 offers a mesmerizing journey into a dystopian future. The game's broody aesthetic and pulsating realism delivers a frenzy of",
     date: "December 2, 2021",
   },
   {
@@ -39,7 +39,7 @@ const reviewsArr = [
     author: "Patricia",
     game: "TerraForge: Reborn",
     rating: 89,
-    body: "TerraForge: Reborn is a sandbox masterpiece that grants you the power of creation. The freedom to shape and mold the world",
+    body: "TerraForge: Reborn is a sandbox masterpiece that grants you the power of creation. The freedom to shape and mold the world as you please is",
     date: "August 8, 2020",
   },
 ];

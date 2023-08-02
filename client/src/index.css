@@ -36,8 +36,8 @@ h6 {
   width: 55px;
   height: 55px;
   border-radius: 0.5rem;
-  background-color: rgba(52, 200, 150);
-  outline: 2px ridge white;
+  background-color: rgb(255, 255, 255);
+  outline: 2px solid rgb(52, 202, 152);
 }
 
 .btn-footer:hover {
@@ -51,6 +51,7 @@ h6 {
   background-color: #081417;
 }
 
+/* Review Cards Section */
 .quote {
   color: black;
   font-size: 30px;
@@ -69,9 +70,8 @@ h6 {
 }
 
 .reviewCard {
-  background-color: rgb(52, 202, 152);
   background: linear-gradient(
-    180deg,
+    185deg,
     rgb(63, 243, 183),
     rgb(52, 202, 152),
     rgb(40, 155, 116),
@@ -80,6 +80,7 @@ h6 {
   border: 4px inset rgb(255, 255, 255);
   box-shadow: -15px 15px 2px rgb(22, 90, 81);
   width: calc((100% / 2.85) - 40px);
+  border-radius: 0.2rem;
   padding: 8px;
   margin-left: 10%;
   margin-bottom: 4%;
@@ -108,11 +109,6 @@ h6 {
   border-radius: 0.5rem;
 }
 
-.thumbnail:hover {
-  cursor: pointer;
-  transform: scale(120%);
-}
-
 .reviewRating {
   font-size: 34px;
   color: rgb(255, 255, 255);
@@ -127,9 +123,21 @@ h6 {
   justify-content: center;
 }
 
+.gamePanel {
+  padding-bottom: 1.5%;
+  border-bottom: 1px solid black;
+}
+
+.game:hover {
+  cursor: pointer;
+  color: aqua;
+  transform: scale(110%);
+}
+
 .reviewBody {
+  background-color: rgba(255, 255, 255, 0.5);
   margin-top: 2%;
-  padding: 2px;
+  padding: 4px;
   font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 2;
@@ -164,13 +172,14 @@ h6 {
 
 .readMore {
   visibility: hidden;
+  font-size: 12px;
   text-align: center;
   background-color: rgba(39, 39, 39, 0.6);
   color: white;
-  width: 90px;
+  width: 70px;
   border-radius: 0.5rem;
   margin-left: 5px;
   position: absolute;
-  top: -5px;
-  left: 105%;
+  top: -15px;
+  left: -25px;
 }
