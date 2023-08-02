@@ -50,3 +50,127 @@ h6 {
 .bg-slate {
   background-color: #081417;
 }
+
+.quote {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.reviews {
+  background-color: rgba(39, 39, 39, 0.6);
+  margin: 2%;
+  padding: 2%;
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.reviewCard {
+  background-color: rgb(52, 202, 152);
+  background: linear-gradient(
+    180deg,
+    rgb(63, 243, 183),
+    rgb(52, 202, 152),
+    rgb(40, 155, 116),
+    rgb(7, 29, 22)
+  );
+  border: 4px inset rgb(255, 255, 255);
+  box-shadow: -15px 15px 2px rgb(22, 90, 81);
+  width: calc((100% / 2.85) - 40px);
+  padding: 8px;
+  margin-left: 10%;
+  margin-bottom: 4%;
+}
+
+.author {
+  text-align: end;
+  color: white;
+}
+
+.date {
+  font-size: 12px;
+  text-align: end;
+  color: white;
+}
+
+.game {
+  margin-left: 4%;
+  font-size: 15px;
+  margin-top: 3%;
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.5rem;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  transform: scale(120%);
+}
+
+.reviewRating {
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+  justify-content: end;
+  height: 28px;
+  margin-left: 40px;
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.flexWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.reviewBody {
+  margin-top: 2%;
+  padding: 2px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2;
+}
+
+.title {
+  font-style: italic;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: underline;
+}
+
+.outOf {
+  font-size: 10px;
+  color: black;
+  -webkit-text-stroke: 0;
+}
+
+.elipse:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.elipse:hover .readMore {
+  visibility: visible;
+}
+
+.elipse {
+  font-size: 16px;
+  position: relative;
+}
+
+.readMore {
+  visibility: hidden;
+  text-align: center;
+  background-color: rgba(39, 39, 39, 0.6);
+  color: white;
+  width: 90px;
+  border-radius: 0.5rem;
+  margin-left: 5px;
+  position: absolute;
+  top: -5px;
+  left: 105%;
+}

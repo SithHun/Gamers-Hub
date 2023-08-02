@@ -1,15 +1,24 @@
 import React from "react";
 
 export default function Review(props) {
-  return (
-    <div>
-        <img src={props.image}></img>
-      <h4>"{props.title}"</h4>
-      <h5>{props.rating} / 5</h5>
-      <h5>{props.game}</h5>
-      <h6>
-        {props.body} <span>- {props.author}</span>
-      </h6>
+    return (
+        <div className="reviewCard">
+      <h4 className="quote">"<span className="title">{props.title} </span>"</h4>
+      <div className="flexWrapper">
+        <img className="thumbnail" src={props.image}></img>
+        <h5 className="game">{props.game}</h5>
+        <h5 className="reviewRating">{props.rating}<span className="outOf">/100</span></h5>
+      </div>
+      <div className="flexWrapper">
+        <h6 className="reviewBody">
+          {props.body}
+          <span className="elipse">
+        ...<span className="readMore">Read More</span>
+          </span>
+        </h6>
+      </div>
+      <h5 className="author">- {props.author}</h5>
+      <h6 className="date">{props.date}</h6>
     </div>
   );
 }
