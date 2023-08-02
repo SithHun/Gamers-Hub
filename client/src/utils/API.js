@@ -6,7 +6,7 @@ const RAWG_API_URL = 'https://api.rawg.io/api/games';
 
 export const searchRAWGGames = (query) => {
   // Construct the URL for the RAWG API.
-  const url = `${RAWG_API_URL}?key=${RAWG_API_KEY}&search=${query}`;
+  const url = `${RAWG_API_URL}?key=${RAWG_API_KEY}&search=${query}&ordering=-added`;
 
   // Use fetch to get the data from the RAWG API.
   return fetch(url);
