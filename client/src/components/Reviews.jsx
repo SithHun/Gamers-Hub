@@ -47,7 +47,7 @@ const reviewsArr = [
 export default function Reviews() {
   return (
     <div>
-      <h2 className="text-light m-1">
+      <h2 className="text-light text-center m-2 pt-4">
         See what people are saying about their favorite games
       </h2>
       <div className="reviews">
