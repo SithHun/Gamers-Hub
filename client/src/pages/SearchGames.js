@@ -5,7 +5,7 @@ import { searchRAWGGames } from "../utils/API";
 import { SAVE_GAME } from "../utils/mutations";
 import Auth from "../utils/auth";
 import { saveGameIds, getSavedGameIds } from "../utils/localStorage";
-import GameCarousel from "../components/GameCarousel";
+import formatDate from '../utils/formatDate'
 
 const SearchGames = () => {
   const [searchedGames, setSearchedGames] = useState([]);
@@ -156,10 +156,10 @@ const SearchGames = () => {
                       className="img-fluid card-image"
                     />
                   ) : null}
-                  <Card.Body className="reviewCardtwo">
+                  <Card.Body className="reviewCardtwo text-center">
                     <Card.Title>{game.title}</Card.Title>
                     {/* <Card.Text>{game.rating}</Card.Text> */}
-                    <Card.Text>{game.released}</Card.Text>
+                    <Card.Text>Released {formatDate(game.released)}</Card.Text>
                     <Card.Text>{game.genres}</Card.Text>
                     <div className="fixed-button-wrapper">
                     {Auth.loggedIn() && (
