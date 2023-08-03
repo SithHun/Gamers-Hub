@@ -28,8 +28,20 @@ h6 {
   -webkit-text-stroke: 2px black;
 }
 
+.carousel-caption:hover {
+  transform: scale(105%);
+  cursor: pointer;
+}
+
 .carousel-item {
   height: 600px;
+}
+
+.carouselImage {
+  height: 600px;
+  width: 100%;
+  border-top: 4px solid rgb(52, 202, 152);
+  border-bottom: 4px solid rgb(52, 202, 152);
 }
 
 .btn-footer {
@@ -56,6 +68,18 @@ h6 {
   color: black;
   font-size: 30px;
   text-align: center;
+  width: 100%;
+  padding-bottom: 2%;
+  border-radius: 0.5rem;
+}
+
+.title {
+  font-size: 24px;
+  color: transparent;
+  font-family: "Audiowide";
+  background: linear-gradient(215deg, rgb(7, 6, 6), rgb(3, 109, 8));
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .reviews {
@@ -98,29 +122,34 @@ h6 {
 }
 
 .game {
-  margin-left: 4%;
+  font-size: 15px;
+  text-align: start;
+  margin-top: 3%;
+  padding-right: 2%;
+  border-right: 2px solid black;
+}
+
+.platform {
   font-size: 15px;
   margin-top: 3%;
+  margin-left: 2%;
+  color: rgb(47, 102, 104);
 }
 
 .thumbnail {
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 0;
+  top: -16px;
   border-radius: 0.5rem;
-}
-
-.reviewRating {
-  font-size: 34px;
-  color: rgb(255, 255, 255);
-  justify-content: end;
-  height: 28px;
-  margin-left: 40px;
-  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  box-shadow: 0 0 4px rgb(0, 0, 0);
 }
 
 .flexWrapper {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .gamePanel {
@@ -131,27 +160,50 @@ h6 {
 .game:hover {
   cursor: pointer;
   color: aqua;
-  transform: scale(110%);
+  border-left: 2px solid black;
+  padding: 1px;
+  transform: scale(103%);
+  margin-top: 2.5%;
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 .reviewBody {
   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.2rem;
   margin-top: 2%;
   padding: 4px;
   font-size: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
   line-height: 2;
 }
 
-.title {
-  font-style: italic;
-  font-size: 24px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  text-decoration: underline;
+.reviewRating {
+  background-color: rgba(0, 255, 0, 0.37);
+  color: rgb(255, 255, 255);
+  justify-content: end;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 2px black;
+  padding: 1px;
+  position: absolute;
+  right: 0px;
+  top: -17px;
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.ratingText {
+  font-size: 34px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 1px;
 }
 
 .outOf {
   font-size: 10px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
   color: black;
   -webkit-text-stroke: 0;
 }

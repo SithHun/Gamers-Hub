@@ -1,2544 +1,1802 @@
 [
-    {
-      "id": 41494,
-      "name": "Cyberpunk 2077",
-      "released": "2020-12-10",
-      "rating": 4.12,
-      "background_image": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 326292,
-      "name": "Fall Guys: Ultimate Knockout",
-      "released": "2020-08-04",
-      "rating": 3.74,
-      "background_image": "https://media.rawg.io/media/games/5eb/5eb49eb2fa0738fdb5bacea557b1bc57.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "Casual",
-        "Sports",
-        "Indie",
-        "Massively Multiplayer"
-      ]
-    },
-    {
-      "id": 274755,
-      "name": "Hades",
-      "released": "2020-09-17",
-      "rating": 4.45,
-      "background_image": "https://media.rawg.io/media/games/1f4/1f47a270b8f241e4676b14d39ec620f7.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 58777,
-      "name": "DOOM Eternal",
-      "released": "2020-03-20",
-      "rating": 4.37,
-      "background_image": "https://media.rawg.io/media/games/3ea/3ea3c9bbd940b6cb7f2139e42d3d443f.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Action"
-      ]
-    },
-    {
-      "id": 51325,
-      "name": "The Last of Us Part II",
-      "released": "2020-06-19",
-      "rating": 4.42,
-      "background_image": "https://media.rawg.io/media/games/909/909974d1c7863c2027241e265fe7011f.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 28199,
-      "name": "Ori and the Will of the Wisps",
-      "released": "2020-03-10",
-      "rating": 4.46,
-      "background_image": "https://media.rawg.io/media/games/718/71891d2484a592d871e91dc826707e1c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 15426,
-      "name": "Black Mesa",
-      "released": "2020-03-06",
-      "rating": 4.34,
-      "background_image": "https://media.rawg.io/media/games/009/009e4e84975d6a60173ec1199db25aa3.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Indie",
-        "Action"
-      ]
-    },
-    {
-      "id": 58550,
-      "name": "Ghost of Tsushima",
-      "released": "2020-07-17",
-      "rating": 4.46,
-      "background_image": "https://media.rawg.io/media/games/f24/f2493ea338fe7bd3c7d73750a85a0959.jpeg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 259801,
-      "name": "Final Fantasy VII",
-      "released": "2020-04-10",
-      "rating": 4.38,
-      "background_image": "https://media.rawg.io/media/games/d89/d89bd0cf4fcdc10820892980cbba0f49.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 442855,
-      "name": "Mafia II: Definitive Edition",
-      "released": "2020-05-19",
-      "rating": 3.86,
-      "background_image": "https://media.rawg.io/media/games/d73/d7364906c530ccc2d89b0b5d8695e03c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 397477,
-      "name": "Resident Evil 3",
-      "released": "2020-04-02",
-      "rating": 4.02,
-      "background_image": "https://media.rawg.io/media/games/a4b/a4bb55f42fe837ae7bf1307e7b41cc85.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 9551,
-      "name": "Deep Rock Galactic",
-      "released": "2020-05-13",
-      "rating": 4.07,
-      "background_image": "https://media.rawg.io/media/games/c92/c9207a31f0eeb9904a840fc26eae6afb.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Action"
-      ]
-    },
-    {
-      "id": 442854,
-      "name": "Mafia: Definitive Edition",
-      "released": "2020-09-25",
-      "rating": 4.22,
-      "background_image": "https://media.rawg.io/media/games/345/3452d9d4483686c602372e0e6b3bb4cc.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 437059,
-      "name": "Assassin's Creed Valhalla",
-      "released": "2020-11-10",
-      "rating": 3.76,
-      "background_image": "https://media.rawg.io/media/games/934/9346092ae11bf7582c883869468171cc.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 327999,
-      "name": "Dota Underlords",
-      "released": "2020-02-25",
-      "rating": 3.04,
-      "background_image": "https://media.rawg.io/media/games/66e/66e90c9d7b9a17335b310ceb294e9365.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Strategy",
-        "Board Games"
-      ]
-    },
-    {
-      "id": 366850,
-      "name": "Ghostrunner",
-      "released": "2020-10-27",
-      "rating": 3.85,
-      "background_image": "https://media.rawg.io/media/games/957/957154d665ae676b00c0859551c733b1.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 401805,
-      "name": "Genshin Impact",
-      "released": "2020-09-28",
-      "rating": 3.55,
-      "background_image": "https://media.rawg.io/media/games/c38/c38bdb5da139005777176d33c463d70f.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 391399,
-      "name": "Tell Me Why",
-      "released": "2020-08-27",
-      "rating": 3.23,
-      "background_image": "https://media.rawg.io/media/games/b28/b28a135fa6133e17b228f46902a4fda4.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure"
-      ]
-    },
-    {
-      "id": 452634,
-      "name": "Marvel's Spider-Man: Miles Morales",
-      "released": "2020-11-12",
-      "rating": 4.31,
-      "background_image": "https://media.rawg.io/media/games/048/048b46cdc66cbc7e235e1f359c2a77ec.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 50677,
-      "name": "Superhot: Mind Control Delete",
-      "released": "2020-07-15",
-      "rating": 3.84,
-      "background_image": "https://media.rawg.io/media/games/b56/b56853f28ecdc04b44f552f7b9c8ea69.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Action"
-      ]
-    },
-    {
-      "id": 263590,
-      "name": "Risk of Rain 2",
-      "released": "2020-08-11",
-      "rating": 4.15,
-      "background_image": "https://media.rawg.io/media/games/238/238e2b2b24c9838626700c69cacf1e3a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Arcade",
-        "Action"
-      ]
-    },
-    {
-      "id": 10926,
-      "name": "Factorio",
-      "released": "2020-08-14",
-      "rating": 4.37,
-      "background_image": "https://media.rawg.io/media/games/7e4/7e4e22b76da131e9690d5757555093c2.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Strategy",
-        "Indie",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 58859,
-      "name": "Marvels Avengers",
-      "released": "2020-09-04",
-      "rating": 2.68,
-      "background_image": "https://media.rawg.io/media/games/1eb/1ebef06e55f756974654c35b9aedb127.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 445442,
-      "name": "Helltaker",
-      "released": "2020-05-11",
-      "rating": 3.97,
-      "background_image": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Puzzle"
-      ]
-    },
-    {
-      "id": 427930,
-      "name": "Phasmophobia",
-      "released": "2020-09-18",
-      "rating": 3.86,
-      "background_image": "https://media.rawg.io/media/screenshots/75c/75c9b2a8e308bb44059d52ff59006e16.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Action"
-      ]
-    },
-    {
-      "id": 392019,
-      "name": "Half-Life: Alyx",
-      "released": "2020-03-23",
-      "rating": 4.4,
-      "background_image": "https://media.rawg.io/media/games/855/8552c056d729f34c951c30f3cfef9da8.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 339958,
-      "name": "Persona 5 Royal",
-      "released": "2020-03-31",
-      "rating": 4.76,
-      "background_image": "https://media.rawg.io/media/games/a9c/a9c789951de65da545d51f664b4f2ce0.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "RPG"
-      ]
-    },
-    {
-      "id": 284664,
-      "name": "Streets of Rage 4",
-      "released": "2020-04-30",
-      "rating": 4.06,
-      "background_image": "https://media.rawg.io/media/games/e56/e56d74b0a1072662eea7c1a194363884.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "Fighting"
-      ]
-    },
-    {
-      "id": 440079,
-      "name": "DiRT 5",
-      "released": "2020-11-06",
-      "rating": 3.24,
-      "background_image": "https://media.rawg.io/media/games/9c7/9c7dd09596246993169b356d7c1facf0.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Racing",
-        "Arcade"
-      ]
-    },
-    {
-      "id": 384567,
-      "name": "Crusader Kings III",
-      "released": "2020-09-01",
-      "rating": 4.31,
-      "background_image": "https://media.rawg.io/media/games/77e/77e8a4a7b377a081aabd0dbf688417e1.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "RPG",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 445430,
-      "name": "Mafia III: Definitive Edition",
-      "released": "2020-05-19",
-      "rating": 3.14,
-      "background_image": "https://media.rawg.io/media/games/944/94497cb4d179b652ba8da2a52ab55a3e.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 295020,
-      "name": "Wasteland 3",
-      "released": "2020-08-28",
-      "rating": 4.06,
-      "background_image": "https://media.rawg.io/media/games/370/370a4cbcfa75e5238ee8f74bf323694d.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "RPG"
-      ]
-    },
-    {
-      "id": 17010,
-      "name": "Kentucky Route Zero",
-      "released": "2020-01-28",
-      "rating": 3.98,
-      "background_image": "https://media.rawg.io/media/games/177/1775aacedb915b0e0880476530dc87b4.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure"
-      ]
-    },
-    {
-      "id": 455532,
-      "name": "Star Wars: Squadrons",
-      "released": "2020-10-02",
-      "rating": 3.17,
-      "background_image": "https://media.rawg.io/media/games/b19/b191ff2b8ccb646d1d2d9297ed5c7e89.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 324992,
-      "name": "Watch Dogs: Legion",
-      "released": "2020-10-29",
-      "rating": 3.07,
-      "background_image": "https://media.rawg.io/media/games/415/41563ce6cb061a210160687a4e5d39f6.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 45109,
-      "name": "Maneater",
-      "released": "2020-05-22",
-      "rating": 3.42,
-      "background_image": "https://media.rawg.io/media/games/895/8951013b8ace2d652727df2f9023cbb8.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 326236,
-      "name": "Spiritfarer",
-      "released": "2020-08-18",
-      "rating": 4.13,
-      "background_image": "https://media.rawg.io/media/games/727/727f889060e688bbdcba7b2a5d26a603.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 369157,
-      "name": "Yakuza: Like a Dragon",
-      "released": "2020-01-16",
-      "rating": 4.32,
-      "background_image": "https://media.rawg.io/media/games/a59/a5993b9f84944570a31cb6ad08bfe502.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 452646,
-      "name": "Astro's Playroom",
-      "released": "2020-11-12",
-      "rating": 4.35,
-      "background_image": "https://media.rawg.io/media/games/bfe/bfe7780b7d4342540be2e5273d49e54c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Action"
-      ]
-    },
-    {
-      "id": 481910,
-      "name": "Call of Duty: Black Ops Cold War",
-      "released": "2020-11-13",
-      "rating": 3.76,
-      "background_image": "https://media.rawg.io/media/games/6b1/6b14dc4cc1785e396580c69165e55d2d.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Action"
-      ]
-    },
-    {
-      "id": 487910,
-      "name": "Immortals: Fenyx Rising",
-      "released": "2020-12-03",
-      "rating": 3.75,
-      "background_image": "https://media.rawg.io/media/games/d51/d51ada3b94bfd617bf91d4344ab81ce9.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 373504,
-      "name": "Resident Evil: Resistance",
-      "released": "2020-04-03",
-      "rating": 2.18,
-      "background_image": "https://media.rawg.io/media/games/09e/09e34396a92952c57b1bfb1decfddfa3.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 22123,
-      "name": "Hellpoint",
-      "released": "2020-07-30",
-      "rating": 2.78,
-      "background_image": "https://media.rawg.io/media/games/a65/a6539d3373835ee27f26abc626b8bc61.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 249954,
-      "name": "Carrion",
-      "released": "2020-07-23",
-      "rating": 3.86,
-      "background_image": "https://media.rawg.io/media/games/5c9/5c912b5ea827c2861cff425010a86277.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 275641,
-      "name": "Moving Out",
-      "released": "2020-04-28",
-      "rating": 3.61,
-      "background_image": "https://media.rawg.io/media/games/726/7263e11b6bfb15abe35dcfa3b26147f5.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Action",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 326238,
-      "name": "Microsoft Flight Simulator 2020",
-      "released": "2020-08-18",
-      "rating": 4.16,
-      "background_image": "https://media.rawg.io/media/games/89c/89ceadfd42109aa0d80e9c5dbc86f277.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Simulation"
-      ]
-    },
-    {
-      "id": 369158,
-      "name": "The Dark Pictures Anthology: Little Hope",
-      "released": "2020-10-30",
-      "rating": 3.75,
-      "background_image": "https://media.rawg.io/media/games/643/6431f15213a854efd273943f2cf6a925.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 59346,
-      "name": "Desperados III",
-      "released": "2020-06-15",
-      "rating": 4.28,
-      "background_image": "https://media.rawg.io/media/games/71d/71d5c7bed835c723486f7f6e78fca9fd.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "Action"
-      ]
-    },
-    {
-      "id": 507152,
-      "name": "Streets of Kamurocho",
-      "released": "2020-10-17",
-      "rating": 2.65,
-      "background_image": "https://media.rawg.io/media/games/bbe/bbe47995ed6f8b054afa6110f522515d.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 471027,
-      "name": "Tetris Effect: Connected",
-      "released": "2020-11-10",
-      "rating": 4.2,
-      "background_image": "https://media.rawg.io/media/games/377/3770f2c7020bcb6cc2072f073f27fb4c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Puzzle"
-      ]
-    },
-    {
-      "id": 58751,
-      "name": "Halo Infinite",
-      "released": "2021-12-08",
-      "rating": 3.68,
-      "background_image": "https://media.rawg.io/media/games/e1f/e1ffbeb1bac25b19749ad285ca29e158.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 622492,
-      "name": "Forza Horizon 5",
-      "released": "2021-11-08",
-      "rating": 4.32,
-      "background_image": "https://media.rawg.io/media/games/082/082365507ff04d456c700157072d35db.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Racing",
-        "Adventure",
-        "Action",
-        "Simulation",
-        "Sports"
-      ]
-    },
-    {
-      "id": 452649,
-      "name": "Resident Evil: Village",
-      "released": "2021-05-07",
-      "rating": 4.38,
-      "background_image": "https://media.rawg.io/media/games/6cc/6cc23249972a427f697a3d10eb57a820.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 455597,
-      "name": "It Takes Two",
-      "released": "2021-03-26",
-      "rating": 4.53,
-      "background_image": "https://media.rawg.io/media/games/d47/d479582ed0a46496ad34f65c7099d7e5.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 248521,
-      "name": "Valheim",
-      "released": "2021-02-02",
-      "rating": 4.03,
-      "background_image": "https://media.rawg.io/media/games/adb/adb59be81367b19c2544457424bcf086.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 326251,
-      "name": "Deathloop",
-      "released": "2021-09-14",
-      "rating": 3.99,
-      "background_image": "https://media.rawg.io/media/games/018/01857c5ff9579c48fa8bd76b4d83a946.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 616765,
-      "name": "Marvel's Guardians of the Galaxy",
-      "released": "2021-10-26",
-      "rating": 4.34,
-      "background_image": "https://media.rawg.io/media/games/708/7080e6c87e0825cb02888bf3c44b3889.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 516111,
-      "name": "Mass Effect: Legendary Edition",
-      "released": "2021-05-14",
-      "rating": 4.57,
-      "background_image": "https://media.rawg.io/media/games/64e/64e2a77f37ddc48d102127234af99886.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 441738,
-      "name": "The Ascent",
-      "released": "2021-07-29",
-      "rating": 3.3,
-      "background_image": "https://media.rawg.io/media/games/3f4/3f43f03406a5ea087352bf32d60e3a0a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 257192,
-      "name": "Psychonauts 2",
-      "released": "2021-08-24",
-      "rating": 4.36,
-      "background_image": "https://media.rawg.io/media/games/c3c/c3c536cc4d32623ba928020dfd39a648.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 397473,
-      "name": "Back 4 Blood",
-      "released": "2021-10-07",
-      "rating": 3.21,
-      "background_image": "https://media.rawg.io/media/games/4fe/4feffcec6315c5f5a96442a8444431ca.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Action"
-      ]
-    },
-    {
-      "id": 558986,
-      "name": "Capcom Arcade Stadium",
-      "released": "2021-02-17",
-      "rating": 2.72,
-      "background_image": "https://media.rawg.io/media/games/2a5/2a5072e5b28e1653a10e4f931f1991af.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Arcade",
-        "Action"
-      ]
-    },
-    {
-      "id": 479694,
-      "name": "Inscryption",
-      "released": "2021-10-19",
-      "rating": 4.42,
-      "background_image": "https://media.rawg.io/media/games/73e/73efc5c0ac6f354271dae610276f617c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Strategy",
-        "Adventure"
-      ]
-    },
-    {
-      "id": 548036,
-      "name": "Loop Hero",
-      "released": "2021-03-04",
-      "rating": 4.07,
-      "background_image": "https://media.rawg.io/media/games/cef/cef4c326dd57a8f39d696379eaa84411.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "Indie",
-        "RPG",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 327227,
-      "name": "Outriders",
-      "released": "2021-04-01",
-      "rating": 3.38,
-      "background_image": "https://media.rawg.io/media/games/faa/faa6a4a7a2e57faf2960329630aee211.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 463723,
-      "name": "Far Cry 6",
-      "released": "2021-10-07",
-      "rating": 3.34,
-      "background_image": "https://media.rawg.io/media/games/5dd/5dd4d2dd986d2826800bc37fff64aa4f.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 579507,
-      "name": "Death's Door",
-      "released": "2021-07-20",
-      "rating": 4.19,
-      "background_image": "https://media.rawg.io/media/games/a3e/a3ea71c18e81d54ebaf982dadb9a8738.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 366881,
-      "name": "Little Nightmares II",
-      "released": "2021-02-10",
-      "rating": 4.37,
-      "background_image": "https://media.rawg.io/media/games/c2a/c2a7dc4540eb79aaff7099ae691105d3.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 452635,
-      "name": "Kena: Bridge of Spirits",
-      "released": "2021-09-21",
-      "rating": 4.03,
-      "background_image": "https://media.rawg.io/media/games/91d/91ddeef8d5ebee7f21faa89efa0f2201.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action",
-        "Strategy",
-        "Indie"
-      ]
-    },
-    {
-      "id": 327260,
-      "name": "Twelve Minutes",
-      "released": "2021-08-19",
-      "rating": 3.51,
-      "background_image": "https://media.rawg.io/media/games/0f8/0f808c8ecd5134e76d0a60570f66e56a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 452645,
-      "name": "Hitman 3",
-      "released": "2021-01-20",
-      "rating": 4.22,
-      "background_image": "https://media.rawg.io/media/games/126/126fbd5ceacddc6ad16fc96e50b1265b.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 440081,
-      "name": "The Medium",
-      "released": "2021-01-28",
-      "rating": 3.52,
-      "background_image": "https://media.rawg.io/media/games/8f5/8f5c25901d96e709ea631599106eda1c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 364942,
-      "name": "Unpacking",
-      "released": "2021-11-02",
-      "rating": 4.01,
-      "background_image": "https://media.rawg.io/media/games/c11/c1118fbcfd846c631ecb7646f8efc780.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual"
-      ]
-    },
-    {
-      "id": 614954,
-      "name": "Battlefield 2042",
-      "released": "2021-11-12",
-      "rating": 2.76,
-      "background_image": "https://media.rawg.io/media/games/af2/af2b640fa820e8a8135948a4cd399539.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 287342,
-      "name": "Subnautica: Below Zero",
-      "released": "2021-05-14",
-      "rating": 4.01,
-      "background_image": "https://media.rawg.io/media/games/437/4377bf00ded8a2ba781aa74d8bff9220.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure"
-      ]
-    },
-    {
-      "id": 545015,
-      "name": "Disco Elysium: Final Cut",
-      "released": "2021-03-30",
-      "rating": 4.67,
-      "background_image": "https://media.rawg.io/media/games/0af/0afe9e8ace196123d8c7cf22172cec63.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "RPG"
-      ]
-    },
-    {
-      "id": 662357,
-      "name": "Vampire: The Masquerade - Bloodhunt",
-      "released": "2021-09-07",
-      "rating": 3.1,
-      "background_image": "https://media.rawg.io/media/games/ba9/ba981ea851b2a85b78d63d9ec53c19e5.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 366083,
-      "name": "Black Book",
-      "released": "2021-08-10",
-      "rating": 4.07,
-      "background_image": "https://media.rawg.io/media/games/1d6/1d6f294a27ff1b90d4a4a79d42d3f7b2.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Strategy",
-        "Adventure",
-        "RPG"
-      ]
-    },
-    {
-      "id": 422859,
-      "name": "NieR Replicant v1.22474487139...",
-      "released": "2021-04-23",
-      "rating": 4.39,
-      "background_image": "https://media.rawg.io/media/games/3ac/3ac2b5356ad764a87092d15cdcbee809.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 440086,
-      "name": "Scarlet Nexus",
-      "released": "2021-06-25",
-      "rating": 3.61,
-      "background_image": "https://media.rawg.io/media/games/27c/27cb94ed1763fec383fb99151580095a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 286474,
-      "name": "Narita Boy",
-      "released": "2021-03-30",
-      "rating": 3.35,
-      "background_image": "https://media.rawg.io/media/games/ba3/ba3dbf9a5a71913582052d7e12775aea.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "Fighting"
-      ]
-    },
-    {
-      "id": 45775,
-      "name": "Biomutant",
-      "released": "2021-05-25",
-      "rating": 2.78,
-      "background_image": "https://media.rawg.io/media/games/363/363830e5f6459ca71eb43bea8c32f688.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 727315,
-      "name": "Ratchet & Clank: Rift Apart",
-      "released": "2021-06-11",
-      "rating": 4.38,
-      "background_image": "https://media.rawg.io/media/games/ccf/ccfd3fd488a8ed61145a3da96c080131.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 452639,
-      "name": "Returnal",
-      "released": "2021-04-30",
-      "rating": 4.27,
-      "background_image": "https://media.rawg.io/media/games/673/673f27be4c5dbf37ce3ed0ed5ddf9d8d.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Action"
-      ]
-    },
-    {
-      "id": 573123,
-      "name": "Life is Strange: True Colors",
-      "released": "2021-09-10",
-      "rating": 3.85,
-      "background_image": "https://media.rawg.io/media/games/278/2784fe67065c5095411f0d4c85205143.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 61044,
-      "name": "Breathedge",
-      "released": "2021-02-25",
-      "rating": 3.73,
-      "background_image": "https://media.rawg.io/media/games/ef8/ef853efdaf6778ca731eec21d1d7d0d7.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 326244,
-      "name": "Tales of Arise",
-      "released": "2021-09-10",
-      "rating": 3.97,
-      "background_image": "https://media.rawg.io/media/games/5a9/5a9e785af72ae88026380f7987f23d90.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 398414,
-      "name": "New World",
-      "released": "2021-09-28",
-      "rating": 3.07,
-      "background_image": "https://media.rawg.io/media/games/4ad/4ad7dc0f8a01abea9855309e91e933fc.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Massively Multiplayer",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 11025,
-      "name": "Totally Accurate Battle Simulator",
-      "released": "2021-04-01",
-      "rating": 3.72,
-      "background_image": "https://media.rawg.io/media/screenshots/82a/82a9e2b7caf052d0f140b70e350cf184.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "Indie",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 638648,
-      "name": "Greak: Memories of Azur",
-      "released": "2021-08-16",
-      "rating": 3.12,
-      "background_image": "https://media.rawg.io/media/games/102/102b3f5639c57ca39e96ea1cb554f9e2.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Platformer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 548148,
-      "name": "Yakuza 3 Remastered",
-      "released": "2021-01-27",
-      "rating": 3.52,
-      "background_image": "https://media.rawg.io/media/games/372/372ad5555afd1c58e39914600a412b84.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 546464,
-      "name": "FIFA 22",
-      "released": "2021-09-27",
-      "rating": 3.38,
-      "background_image": "https://media.rawg.io/media/games/355/355d2ec5d6b87518228dc30a9bb0e70d.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Simulation",
-        "Sports"
-      ]
-    },
-    {
-      "id": 614964,
-      "name": "Death Stranding Director's Cut",
-      "released": "2021-09-24",
-      "rating": 4.27,
-      "background_image": "https://media.rawg.io/media/games/b6f/b6fa0cde8a1204c7d6edc2ec3c753df9.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 58809,
-      "name": "The Forgotten City",
-      "released": "2021-07-28",
-      "rating": 4.28,
-      "background_image": "https://media.rawg.io/media/games/6e9/6e9136f09bb9daaaed5a0e6d508028b4.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 58773,
-      "name": "Sable",
-      "released": "2021-09-23",
-      "rating": 3.45,
-      "background_image": "https://media.rawg.io/media/games/46a/46acc41c5ee0aea0e2d9c685a9a7427b.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 58618,
-      "name": "Age of Empires IV",
-      "released": "2021-10-28",
-      "rating": 3.9,
-      "background_image": "https://media.rawg.io/media/games/23e/23e45acbf29bd241913ddcf5cf4053d5.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy"
-      ]
-    },
-    {
-      "id": 387328,
-      "name": "Curse of the Dead Gods",
-      "released": "2021-02-23",
-      "rating": 3.62,
-      "background_image": "https://media.rawg.io/media/games/c8c/c8c156591d6e88bb685177c1c44c945a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 669363,
-      "name": "Dagon: by H. P. Lovecraft",
-      "released": "2021-09-23",
-      "rating": 3.46,
-      "background_image": "https://media.rawg.io/media/games/525/525ddc0a9f22c944af01f074e8983ffe.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure"
-      ]
-    },
-    {
-      "id": 560733,
-      "name": "Diablo II: Resurrected",
-      "released": "2021-09-23",
-      "rating": 4.12,
-      "background_image": "https://media.rawg.io/media/games/3f2/3f207dcc7931598567a90bc779a95cf8.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 517384,
-      "name": "Turnip Boy Commits Tax Evasion",
-      "released": "2021-04-22",
-      "rating": 3.74,
-      "background_image": "https://media.rawg.io/media/games/4ce/4ce87a0d1274009bc19588eb491b1e01.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 326243,
-      "name": "Elden Ring",
-      "released": "2022-02-25",
-      "rating": 4.4,
-      "background_image": "https://media.rawg.io/media/games/5ec/5ecac5cb026ec26a56efcc546364e348.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 452638,
-      "name": "Stray",
-      "released": "2022-07-19",
-      "rating": 4.16,
-      "background_image": "https://media.rawg.io/media/games/cd3/cd3c9c7d3e95cb1608fd6250f1b90b7a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Puzzle",
-        "Indie",
-        "Platformer"
-      ]
-    },
-    {
-      "id": 704634,
-      "name": "Uncharted: Legacy of Thieves Collection",
-      "released": "2022-01-28",
-      "rating": 4.41,
-      "background_image": "https://media.rawg.io/media/games/de6/de66bc4c72b45c3bb906c85d0628112d.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 685577,
-      "name": "Vampire Survivors",
-      "released": "2022-10-20",
-      "rating": 4.18,
-      "background_image": "https://media.rawg.io/media/games/501/501e7019925a3c692bf1c8062f07abe6.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 791638,
-      "name": "MultiVersus",
-      "released": "2022-07-26",
-      "rating": 3.28,
-      "background_image": "https://media.rawg.io/media/games/d2e/d2ee15fda80056efef174da4ca5ae54f.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "Fighting"
-      ]
-    },
-    {
-      "id": 372576,
-      "name": "Lost Ark",
-      "released": "2022-02-11",
-      "rating": 3.27,
-      "background_image": "https://media.rawg.io/media/games/d9e/d9e868382c48ec98c9b23b8fbe6a2045.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Massively Multiplayer",
-        "RPG"
-      ]
-    },
-    {
-      "id": 58758,
-      "name": "Dying Light 2 Stay Human",
-      "released": "2022-02-04",
-      "rating": 3.65,
-      "background_image": "https://media.rawg.io/media/games/73d/73db43df633477d4604c7248292f34b2.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 570074,
-      "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
-      "released": "2022-06-16",
-      "rating": 4.1,
-      "background_image": "https://media.rawg.io/media/games/aac/aac683272f862540a18625f02f5f3679.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Fighting",
-        "Casual",
-        "Arcade",
-        "Indie"
-      ]
-    },
-    {
-      "id": 46301,
-      "name": "Raft",
-      "released": "2022-01-20",
-      "rating": 3.92,
-      "background_image": "https://media.rawg.io/media/games/6b2/6b253d2d39fc05b2368e5e78bb4abffc.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure"
-      ]
-    },
-    {
-      "id": 29236,
-      "name": "Tunic",
-      "released": "2022-03-16",
-      "rating": 4.03,
-      "background_image": "https://media.rawg.io/media/games/2c1/2c1984e128ac48b89953ed4de4904a3b.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 452642,
-      "name": "Horizon Forbidden West",
-      "released": "2022-02-18",
-      "rating": 4.27,
-      "background_image": "https://media.rawg.io/media/games/bf7/bf73b105ccbba42107986bbcd96fcada.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 748414,
-      "name": "Aperture Desk Job",
-      "released": "2022-03-01",
-      "rating": 3.88,
-      "background_image": "https://media.rawg.io/media/games/acc/acc3de7aaa850ad998d49b15f8901e23.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 616697,
-      "name": "A Plague Tale: Requiem",
-      "released": "2022-10-17",
-      "rating": 4.27,
-      "background_image": "https://media.rawg.io/media/games/cd0/cd074f3f6045297cda9ad077273c09b6.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 391397,
-      "name": "Grounded",
-      "released": "2022-09-27",
-      "rating": 3.81,
-      "background_image": "https://media.rawg.io/media/games/0d7/0d7b7a687bf665b61337904193c56855.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure"
-      ]
-    },
-    {
-      "id": 326239,
-      "name": "Lego Star Wars: The Skywalker Saga",
-      "released": "2022-04-05",
-      "rating": 3.94,
-      "background_image": "https://media.rawg.io/media/games/292/2926f9fb089ab91a0dac754193b325e5.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 801032,
-      "name": "High on Life",
-      "released": "2022-12-13",
-      "rating": 3.79,
-      "background_image": "https://media.rawg.io/media/games/2e7/2e732a02c29c84ca177855848932a5aa.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 10069,
-      "name": "Mount & Blade II: Bannerlord",
-      "released": "2022-10-25",
-      "rating": 4.22,
-      "background_image": "https://media.rawg.io/media/games/0aa/0aa81c3f82acec65b44e854352522cd6.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "Action",
-        "RPG",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 650605,
-      "name": "Cult of the Lamb",
-      "released": "2022-08-11",
-      "rating": 4.15,
-      "background_image": "https://media.rawg.io/media/games/ab8/ab8217a1fe2ced388a388722734e6d16.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Strategy",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 274758,
-      "name": "The Stanley Parable: Ultra Deluxe",
-      "released": "2022-04-27",
-      "rating": 4.36,
-      "background_image": "https://media.rawg.io/media/games/c4e/c4e3ad247e93d3a5dc40aa215a778a9c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Adventure"
-      ]
-    },
-    {
-      "id": 326248,
-      "name": "Ghostwire: Tokyo",
-      "released": "2022-03-24",
-      "rating": 3.58,
-      "background_image": "https://media.rawg.io/media/games/e85/e851f527ab0658519436342ee73da191.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 854354,
-      "name": "Portal with RTX",
-      "released": "2022-12-08",
-      "rating": 3.51,
-      "background_image": "https://media.rawg.io/media/screenshots/c9f/c9f6437599050a85548af09a06fde112.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Puzzle"
-      ]
-    },
-    {
-      "id": 602224,
-      "name": "V Rising",
-      "released": "2022-05-17",
-      "rating": 3.65,
-      "background_image": "https://media.rawg.io/media/games/bde/bdef96f7782fba0ff62dabc37ff4b1f0.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Massively Multiplayer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 388308,
-      "name": "Overwatch 2",
-      "released": "2022-10-04",
-      "rating": 3.16,
-      "background_image": "https://media.rawg.io/media/games/95a/95a10817d1fc648cff1153f3fa8ef6c5.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Action"
-      ]
-    },
-    {
-      "id": 494384,
-      "name": "God of War: Ragnarök",
-      "released": "2022-11-09",
-      "rating": 4.55,
-      "background_image": "https://media.rawg.io/media/games/1c3/1c305096502c475c00276c827f0fd697.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 545033,
-      "name": "Resident Evil Re:Verse",
-      "released": "2022-10-28",
-      "rating": 1.64,
-      "background_image": "https://media.rawg.io/media/games/d8d/d8dd3610968f15a78816494ecef9c562.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Action"
-      ]
-    },
-    {
-      "id": 581104,
-      "name": "PowerWash Simulator",
-      "released": "2022-07-14",
-      "rating": 3.91,
-      "background_image": "https://media.rawg.io/media/games/659/65959a07c4e6dc7a9034993bbb3ba232.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 723957,
-      "name": "Yu-Gi-Oh! Master Duel",
-      "released": "2022-01-18",
-      "rating": 3.58,
-      "background_image": "https://media.rawg.io/media/screenshots/06f/06fa9a33188522273623ef314ec4fc3b.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Card",
-        "Strategy",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 754888,
-      "name": "The Quarry",
-      "released": "2022-06-09",
-      "rating": 3.77,
-      "background_image": "https://media.rawg.io/media/games/f40/f407a80be4c604d013e4b9d1e0c6dbef.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 398409,
-      "name": "Weird West",
-      "released": "2022-03-31",
-      "rating": 3.79,
-      "background_image": "https://media.rawg.io/media/games/3ca/3ca6130eabf2e05275859166eaf5c66b.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG",
-        "Simulation",
-        "Indie"
-      ]
-    },
-    {
-      "id": 370202,
-      "name": "Not For Broadcast",
-      "released": "2022-01-25",
-      "rating": 4.01,
-      "background_image": "https://media.rawg.io/media/games/31a/31a18b79feb780687e85d61376828c94.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 46220,
-      "name": "Scorn",
-      "released": "2022-10-14",
-      "rating": 3.45,
-      "background_image": "https://media.rawg.io/media/games/f8c/f8cc3b4834259f8a812ce77804bc12ed.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 378579,
-      "name": "Teardown",
-      "released": "2022-04-21",
-      "rating": 4.22,
-      "background_image": "https://media.rawg.io/media/games/580/580515de11a1b996918fa3ac118210bc.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "Indie",
-        "Action",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 564757,
-      "name": "Sifu",
-      "released": "2022-02-08",
-      "rating": 4.01,
-      "background_image": "https://media.rawg.io/media/games/3a9/3a9ea2db24f879e61fe7b824f5888d2a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "Fighting"
-      ]
-    },
-    {
-      "id": 454544,
-      "name": "Metal: Hellsinger",
-      "released": "2022-09-15",
-      "rating": 4,
-      "background_image": "https://media.rawg.io/media/games/34e/34eb79862b32835924d999d575e08202.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 791636,
-      "name": "Call of Duty: Modern Warfare II",
-      "released": "2022-10-27",
-      "rating": 3.82,
-      "background_image": "https://media.rawg.io/media/games/1af/1af8edc7491c6d9d0776fc423d93548d.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Action"
-      ]
-    },
-    {
-      "id": 568931,
-      "name": "Dorfromantik",
-      "released": "2022-04-28",
-      "rating": 3.84,
-      "background_image": "https://media.rawg.io/media/screenshots/d1f/d1f51898c2aee5731b2e3ab2d4f1a56c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Puzzle",
-        "Casual",
-        "Strategy",
-        "Simulation",
-        "Indie"
-      ]
-    },
-    {
-      "id": 554705,
-      "name": "Potion Craft: Alchemist Simulator",
-      "released": "2022-12-13",
-      "rating": 3.71,
-      "background_image": "https://media.rawg.io/media/games/18e/18e422ec82ea060e0641cb419faca210.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 558980,
-      "name": "Neon White",
-      "released": "2022-06-16",
-      "rating": 4.37,
-      "background_image": "https://media.rawg.io/media/games/a12/a120fc7faed7666f8c320a755137e316.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 707256,
-      "name": "Sniper Elite 5",
-      "released": "2022-05-25",
-      "rating": 3.63,
-      "background_image": "https://media.rawg.io/media/games/3e0/3e09bb71ce82dad515df4982a2466e67.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 761405,
-      "name": "Knightfall: A Daring Journey",
-      "released": "2022-04-01",
-      "rating": 2.05,
-      "background_image": "https://media.rawg.io/media/screenshots/6ab/6abb5456a795b7713919db7568a2fd96.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Racing",
-        "Indie",
-        "Action"
-      ]
-    },
-    {
-      "id": 616679,
-      "name": "Trek to Yomi",
-      "released": "2022-05-05",
-      "rating": 3.46,
-      "background_image": "https://media.rawg.io/media/games/bc5/bc53067cffecb71129fcb0b4fbf0e922.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 529698,
-      "name": "The Callisto Protocol",
-      "released": "2022-12-02",
-      "rating": 3.43,
-      "background_image": "https://media.rawg.io/media/games/605/605e0c04ba48ece4b4ae7825473477f6.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure"
-      ]
-    },
-    {
-      "id": 428839,
-      "name": "Rogue Legacy 2",
-      "released": "2022-04-28",
-      "rating": 4.01,
-      "background_image": "https://media.rawg.io/media/games/776/776ebcf6f05c98eab89af736e6f38283.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 650608,
-      "name": "Nobody Saves the World",
-      "released": "2022-01-17",
-      "rating": 3.79,
-      "background_image": "https://media.rawg.io/media/games/b44/b448c0725eb490dda9cfb23b826da68a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 868085,
-      "name": "Marvel Snap",
-      "released": "2022-10-18",
-      "rating": 4.01,
-      "background_image": "https://media.rawg.io/media/games/1f7/1f73ddf4231f9296d73358ddd5d54e29.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Card",
-        "Strategy"
-      ]
-    },
-    {
-      "id": 424978,
-      "name": "Signalis",
-      "released": "2022-10-27",
-      "rating": 4.41,
-      "background_image": "https://media.rawg.io/media/games/480/480295ba922318bb052d169174ec88aa.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 614962,
-      "name": "Tiny Tina's Wonderlands",
-      "released": "2022-03-25",
-      "rating": 3.7,
-      "background_image": "https://media.rawg.io/media/games/13b/13b029c381614a8e557f442cff488bb3.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 799265,
-      "name": "The Last of Us Part I",
-      "released": "2022-09-02",
-      "rating": 4.61,
-      "background_image": "https://media.rawg.io/media/games/71d/71df9e759b2246f9769126c98ac997fc.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 471031,
-      "name": "As Dusk Falls",
-      "released": "2022-07-19",
-      "rating": 4.03,
-      "background_image": "https://media.rawg.io/media/games/0eb/0eb6673637d877b09a9a1f9aa6e25db4.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure"
-      ]
-    },
-    {
-      "id": 704730,
-      "name": "Blue Fire: Void Maker",
-      "released": "2022-02-04",
-      "rating": 0,
-      "background_image": "https://media.rawg.io/media/screenshots/d0f/d0f3e325366eeb8912b0f8752ed97606.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie"
-      ]
-    },
-    {
-      "id": 906547,
-      "name": "Hogwarts Legacy",
-      "released": "2023-02-10",
-      "rating": 3.96,
-      "background_image": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 303576,
-      "name": "Vampire: The Masquerade - Bloodlines 2",
-      "released": "2023-12-31",
-      "rating": 3.93,
-      "background_image": "https://media.rawg.io/media/games/fb5/fb5e0fdb1f6bb0e8b5da5d08bb83a5fc.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 268446,
-      "name": "Barotrauma",
-      "released": "2023-03-13",
-      "rating": 3.77,
-      "background_image": "https://media.rawg.io/media/games/862/8620fd3d08ecce0e806507299333058d.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "Indie",
-        "Action",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 324997,
-      "name": "Baldur's Gate III",
-      "released": "2023-08-06",
-      "rating": 4.35,
-      "background_image": "https://media.rawg.io/media/games/699/69907ecf13f172e9e144069769c3be73.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "Adventure",
-        "RPG"
-      ]
-    },
-    {
-      "id": 58386,
-      "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "released": "2023-12-31",
-      "rating": 4.09,
-      "background_image": "https://media.rawg.io/media/games/3e8/3e81585ecda204d4f4b80a041b069adb.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 50576,
-      "name": "Atomic Heart",
-      "released": "2023-02-21",
-      "rating": 3.98,
-      "background_image": "https://media.rawg.io/media/games/6ee/6ee5cbe30c6b6c299a3288337d40a0f3.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 58779,
-      "name": "Starfield",
-      "released": "2023-09-06",
-      "rating": 4.21,
-      "background_image": "https://media.rawg.io/media/games/ba8/ba82c971336adfd290e4c0eab6504fcf.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "RPG"
-      ]
-    },
-    {
-      "id": 795632,
-      "name": "Resident Evil 4",
-      "released": "2023-03-24",
-      "rating": 4.63,
-      "background_image": "https://media.rawg.io/media/games/51a/51a404b9918a0b19fc704a3ca248c69f.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 327239,
-      "name": "The Legend of Zelda: Tears of the Kingdom",
-      "released": "2023-05-12",
-      "rating": 4.49,
-      "background_image": "https://media.rawg.io/media/games/556/55684bfd048706f4266d331d70050b37.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 638654,
-      "name": "Dead Space",
-      "released": "2023-01-27",
-      "rating": 4.24,
-      "background_image": "https://media.rawg.io/media/games/ea6/ea6a1382b15d749e15fdfbf0aece7689.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 388309,
-      "name": "Diablo IV",
-      "released": "2023-06-06",
-      "rating": 4.14,
-      "background_image": "https://media.rawg.io/media/games/77d/77d51f8f4a07c3eecb0f8504027b1bf0.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 15272,
-      "name": "System Shock",
-      "released": "2023-05-30",
-      "rating": 3.92,
-      "background_image": "https://media.rawg.io/media/games/e98/e98c259aeac26d1ef5c1affc670eec83.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 914789,
-      "name": "Hi-Fi Rush",
-      "released": "2023-01-25",
-      "rating": 4.38,
-      "background_image": "https://media.rawg.io/media/games/62f/62f71917e64e913f2a893e7373319c60.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 452636,
-      "name": "Forspoken",
-      "released": "2023-01-24",
-      "rating": 2.06,
-      "background_image": "https://media.rawg.io/media/games/3a0/3a074a80d9a45e82aff7532f0162628e.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 292844,
-      "name": "Hollow Knight: Silksong",
-      "released": "2023-12-31",
-      "rating": 4.56,
-      "background_image": "https://media.rawg.io/media/games/27c/27cd8b7dead05a870f8a514a9a1915ad.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Platformer",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 793647,
-      "name": "Star Wars Jedi: Survivor",
-      "released": "2023-04-27",
-      "rating": 4.24,
-      "background_image": "https://media.rawg.io/media/games/3e4/3e43e29ae126ef951842393f5ff7f33a.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 42857,
-      "name": "Dead Island 2",
-      "released": "2023-04-21",
-      "rating": 3.84,
-      "background_image": "https://media.rawg.io/media/games/9cd/9cd22ae5aebd922f96f2bc50efab83df.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 494382,
-      "name": "Final Fantasy XVI",
-      "released": "2023-06-22",
-      "rating": 4.3,
-      "background_image": "https://media.rawg.io/media/games/22e/22e68bb62b3013283972cecf98ed51dc.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 662316,
-      "name": "Marvel's Spider-Man 2",
-      "released": "2023-10-20",
-      "rating": 4.44,
-      "background_image": "https://media.rawg.io/media/games/a8a/a8a74f30ce82dbde168176a4aa04ac58.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 801638,
-      "name": "Wo Long: Fallen Dynasty",
-      "released": "2023-03-03",
-      "rating": 3.45,
-      "background_image": "https://media.rawg.io/media/games/1e1/1e1b965459d5cf69cf51e5d6fe7da959.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 580972,
-      "name": "Alan Wake 2",
-      "released": "2023-10-17",
-      "rating": 3.6,
-      "background_image": "https://media.rawg.io/media/games/5b9/5b963d7633cd640fa2dbc4069d1c6377.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 705258,
-      "name": "Have a Nice Death",
-      "released": "2023-03-22",
-      "rating": 3.6,
-      "background_image": "https://media.rawg.io/media/games/648/6485d70bb1166ba94353182d61fcd157.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Indie",
-        "Action"
-      ]
-    },
-    {
-      "id": 43253,
-      "name": "Little Devil Inside",
-      "released": "2023-12-31",
-      "rating": 4.1,
-      "background_image": "https://media.rawg.io/media/games/63b/63bd91ad9f2b896cdb067ad3a5542c9e.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 845261,
-      "name": "Assassin's Creed Mirage",
-      "released": "2023-10-12",
-      "rating": 3.62,
-      "background_image": "https://media.rawg.io/media/games/fbd/fbd0128013b7965904be571e75fb30c0.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 616693,
-      "name": "Replaced",
-      "released": "2023-12-31",
-      "rating": 3.12,
-      "background_image": "https://media.rawg.io/media/games/041/041e04184322bc859d617b790d8bfab9.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Platformer",
-        "Action"
-      ]
-    },
-    {
-      "id": 366883,
-      "name": "Everspace 2",
-      "released": "2023-04-06",
-      "rating": 3.62,
-      "background_image": "https://media.rawg.io/media/games/8a2/8a211877151a55a09e87061118012281.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Action",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 617209,
-      "name": "Redfall",
-      "released": "2023-05-01",
-      "rating": 1.86,
-      "background_image": "https://media.rawg.io/media/games/683/6834c702c73e28ef2b3b003bb2c54567.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 571689,
-      "name": "Dread Templar",
-      "released": "2023-01-26",
-      "rating": 3.5,
-      "background_image": "https://media.rawg.io/media/games/0d4/0d4ab33c89c9772db39ab67183a4a8f5.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Indie",
-        "Action"
-      ]
-    },
-    {
-      "id": 537745,
-      "name": "HROT",
-      "released": "2023-05-16",
-      "rating": 3.84,
-      "background_image": "https://media.rawg.io/media/games/3d1/3d1a7326f4c73b76008fa51c3976e7ea.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Shooter",
-        "Indie",
-        "Action"
-      ]
-    },
-    {
-      "id": 59349,
-      "name": "The Settlers - New Allies",
-      "released": "2023-02-17",
-      "rating": 3.43,
-      "background_image": "https://media.rawg.io/media/games/b57/b5742a425c87b581e680a13b1cc44152.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy"
-      ]
-    },
-    {
-      "id": 605674,
-      "name": "Lies Of P",
-      "released": "2023-09-19",
-      "rating": 3.62,
-      "background_image": "https://media.rawg.io/media/games/cc3/cc3231b0e4ef970590eeb2ce23f60ca0.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 614961,
-      "name": "Planet of Lana",
-      "released": "2023-05-23",
-      "rating": 4.19,
-      "background_image": "https://media.rawg.io/media/screenshots/848/848b8b0772f369407405d390b394e81e.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Puzzle",
-        "Indie",
-        "Platformer"
-      ]
-    },
-    {
-      "id": 619744,
-      "name": "Wartales",
-      "released": "2023-04-12",
-      "rating": 4,
-      "background_image": "https://media.rawg.io/media/games/4a9/4a95e157712aa4b779c43bb4eae79b73.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Strategy",
-        "Adventure",
-        "RPG"
-      ]
-    },
-    {
-      "id": 949868,
-      "name": "The Murder of Sonic the Hedgehog",
-      "released": "2023-03-31",
-      "rating": 3.45,
-      "background_image": "https://media.rawg.io/media/games/e11/e118b6b051c0bab9b70ce0402719bbd6.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Arcade",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 392250,
-      "name": "KartRider: Drift",
-      "released": "2023-01-09",
-      "rating": 2.5,
-      "background_image": "https://media.rawg.io/media/screenshots/be8/be8b872c00c25b32d359427c436636da.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Racing",
-        "Action"
-      ]
-    },
-    {
-      "id": 586042,
-      "name": "Oxenfree II: Lost Signals",
-      "released": "2023-07-12",
-      "rating": 3.67,
-      "background_image": "https://media.rawg.io/media/games/55e/55e23d1452e7f7f0295c4fe2a4d298b5.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure"
-      ]
-    },
-    {
-      "id": 398405,
-      "name": "Sons of the Forest",
-      "released": "2023-02-23",
-      "rating": 3.37,
-      "background_image": "https://media.rawg.io/media/games/7a0/7a092fa63811a7f6ed90f456a8887e91.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "Simulation"
-      ]
-    },
-    {
-      "id": 842402,
-      "name": "Dredge",
-      "released": "2023-03-29",
-      "rating": 4.34,
-      "background_image": "https://media.rawg.io/media/games/c2c/c2c9f1c026b6c1be5bc2160baf7224ea.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "RPG"
-      ]
-    },
-    {
-      "id": 362880,
-      "name": "The Last Spell",
-      "released": "2023-03-08",
-      "rating": 3.67,
-      "background_image": "https://media.rawg.io/media/games/cc6/cc6c768a71fed84682e326a8bbce3718.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "Indie",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 681395,
-      "name": "The Day Before",
-      "released": "2023-11-10",
-      "rating": 2.44,
-      "background_image": "https://media.rawg.io/media/games/d0b/d0bc26b4a79b95fa5b399d18f79fc207.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Massively Multiplayer",
-        "Shooter",
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 438620,
-      "name": "The Lord of the Rings: Gollum",
-      "released": "2023-05-25",
-      "rating": 1.4,
-      "background_image": "https://media.rawg.io/media/games/470/470fb8435cdea25bda1126e0b8e0a3b0.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 295014,
-      "name": "Darkest Dungeon 2",
-      "released": "2023-05-08",
-      "rating": 3.72,
-      "background_image": "https://media.rawg.io/media/games/aea/aeaab29c551ea9919e571c44e75a5106.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Strategy",
-        "RPG"
-      ]
-    },
-    {
-      "id": 850698,
-      "name": "Like a Dragon: Ishin!",
-      "released": "2023-02-21",
-      "rating": 4.05,
-      "background_image": "https://media.rawg.io/media/games/472/4722e05c50b9ffe9b984dce11fce82c7.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 742771,
-      "name": "Street Fighter 6",
-      "released": "2023-06-01",
-      "rating": 4.2,
-      "background_image": "https://media.rawg.io/media/games/ce2/ce2463db40cec363f360c29ddcc56884.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Fighting"
-      ]
-    },
-    {
-      "id": 29239,
-      "name": "Skull & Bones",
-      "released": "2023-12-31",
-      "rating": 3.43,
-      "background_image": "https://media.rawg.io/media/games/097/097a3191f8d9bd75068e89f50f1b021c.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Massively Multiplayer",
-        "Action"
-      ]
-    },
-    {
-      "id": 427490,
-      "name": "Sea of Stars",
-      "released": "2023-08-28",
-      "rating": 0,
-      "background_image": "https://media.rawg.io/media/games/1de/1de8ff69ed31d7a47d4f7770f23f20b8.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "RPG"
-      ]
-    },
-    {
-      "id": 857636,
-      "name": "Wild Hearts",
-      "released": "2023-02-16",
-      "rating": 3.08,
-      "background_image": "https://media.rawg.io/media/games/f2c/f2cb7350b37378e9e622d85bd175c294.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action"
-      ]
-    },
-    {
-      "id": 616677,
-      "name": "Avatar: Frontiers of Pandora",
-      "released": "2023-12-07",
-      "rating": 0,
-      "background_image": "https://media.rawg.io/media/games/983/9837c2e9a13a92c55c47327dfc22a81f.jpeg",
-      "clip": "No clip available",
-      "genres": [
-        "Action"
-      ]
-    },
-    {
-      "id": 801553,
-      "name": "The Last Case of Benedict Fox",
-      "released": "2023-04-27",
-      "rating": 2.89,
-      "background_image": "https://media.rawg.io/media/games/0f5/0f573a7c772decd973c41aa54da2ecd6.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Indie",
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    },
-    {
-      "id": 871264,
-      "name": "Dave the Diver",
-      "released": "2023-06-28",
-      "rating": 4.54,
-      "background_image": "https://media.rawg.io/media/games/1ee/1eec43616e3ff00a674124d746926b23.jpg",
-      "clip": "No clip available",
-      "genres": [
-        "Adventure",
-        "Action",
-        "RPG"
-      ]
-    }
-  ]
+  {
+    "id": 41494,
+    "name": "Cyberpunk 2077",
+    "released": "2020-12-10",
+    "rating": 4.12,
+    "background_image": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg",
+    "clip": "./CyberPunk.gif",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 326292,
+    "name": "Fall Guys: Ultimate Knockout",
+    "released": "2020-08-04",
+    "rating": 3.74,
+    "background_image": "https://media.rawg.io/media/games/5eb/5eb49eb2fa0738fdb5bacea557b1bc57.jpg",
+    "clip": "./FallGuys.gif",
+    "genres": ["Action", "Casual", "Sports", "Indie", "Massively Multiplayer"]
+  },
+  {
+    "id": 274755,
+    "name": "Hades",
+    "released": "2020-09-17",
+    "rating": 4.45,
+    "background_image": "https://media.rawg.io/media/games/1f4/1f47a270b8f241e4676b14d39ec620f7.jpg",
+    "clip": "./Hades.gif",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 58777,
+    "name": "DOOM Eternal",
+    "released": "2020-03-20",
+    "rating": 4.37,
+    "background_image": "https://media.rawg.io/media/games/3ea/3ea3c9bbd940b6cb7f2139e42d3d443f.jpg",
+    "clip": "./Doom.gif",
+    "genres": ["Shooter", "Action"]
+  },
+  {
+    "id": 51325,
+    "name": "The Last of Us Part II",
+    "released": "2020-06-19",
+    "rating": 4.42,
+    "background_image": "https://media.rawg.io/media/games/909/909974d1c7863c2027241e265fe7011f.jpg",
+    "clip": "./Last.gif",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 28199,
+    "name": "Ori and the Will of the Wisps",
+    "released": "2020-03-10",
+    "rating": 4.46,
+    "background_image": "https://media.rawg.io/media/games/718/71891d2484a592d871e91dc826707e1c.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Adventure", "Action"]
+  },
+  {
+    "id": 15426,
+    "name": "Black Mesa",
+    "released": "2020-03-06",
+    "rating": 4.34,
+    "background_image": "https://media.rawg.io/media/games/009/009e4e84975d6a60173ec1199db25aa3.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Indie", "Action"]
+  },
+  {
+    "id": 58550,
+    "name": "Ghost of Tsushima",
+    "released": "2020-07-17",
+    "rating": 4.46,
+    "background_image": "https://media.rawg.io/media/games/f24/f2493ea338fe7bd3c7d73750a85a0959.jpeg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 259801,
+    "name": "Final Fantasy VII",
+    "released": "2020-04-10",
+    "rating": 4.38,
+    "background_image": "https://media.rawg.io/media/games/d89/d89bd0cf4fcdc10820892980cbba0f49.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 442855,
+    "name": "Mafia II: Definitive Edition",
+    "released": "2020-05-19",
+    "rating": 3.86,
+    "background_image": "https://media.rawg.io/media/games/d73/d7364906c530ccc2d89b0b5d8695e03c.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 397477,
+    "name": "Resident Evil 3",
+    "released": "2020-04-02",
+    "rating": 4.02,
+    "background_image": "https://media.rawg.io/media/games/a4b/a4bb55f42fe837ae7bf1307e7b41cc85.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 9551,
+    "name": "Deep Rock Galactic",
+    "released": "2020-05-13",
+    "rating": 4.07,
+    "background_image": "https://media.rawg.io/media/games/c92/c9207a31f0eeb9904a840fc26eae6afb.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Action"]
+  },
+  {
+    "id": 442854,
+    "name": "Mafia: Definitive Edition",
+    "released": "2020-09-25",
+    "rating": 4.22,
+    "background_image": "https://media.rawg.io/media/games/345/3452d9d4483686c602372e0e6b3bb4cc.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 437059,
+    "name": "Assassin's Creed Valhalla",
+    "released": "2020-11-10",
+    "rating": 3.76,
+    "background_image": "https://media.rawg.io/media/games/934/9346092ae11bf7582c883869468171cc.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 327999,
+    "name": "Dota Underlords",
+    "released": "2020-02-25",
+    "rating": 3.04,
+    "background_image": "https://media.rawg.io/media/games/66e/66e90c9d7b9a17335b310ceb294e9365.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Strategy", "Board Games"]
+  },
+  {
+    "id": 366850,
+    "name": "Ghostrunner",
+    "released": "2020-10-27",
+    "rating": 3.85,
+    "background_image": "https://media.rawg.io/media/games/957/957154d665ae676b00c0859551c733b1.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 401805,
+    "name": "Genshin Impact",
+    "released": "2020-09-28",
+    "rating": 3.55,
+    "background_image": "https://media.rawg.io/media/games/c38/c38bdb5da139005777176d33c463d70f.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 391399,
+    "name": "Tell Me Why",
+    "released": "2020-08-27",
+    "rating": 3.23,
+    "background_image": "https://media.rawg.io/media/games/b28/b28a135fa6133e17b228f46902a4fda4.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure"]
+  },
+  {
+    "id": 452634,
+    "name": "Marvel's Spider-Man: Miles Morales",
+    "released": "2020-11-12",
+    "rating": 4.31,
+    "background_image": "https://media.rawg.io/media/games/048/048b46cdc66cbc7e235e1f359c2a77ec.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 50677,
+    "name": "Superhot: Mind Control Delete",
+    "released": "2020-07-15",
+    "rating": 3.84,
+    "background_image": "https://media.rawg.io/media/games/b56/b56853f28ecdc04b44f552f7b9c8ea69.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Action"]
+  },
+  {
+    "id": 263590,
+    "name": "Risk of Rain 2",
+    "released": "2020-08-11",
+    "rating": 4.15,
+    "background_image": "https://media.rawg.io/media/games/238/238e2b2b24c9838626700c69cacf1e3a.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Arcade", "Action"]
+  },
+  {
+    "id": 10926,
+    "name": "Factorio",
+    "released": "2020-08-14",
+    "rating": 4.37,
+    "background_image": "https://media.rawg.io/media/games/7e4/7e4e22b76da131e9690d5757555093c2.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Strategy", "Indie", "Simulation"]
+  },
+  {
+    "id": 58859,
+    "name": "Marvels Avengers",
+    "released": "2020-09-04",
+    "rating": 2.68,
+    "background_image": "https://media.rawg.io/media/games/1eb/1ebef06e55f756974654c35b9aedb127.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 445442,
+    "name": "Helltaker",
+    "released": "2020-05-11",
+    "rating": 3.97,
+    "background_image": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Puzzle"]
+  },
+  {
+    "id": 427930,
+    "name": "Phasmophobia",
+    "released": "2020-09-18",
+    "rating": 3.86,
+    "background_image": "https://media.rawg.io/media/screenshots/75c/75c9b2a8e308bb44059d52ff59006e16.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Action"]
+  },
+  {
+    "id": 392019,
+    "name": "Half-Life: Alyx",
+    "released": "2020-03-23",
+    "rating": 4.4,
+    "background_image": "https://media.rawg.io/media/games/855/8552c056d729f34c951c30f3cfef9da8.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 339958,
+    "name": "Persona 5 Royal",
+    "released": "2020-03-31",
+    "rating": 4.76,
+    "background_image": "https://media.rawg.io/media/games/a9c/a9c789951de65da545d51f664b4f2ce0.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "RPG"]
+  },
+  {
+    "id": 284664,
+    "name": "Streets of Rage 4",
+    "released": "2020-04-30",
+    "rating": 4.06,
+    "background_image": "https://media.rawg.io/media/games/e56/e56d74b0a1072662eea7c1a194363884.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "Fighting"]
+  },
+  {
+    "id": 440079,
+    "name": "DiRT 5",
+    "released": "2020-11-06",
+    "rating": 3.24,
+    "background_image": "https://media.rawg.io/media/games/9c7/9c7dd09596246993169b356d7c1facf0.jpg",
+    "clip": "No clip available",
+    "genres": ["Racing", "Arcade"]
+  },
+  {
+    "id": 384567,
+    "name": "Crusader Kings III",
+    "released": "2020-09-01",
+    "rating": 4.31,
+    "background_image": "https://media.rawg.io/media/games/77e/77e8a4a7b377a081aabd0dbf688417e1.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "RPG", "Simulation"]
+  },
+  {
+    "id": 445430,
+    "name": "Mafia III: Definitive Edition",
+    "released": "2020-05-19",
+    "rating": 3.14,
+    "background_image": "https://media.rawg.io/media/games/944/94497cb4d179b652ba8da2a52ab55a3e.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 295020,
+    "name": "Wasteland 3",
+    "released": "2020-08-28",
+    "rating": 4.06,
+    "background_image": "https://media.rawg.io/media/games/370/370a4cbcfa75e5238ee8f74bf323694d.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "RPG"]
+  },
+  {
+    "id": 17010,
+    "name": "Kentucky Route Zero",
+    "released": "2020-01-28",
+    "rating": 3.98,
+    "background_image": "https://media.rawg.io/media/games/177/1775aacedb915b0e0880476530dc87b4.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure"]
+  },
+  {
+    "id": 455532,
+    "name": "Star Wars: Squadrons",
+    "released": "2020-10-02",
+    "rating": 3.17,
+    "background_image": "https://media.rawg.io/media/games/b19/b191ff2b8ccb646d1d2d9297ed5c7e89.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "Simulation"]
+  },
+  {
+    "id": 324992,
+    "name": "Watch Dogs: Legion",
+    "released": "2020-10-29",
+    "rating": 3.07,
+    "background_image": "https://media.rawg.io/media/games/415/41563ce6cb061a210160687a4e5d39f6.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 45109,
+    "name": "Maneater",
+    "released": "2020-05-22",
+    "rating": 3.42,
+    "background_image": "https://media.rawg.io/media/games/895/8951013b8ace2d652727df2f9023cbb8.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 326236,
+    "name": "Spiritfarer",
+    "released": "2020-08-18",
+    "rating": 4.13,
+    "background_image": "https://media.rawg.io/media/games/727/727f889060e688bbdcba7b2a5d26a603.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Simulation"]
+  },
+  {
+    "id": 369157,
+    "name": "Yakuza: Like a Dragon",
+    "released": "2020-01-16",
+    "rating": 4.32,
+    "background_image": "https://media.rawg.io/media/games/a59/a5993b9f84944570a31cb6ad08bfe502.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 452646,
+    "name": "Astro's Playroom",
+    "released": "2020-11-12",
+    "rating": 4.35,
+    "background_image": "https://media.rawg.io/media/games/bfe/bfe7780b7d4342540be2e5273d49e54c.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Action"]
+  },
+  {
+    "id": 481910,
+    "name": "Call of Duty: Black Ops Cold War",
+    "released": "2020-11-13",
+    "rating": 3.76,
+    "background_image": "https://media.rawg.io/media/games/6b1/6b14dc4cc1785e396580c69165e55d2d.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Action"]
+  },
+  {
+    "id": 487910,
+    "name": "Immortals: Fenyx Rising",
+    "released": "2020-12-03",
+    "rating": 3.75,
+    "background_image": "https://media.rawg.io/media/games/d51/d51ada3b94bfd617bf91d4344ab81ce9.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 373504,
+    "name": "Resident Evil: Resistance",
+    "released": "2020-04-03",
+    "rating": 2.18,
+    "background_image": "https://media.rawg.io/media/games/09e/09e34396a92952c57b1bfb1decfddfa3.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 22123,
+    "name": "Hellpoint",
+    "released": "2020-07-30",
+    "rating": 2.78,
+    "background_image": "https://media.rawg.io/media/games/a65/a6539d3373835ee27f26abc626b8bc61.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 249954,
+    "name": "Carrion",
+    "released": "2020-07-23",
+    "rating": 3.86,
+    "background_image": "https://media.rawg.io/media/games/5c9/5c912b5ea827c2861cff425010a86277.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action"]
+  },
+  {
+    "id": 275641,
+    "name": "Moving Out",
+    "released": "2020-04-28",
+    "rating": 3.61,
+    "background_image": "https://media.rawg.io/media/games/726/7263e11b6bfb15abe35dcfa3b26147f5.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Indie", "Action", "Simulation"]
+  },
+  {
+    "id": 326238,
+    "name": "Microsoft Flight Simulator 2020",
+    "released": "2020-08-18",
+    "rating": 4.16,
+    "background_image": "https://media.rawg.io/media/games/89c/89ceadfd42109aa0d80e9c5dbc86f277.jpg",
+    "clip": "No clip available",
+    "genres": ["Simulation"]
+  },
+  {
+    "id": 369158,
+    "name": "The Dark Pictures Anthology: Little Hope",
+    "released": "2020-10-30",
+    "rating": 3.75,
+    "background_image": "https://media.rawg.io/media/games/643/6431f15213a854efd273943f2cf6a925.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 59346,
+    "name": "Desperados III",
+    "released": "2020-06-15",
+    "rating": 4.28,
+    "background_image": "https://media.rawg.io/media/games/71d/71d5c7bed835c723486f7f6e78fca9fd.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "Action"]
+  },
+  {
+    "id": 507152,
+    "name": "Streets of Kamurocho",
+    "released": "2020-10-17",
+    "rating": 2.65,
+    "background_image": "https://media.rawg.io/media/games/bbe/bbe47995ed6f8b054afa6110f522515d.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 471027,
+    "name": "Tetris Effect: Connected",
+    "released": "2020-11-10",
+    "rating": 4.2,
+    "background_image": "https://media.rawg.io/media/games/377/3770f2c7020bcb6cc2072f073f27fb4c.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Indie", "Puzzle"]
+  },
+  {
+    "id": 58751,
+    "name": "Halo Infinite",
+    "released": "2021-12-08",
+    "rating": 3.68,
+    "background_image": "https://media.rawg.io/media/games/e1f/e1ffbeb1bac25b19749ad285ca29e158.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 622492,
+    "name": "Forza Horizon 5",
+    "released": "2021-11-08",
+    "rating": 4.32,
+    "background_image": "https://media.rawg.io/media/games/082/082365507ff04d456c700157072d35db.jpg",
+    "clip": "No clip available",
+    "genres": ["Racing", "Adventure", "Action", "Simulation", "Sports"]
+  },
+  {
+    "id": 452649,
+    "name": "Resident Evil: Village",
+    "released": "2021-05-07",
+    "rating": 4.38,
+    "background_image": "https://media.rawg.io/media/games/6cc/6cc23249972a427f697a3d10eb57a820.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 455597,
+    "name": "It Takes Two",
+    "released": "2021-03-26",
+    "rating": 4.53,
+    "background_image": "https://media.rawg.io/media/games/d47/d479582ed0a46496ad34f65c7099d7e5.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Adventure", "Action"]
+  },
+  {
+    "id": 248521,
+    "name": "Valheim",
+    "released": "2021-02-02",
+    "rating": 4.03,
+    "background_image": "https://media.rawg.io/media/games/adb/adb59be81367b19c2544457424bcf086.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action"]
+  },
+  {
+    "id": 326251,
+    "name": "Deathloop",
+    "released": "2021-09-14",
+    "rating": 3.99,
+    "background_image": "https://media.rawg.io/media/games/018/01857c5ff9579c48fa8bd76b4d83a946.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 616765,
+    "name": "Marvel's Guardians of the Galaxy",
+    "released": "2021-10-26",
+    "rating": 4.34,
+    "background_image": "https://media.rawg.io/media/games/708/7080e6c87e0825cb02888bf3c44b3889.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 516111,
+    "name": "Mass Effect: Legendary Edition",
+    "released": "2021-05-14",
+    "rating": 4.57,
+    "background_image": "https://media.rawg.io/media/games/64e/64e2a77f37ddc48d102127234af99886.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 441738,
+    "name": "The Ascent",
+    "released": "2021-07-29",
+    "rating": 3.3,
+    "background_image": "https://media.rawg.io/media/games/3f4/3f43f03406a5ea087352bf32d60e3a0a.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 257192,
+    "name": "Psychonauts 2",
+    "released": "2021-08-24",
+    "rating": 4.36,
+    "background_image": "https://media.rawg.io/media/games/c3c/c3c536cc4d32623ba928020dfd39a648.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Adventure", "Action"]
+  },
+  {
+    "id": 397473,
+    "name": "Back 4 Blood",
+    "released": "2021-10-07",
+    "rating": 3.21,
+    "background_image": "https://media.rawg.io/media/games/4fe/4feffcec6315c5f5a96442a8444431ca.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Action"]
+  },
+  {
+    "id": 558986,
+    "name": "Capcom Arcade Stadium",
+    "released": "2021-02-17",
+    "rating": 2.72,
+    "background_image": "https://media.rawg.io/media/games/2a5/2a5072e5b28e1653a10e4f931f1991af.jpg",
+    "clip": "No clip available",
+    "genres": ["Arcade", "Action"]
+  },
+  {
+    "id": 479694,
+    "name": "Inscryption",
+    "released": "2021-10-19",
+    "rating": 4.42,
+    "background_image": "https://media.rawg.io/media/games/73e/73efc5c0ac6f354271dae610276f617c.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Strategy", "Adventure"]
+  },
+  {
+    "id": 548036,
+    "name": "Loop Hero",
+    "released": "2021-03-04",
+    "rating": 4.07,
+    "background_image": "https://media.rawg.io/media/games/cef/cef4c326dd57a8f39d696379eaa84411.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "Indie", "RPG", "Simulation"]
+  },
+  {
+    "id": 327227,
+    "name": "Outriders",
+    "released": "2021-04-01",
+    "rating": 3.38,
+    "background_image": "https://media.rawg.io/media/games/faa/faa6a4a7a2e57faf2960329630aee211.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 463723,
+    "name": "Far Cry 6",
+    "released": "2021-10-07",
+    "rating": 3.34,
+    "background_image": "https://media.rawg.io/media/games/5dd/5dd4d2dd986d2826800bc37fff64aa4f.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 579507,
+    "name": "Death's Door",
+    "released": "2021-07-20",
+    "rating": 4.19,
+    "background_image": "https://media.rawg.io/media/games/a3e/a3ea71c18e81d54ebaf982dadb9a8738.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 366881,
+    "name": "Little Nightmares II",
+    "released": "2021-02-10",
+    "rating": 4.37,
+    "background_image": "https://media.rawg.io/media/games/c2a/c2a7dc4540eb79aaff7099ae691105d3.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Adventure", "Action"]
+  },
+  {
+    "id": 452635,
+    "name": "Kena: Bridge of Spirits",
+    "released": "2021-09-21",
+    "rating": 4.03,
+    "background_image": "https://media.rawg.io/media/games/91d/91ddeef8d5ebee7f21faa89efa0f2201.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action", "Strategy", "Indie"]
+  },
+  {
+    "id": 327260,
+    "name": "Twelve Minutes",
+    "released": "2021-08-19",
+    "rating": 3.51,
+    "background_image": "https://media.rawg.io/media/games/0f8/0f808c8ecd5134e76d0a60570f66e56a.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action"]
+  },
+  {
+    "id": 452645,
+    "name": "Hitman 3",
+    "released": "2021-01-20",
+    "rating": 4.22,
+    "background_image": "https://media.rawg.io/media/games/126/126fbd5ceacddc6ad16fc96e50b1265b.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 440081,
+    "name": "The Medium",
+    "released": "2021-01-28",
+    "rating": 3.52,
+    "background_image": "https://media.rawg.io/media/games/8f5/8f5c25901d96e709ea631599106eda1c.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 364942,
+    "name": "Unpacking",
+    "released": "2021-11-02",
+    "rating": 4.01,
+    "background_image": "https://media.rawg.io/media/games/c11/c1118fbcfd846c631ecb7646f8efc780.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual"]
+  },
+  {
+    "id": 614954,
+    "name": "Battlefield 2042",
+    "released": "2021-11-12",
+    "rating": 2.76,
+    "background_image": "https://media.rawg.io/media/games/af2/af2b640fa820e8a8135948a4cd399539.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 287342,
+    "name": "Subnautica: Below Zero",
+    "released": "2021-05-14",
+    "rating": 4.01,
+    "background_image": "https://media.rawg.io/media/games/437/4377bf00ded8a2ba781aa74d8bff9220.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure"]
+  },
+  {
+    "id": 545015,
+    "name": "Disco Elysium: Final Cut",
+    "released": "2021-03-30",
+    "rating": 4.67,
+    "background_image": "https://media.rawg.io/media/games/0af/0afe9e8ace196123d8c7cf22172cec63.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "RPG"]
+  },
+  {
+    "id": 662357,
+    "name": "Vampire: The Masquerade - Bloodhunt",
+    "released": "2021-09-07",
+    "rating": 3.1,
+    "background_image": "https://media.rawg.io/media/games/ba9/ba981ea851b2a85b78d63d9ec53c19e5.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 366083,
+    "name": "Black Book",
+    "released": "2021-08-10",
+    "rating": 4.07,
+    "background_image": "https://media.rawg.io/media/games/1d6/1d6f294a27ff1b90d4a4a79d42d3f7b2.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Strategy", "Adventure", "RPG"]
+  },
+  {
+    "id": 422859,
+    "name": "NieR Replicant v1.22474487139...",
+    "released": "2021-04-23",
+    "rating": 4.39,
+    "background_image": "https://media.rawg.io/media/games/3ac/3ac2b5356ad764a87092d15cdcbee809.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 440086,
+    "name": "Scarlet Nexus",
+    "released": "2021-06-25",
+    "rating": 3.61,
+    "background_image": "https://media.rawg.io/media/games/27c/27cb94ed1763fec383fb99151580095a.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 286474,
+    "name": "Narita Boy",
+    "released": "2021-03-30",
+    "rating": 3.35,
+    "background_image": "https://media.rawg.io/media/games/ba3/ba3dbf9a5a71913582052d7e12775aea.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "Fighting"]
+  },
+  {
+    "id": 45775,
+    "name": "Biomutant",
+    "released": "2021-05-25",
+    "rating": 2.78,
+    "background_image": "https://media.rawg.io/media/games/363/363830e5f6459ca71eb43bea8c32f688.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 727315,
+    "name": "Ratchet & Clank: Rift Apart",
+    "released": "2021-06-11",
+    "rating": 4.38,
+    "background_image": "https://media.rawg.io/media/games/ccf/ccfd3fd488a8ed61145a3da96c080131.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 452639,
+    "name": "Returnal",
+    "released": "2021-04-30",
+    "rating": 4.27,
+    "background_image": "https://media.rawg.io/media/games/673/673f27be4c5dbf37ce3ed0ed5ddf9d8d.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Action"]
+  },
+  {
+    "id": 573123,
+    "name": "Life is Strange: True Colors",
+    "released": "2021-09-10",
+    "rating": 3.85,
+    "background_image": "https://media.rawg.io/media/games/278/2784fe67065c5095411f0d4c85205143.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 61044,
+    "name": "Breathedge",
+    "released": "2021-02-25",
+    "rating": 3.73,
+    "background_image": "https://media.rawg.io/media/games/ef8/ef853efdaf6778ca731eec21d1d7d0d7.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "Simulation"]
+  },
+  {
+    "id": 326244,
+    "name": "Tales of Arise",
+    "released": "2021-09-10",
+    "rating": 3.97,
+    "background_image": "https://media.rawg.io/media/games/5a9/5a9e785af72ae88026380f7987f23d90.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 398414,
+    "name": "New World",
+    "released": "2021-09-28",
+    "rating": 3.07,
+    "background_image": "https://media.rawg.io/media/games/4ad/4ad7dc0f8a01abea9855309e91e933fc.jpg",
+    "clip": "No clip available",
+    "genres": ["Massively Multiplayer", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 11025,
+    "name": "Totally Accurate Battle Simulator",
+    "released": "2021-04-01",
+    "rating": 3.72,
+    "background_image": "https://media.rawg.io/media/screenshots/82a/82a9e2b7caf052d0f140b70e350cf184.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "Indie", "Simulation"]
+  },
+  {
+    "id": 638648,
+    "name": "Greak: Memories of Azur",
+    "released": "2021-08-16",
+    "rating": 3.12,
+    "background_image": "https://media.rawg.io/media/games/102/102b3f5639c57ca39e96ea1cb554f9e2.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Platformer", "Adventure", "Action"]
+  },
+  {
+    "id": 548148,
+    "name": "Yakuza 3 Remastered",
+    "released": "2021-01-27",
+    "rating": 3.52,
+    "background_image": "https://media.rawg.io/media/games/372/372ad5555afd1c58e39914600a412b84.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 546464,
+    "name": "FIFA 22",
+    "released": "2021-09-27",
+    "rating": 3.38,
+    "background_image": "https://media.rawg.io/media/games/355/355d2ec5d6b87518228dc30a9bb0e70d.jpg",
+    "clip": "No clip available",
+    "genres": ["Simulation", "Sports"]
+  },
+  {
+    "id": 614964,
+    "name": "Death Stranding Director's Cut",
+    "released": "2021-09-24",
+    "rating": 4.27,
+    "background_image": "https://media.rawg.io/media/games/b6f/b6fa0cde8a1204c7d6edc2ec3c753df9.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 58809,
+    "name": "The Forgotten City",
+    "released": "2021-07-28",
+    "rating": 4.28,
+    "background_image": "https://media.rawg.io/media/games/6e9/6e9136f09bb9daaaed5a0e6d508028b4.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 58773,
+    "name": "Sable",
+    "released": "2021-09-23",
+    "rating": 3.45,
+    "background_image": "https://media.rawg.io/media/games/46a/46acc41c5ee0aea0e2d9c685a9a7427b.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action"]
+  },
+  {
+    "id": 58618,
+    "name": "Age of Empires IV",
+    "released": "2021-10-28",
+    "rating": 3.9,
+    "background_image": "https://media.rawg.io/media/games/23e/23e45acbf29bd241913ddcf5cf4053d5.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy"]
+  },
+  {
+    "id": 387328,
+    "name": "Curse of the Dead Gods",
+    "released": "2021-02-23",
+    "rating": 3.62,
+    "background_image": "https://media.rawg.io/media/games/c8c/c8c156591d6e88bb685177c1c44c945a.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 669363,
+    "name": "Dagon: by H. P. Lovecraft",
+    "released": "2021-09-23",
+    "rating": 3.46,
+    "background_image": "https://media.rawg.io/media/games/525/525ddc0a9f22c944af01f074e8983ffe.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure"]
+  },
+  {
+    "id": 560733,
+    "name": "Diablo II: Resurrected",
+    "released": "2021-09-23",
+    "rating": 4.12,
+    "background_image": "https://media.rawg.io/media/games/3f2/3f207dcc7931598567a90bc779a95cf8.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 517384,
+    "name": "Turnip Boy Commits Tax Evasion",
+    "released": "2021-04-22",
+    "rating": 3.74,
+    "background_image": "https://media.rawg.io/media/games/4ce/4ce87a0d1274009bc19588eb491b1e01.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Indie", "Adventure", "Action"]
+  },
+  {
+    "id": 326243,
+    "name": "Elden Ring",
+    "released": "2022-02-25",
+    "rating": 4.4,
+    "background_image": "https://media.rawg.io/media/games/5ec/5ecac5cb026ec26a56efcc546364e348.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 452638,
+    "name": "Stray",
+    "released": "2022-07-19",
+    "rating": 4.16,
+    "background_image": "https://media.rawg.io/media/games/cd3/cd3c9c7d3e95cb1608fd6250f1b90b7a.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "Puzzle", "Indie", "Platformer"]
+  },
+  {
+    "id": 704634,
+    "name": "Uncharted: Legacy of Thieves Collection",
+    "released": "2022-01-28",
+    "rating": 4.41,
+    "background_image": "https://media.rawg.io/media/games/de6/de66bc4c72b45c3bb906c85d0628112d.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 685577,
+    "name": "Vampire Survivors",
+    "released": "2022-10-20",
+    "rating": 4.18,
+    "background_image": "https://media.rawg.io/media/games/501/501e7019925a3c692bf1c8062f07abe6.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Indie", "Action", "RPG"]
+  },
+  {
+    "id": 791638,
+    "name": "MultiVersus",
+    "released": "2022-07-26",
+    "rating": 3.28,
+    "background_image": "https://media.rawg.io/media/games/d2e/d2ee15fda80056efef174da4ca5ae54f.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "Fighting"]
+  },
+  {
+    "id": 372576,
+    "name": "Lost Ark",
+    "released": "2022-02-11",
+    "rating": 3.27,
+    "background_image": "https://media.rawg.io/media/games/d9e/d9e868382c48ec98c9b23b8fbe6a2045.jpg",
+    "clip": "No clip available",
+    "genres": ["Massively Multiplayer", "RPG"]
+  },
+  {
+    "id": 58758,
+    "name": "Dying Light 2 Stay Human",
+    "released": "2022-02-04",
+    "rating": 3.65,
+    "background_image": "https://media.rawg.io/media/games/73d/73db43df633477d4604c7248292f34b2.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 570074,
+    "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "released": "2022-06-16",
+    "rating": 4.1,
+    "background_image": "https://media.rawg.io/media/games/aac/aac683272f862540a18625f02f5f3679.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "Fighting", "Casual", "Arcade", "Indie"]
+  },
+  {
+    "id": 46301,
+    "name": "Raft",
+    "released": "2022-01-20",
+    "rating": 3.92,
+    "background_image": "https://media.rawg.io/media/games/6b2/6b253d2d39fc05b2368e5e78bb4abffc.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure"]
+  },
+  {
+    "id": 29236,
+    "name": "Tunic",
+    "released": "2022-03-16",
+    "rating": 4.03,
+    "background_image": "https://media.rawg.io/media/games/2c1/2c1984e128ac48b89953ed4de4904a3b.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action"]
+  },
+  {
+    "id": 452642,
+    "name": "Horizon Forbidden West",
+    "released": "2022-02-18",
+    "rating": 4.27,
+    "background_image": "https://media.rawg.io/media/games/bf7/bf73b105ccbba42107986bbcd96fcada.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 748414,
+    "name": "Aperture Desk Job",
+    "released": "2022-03-01",
+    "rating": 3.88,
+    "background_image": "https://media.rawg.io/media/games/acc/acc3de7aaa850ad998d49b15f8901e23.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Adventure", "Action"]
+  },
+  {
+    "id": 616697,
+    "name": "A Plague Tale: Requiem",
+    "released": "2022-10-17",
+    "rating": 4.27,
+    "background_image": "https://media.rawg.io/media/games/cd0/cd074f3f6045297cda9ad077273c09b6.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 391397,
+    "name": "Grounded",
+    "released": "2022-09-27",
+    "rating": 3.81,
+    "background_image": "https://media.rawg.io/media/games/0d7/0d7b7a687bf665b61337904193c56855.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure"]
+  },
+  {
+    "id": 326239,
+    "name": "Lego Star Wars: The Skywalker Saga",
+    "released": "2022-04-05",
+    "rating": 3.94,
+    "background_image": "https://media.rawg.io/media/games/292/2926f9fb089ab91a0dac754193b325e5.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Adventure", "Action"]
+  },
+  {
+    "id": 801032,
+    "name": "High on Life",
+    "released": "2022-12-13",
+    "rating": 3.79,
+    "background_image": "https://media.rawg.io/media/games/2e7/2e732a02c29c84ca177855848932a5aa.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 10069,
+    "name": "Mount & Blade II: Bannerlord",
+    "released": "2022-10-25",
+    "rating": 4.22,
+    "background_image": "https://media.rawg.io/media/games/0aa/0aa81c3f82acec65b44e854352522cd6.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "Action", "RPG", "Simulation"]
+  },
+  {
+    "id": 650605,
+    "name": "Cult of the Lamb",
+    "released": "2022-08-11",
+    "rating": 4.15,
+    "background_image": "https://media.rawg.io/media/games/ab8/ab8217a1fe2ced388a388722734e6d16.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Strategy", "Adventure", "Action"]
+  },
+  {
+    "id": 274758,
+    "name": "The Stanley Parable: Ultra Deluxe",
+    "released": "2022-04-27",
+    "rating": 4.36,
+    "background_image": "https://media.rawg.io/media/games/c4e/c4e3ad247e93d3a5dc40aa215a778a9c.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Indie", "Adventure"]
+  },
+  {
+    "id": 326248,
+    "name": "Ghostwire: Tokyo",
+    "released": "2022-03-24",
+    "rating": 3.58,
+    "background_image": "https://media.rawg.io/media/games/e85/e851f527ab0658519436342ee73da191.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 854354,
+    "name": "Portal with RTX",
+    "released": "2022-12-08",
+    "rating": 3.51,
+    "background_image": "https://media.rawg.io/media/screenshots/c9f/c9f6437599050a85548af09a06fde112.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "Puzzle"]
+  },
+  {
+    "id": 602224,
+    "name": "V Rising",
+    "released": "2022-05-17",
+    "rating": 3.65,
+    "background_image": "https://media.rawg.io/media/games/bde/bdef96f7782fba0ff62dabc37ff4b1f0.jpg",
+    "clip": "No clip available",
+    "genres": ["Massively Multiplayer", "Adventure", "Action"]
+  },
+  {
+    "id": 388308,
+    "name": "Overwatch 2",
+    "released": "2022-10-04",
+    "rating": 3.16,
+    "background_image": "https://media.rawg.io/media/games/95a/95a10817d1fc648cff1153f3fa8ef6c5.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Action"]
+  },
+  {
+    "id": 494384,
+    "name": "God of War: Ragnarök",
+    "released": "2022-11-09",
+    "rating": 4.55,
+    "background_image": "https://media.rawg.io/media/games/1c3/1c305096502c475c00276c827f0fd697.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 545033,
+    "name": "Resident Evil Re:Verse",
+    "released": "2022-10-28",
+    "rating": 1.64,
+    "background_image": "https://media.rawg.io/media/games/d8d/d8dd3610968f15a78816494ecef9c562.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Action"]
+  },
+  {
+    "id": 581104,
+    "name": "PowerWash Simulator",
+    "released": "2022-07-14",
+    "rating": 3.91,
+    "background_image": "https://media.rawg.io/media/games/659/65959a07c4e6dc7a9034993bbb3ba232.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Indie", "Simulation"]
+  },
+  {
+    "id": 723957,
+    "name": "Yu-Gi-Oh! Master Duel",
+    "released": "2022-01-18",
+    "rating": 3.58,
+    "background_image": "https://media.rawg.io/media/screenshots/06f/06fa9a33188522273623ef314ec4fc3b.jpg",
+    "clip": "No clip available",
+    "genres": ["Card", "Strategy", "Simulation"]
+  },
+  {
+    "id": 754888,
+    "name": "The Quarry",
+    "released": "2022-06-09",
+    "rating": 3.77,
+    "background_image": "https://media.rawg.io/media/games/f40/f407a80be4c604d013e4b9d1e0c6dbef.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 398409,
+    "name": "Weird West",
+    "released": "2022-03-31",
+    "rating": 3.79,
+    "background_image": "https://media.rawg.io/media/games/3ca/3ca6130eabf2e05275859166eaf5c66b.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG", "Simulation", "Indie"]
+  },
+  {
+    "id": 370202,
+    "name": "Not For Broadcast",
+    "released": "2022-01-25",
+    "rating": 4.01,
+    "background_image": "https://media.rawg.io/media/games/31a/31a18b79feb780687e85d61376828c94.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Simulation"]
+  },
+  {
+    "id": 46220,
+    "name": "Scorn",
+    "released": "2022-10-14",
+    "rating": 3.45,
+    "background_image": "https://media.rawg.io/media/games/f8c/f8cc3b4834259f8a812ce77804bc12ed.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action"]
+  },
+  {
+    "id": 378579,
+    "name": "Teardown",
+    "released": "2022-04-21",
+    "rating": 4.22,
+    "background_image": "https://media.rawg.io/media/games/580/580515de11a1b996918fa3ac118210bc.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "Indie", "Action", "Simulation"]
+  },
+  {
+    "id": 564757,
+    "name": "Sifu",
+    "released": "2022-02-08",
+    "rating": 4.01,
+    "background_image": "https://media.rawg.io/media/games/3a9/3a9ea2db24f879e61fe7b824f5888d2a.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "Fighting"]
+  },
+  {
+    "id": 454544,
+    "name": "Metal: Hellsinger",
+    "released": "2022-09-15",
+    "rating": 4,
+    "background_image": "https://media.rawg.io/media/games/34e/34eb79862b32835924d999d575e08202.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 791636,
+    "name": "Call of Duty: Modern Warfare II",
+    "released": "2022-10-27",
+    "rating": 3.82,
+    "background_image": "https://media.rawg.io/media/games/1af/1af8edc7491c6d9d0776fc423d93548d.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Action"]
+  },
+  {
+    "id": 568931,
+    "name": "Dorfromantik",
+    "released": "2022-04-28",
+    "rating": 3.84,
+    "background_image": "https://media.rawg.io/media/screenshots/d1f/d1f51898c2aee5731b2e3ab2d4f1a56c.jpg",
+    "clip": "No clip available",
+    "genres": ["Puzzle", "Casual", "Strategy", "Simulation", "Indie"]
+  },
+  {
+    "id": 554705,
+    "name": "Potion Craft: Alchemist Simulator",
+    "released": "2022-12-13",
+    "rating": 3.71,
+    "background_image": "https://media.rawg.io/media/games/18e/18e422ec82ea060e0641cb419faca210.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Indie", "Simulation"]
+  },
+  {
+    "id": 558980,
+    "name": "Neon White",
+    "released": "2022-06-16",
+    "rating": 4.37,
+    "background_image": "https://media.rawg.io/media/games/a12/a120fc7faed7666f8c320a755137e316.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 707256,
+    "name": "Sniper Elite 5",
+    "released": "2022-05-25",
+    "rating": 3.63,
+    "background_image": "https://media.rawg.io/media/games/3e0/3e09bb71ce82dad515df4982a2466e67.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 761405,
+    "name": "Knightfall: A Daring Journey",
+    "released": "2022-04-01",
+    "rating": 2.05,
+    "background_image": "https://media.rawg.io/media/screenshots/6ab/6abb5456a795b7713919db7568a2fd96.jpg",
+    "clip": "No clip available",
+    "genres": ["Racing", "Indie", "Action"]
+  },
+  {
+    "id": 616679,
+    "name": "Trek to Yomi",
+    "released": "2022-05-05",
+    "rating": 3.46,
+    "background_image": "https://media.rawg.io/media/games/bc5/bc53067cffecb71129fcb0b4fbf0e922.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Adventure", "Action"]
+  },
+  {
+    "id": 529698,
+    "name": "The Callisto Protocol",
+    "released": "2022-12-02",
+    "rating": 3.43,
+    "background_image": "https://media.rawg.io/media/games/605/605e0c04ba48ece4b4ae7825473477f6.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure"]
+  },
+  {
+    "id": 428839,
+    "name": "Rogue Legacy 2",
+    "released": "2022-04-28",
+    "rating": 4.01,
+    "background_image": "https://media.rawg.io/media/games/776/776ebcf6f05c98eab89af736e6f38283.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 650608,
+    "name": "Nobody Saves the World",
+    "released": "2022-01-17",
+    "rating": 3.79,
+    "background_image": "https://media.rawg.io/media/games/b44/b448c0725eb490dda9cfb23b826da68a.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 868085,
+    "name": "Marvel Snap",
+    "released": "2022-10-18",
+    "rating": 4.01,
+    "background_image": "https://media.rawg.io/media/games/1f7/1f73ddf4231f9296d73358ddd5d54e29.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Card", "Strategy"]
+  },
+  {
+    "id": 424978,
+    "name": "Signalis",
+    "released": "2022-10-27",
+    "rating": 4.41,
+    "background_image": "https://media.rawg.io/media/games/480/480295ba922318bb052d169174ec88aa.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action"]
+  },
+  {
+    "id": 614962,
+    "name": "Tiny Tina's Wonderlands",
+    "released": "2022-03-25",
+    "rating": 3.7,
+    "background_image": "https://media.rawg.io/media/games/13b/13b029c381614a8e557f442cff488bb3.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 799265,
+    "name": "The Last of Us Part I",
+    "released": "2022-09-02",
+    "rating": 4.61,
+    "background_image": "https://media.rawg.io/media/games/71d/71df9e759b2246f9769126c98ac997fc.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 471031,
+    "name": "As Dusk Falls",
+    "released": "2022-07-19",
+    "rating": 4.03,
+    "background_image": "https://media.rawg.io/media/games/0eb/0eb6673637d877b09a9a1f9aa6e25db4.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure"]
+  },
+  {
+    "id": 704730,
+    "name": "Blue Fire: Void Maker",
+    "released": "2022-02-04",
+    "rating": 0,
+    "background_image": "https://media.rawg.io/media/screenshots/d0f/d0f3e325366eeb8912b0f8752ed97606.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie"]
+  },
+  {
+    "id": 906547,
+    "name": "Hogwarts Legacy",
+    "released": "2023-02-10",
+    "rating": 3.96,
+    "background_image": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 303576,
+    "name": "Vampire: The Masquerade - Bloodlines 2",
+    "released": "2023-12-31",
+    "rating": 3.93,
+    "background_image": "https://media.rawg.io/media/games/fb5/fb5e0fdb1f6bb0e8b5da5d08bb83a5fc.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 268446,
+    "name": "Barotrauma",
+    "released": "2023-03-13",
+    "rating": 3.77,
+    "background_image": "https://media.rawg.io/media/games/862/8620fd3d08ecce0e806507299333058d.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "Indie", "Action", "Simulation"]
+  },
+  {
+    "id": 324997,
+    "name": "Baldur's Gate III",
+    "released": "2023-08-06",
+    "rating": 4.35,
+    "background_image": "https://media.rawg.io/media/games/699/69907ecf13f172e9e144069769c3be73.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "Adventure", "RPG"]
+  },
+  {
+    "id": 58386,
+    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "released": "2023-12-31",
+    "rating": 4.09,
+    "background_image": "https://media.rawg.io/media/games/3e8/3e81585ecda204d4f4b80a041b069adb.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 50576,
+    "name": "Atomic Heart",
+    "released": "2023-02-21",
+    "rating": 3.98,
+    "background_image": "https://media.rawg.io/media/games/6ee/6ee5cbe30c6b6c299a3288337d40a0f3.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 58779,
+    "name": "Starfield",
+    "released": "2023-09-06",
+    "rating": 4.21,
+    "background_image": "https://media.rawg.io/media/games/ba8/ba82c971336adfd290e4c0eab6504fcf.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "RPG"]
+  },
+  {
+    "id": 795632,
+    "name": "Resident Evil 4",
+    "released": "2023-03-24",
+    "rating": 4.63,
+    "background_image": "https://media.rawg.io/media/games/51a/51a404b9918a0b19fc704a3ca248c69f.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 327239,
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "released": "2023-05-12",
+    "rating": 4.49,
+    "background_image": "https://media.rawg.io/media/games/556/55684bfd048706f4266d331d70050b37.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 638654,
+    "name": "Dead Space",
+    "released": "2023-01-27",
+    "rating": 4.24,
+    "background_image": "https://media.rawg.io/media/games/ea6/ea6a1382b15d749e15fdfbf0aece7689.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 388309,
+    "name": "Diablo IV",
+    "released": "2023-06-06",
+    "rating": 4.14,
+    "background_image": "https://media.rawg.io/media/games/77d/77d51f8f4a07c3eecb0f8504027b1bf0.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 15272,
+    "name": "System Shock",
+    "released": "2023-05-30",
+    "rating": 3.92,
+    "background_image": "https://media.rawg.io/media/games/e98/e98c259aeac26d1ef5c1affc670eec83.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 914789,
+    "name": "Hi-Fi Rush",
+    "released": "2023-01-25",
+    "rating": 4.38,
+    "background_image": "https://media.rawg.io/media/games/62f/62f71917e64e913f2a893e7373319c60.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 452636,
+    "name": "Forspoken",
+    "released": "2023-01-24",
+    "rating": 2.06,
+    "background_image": "https://media.rawg.io/media/games/3a0/3a074a80d9a45e82aff7532f0162628e.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 292844,
+    "name": "Hollow Knight: Silksong",
+    "released": "2023-12-31",
+    "rating": 4.56,
+    "background_image": "https://media.rawg.io/media/games/27c/27cd8b7dead05a870f8a514a9a1915ad.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Platformer", "Adventure", "Action"]
+  },
+  {
+    "id": 793647,
+    "name": "Star Wars Jedi: Survivor",
+    "released": "2023-04-27",
+    "rating": 4.24,
+    "background_image": "https://media.rawg.io/media/games/3e4/3e43e29ae126ef951842393f5ff7f33a.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 42857,
+    "name": "Dead Island 2",
+    "released": "2023-04-21",
+    "rating": 3.84,
+    "background_image": "https://media.rawg.io/media/games/9cd/9cd22ae5aebd922f96f2bc50efab83df.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 494382,
+    "name": "Final Fantasy XVI",
+    "released": "2023-06-22",
+    "rating": 4.3,
+    "background_image": "https://media.rawg.io/media/games/22e/22e68bb62b3013283972cecf98ed51dc.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 662316,
+    "name": "Marvel's Spider-Man 2",
+    "released": "2023-10-20",
+    "rating": 4.44,
+    "background_image": "https://media.rawg.io/media/games/a8a/a8a74f30ce82dbde168176a4aa04ac58.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 801638,
+    "name": "Wo Long: Fallen Dynasty",
+    "released": "2023-03-03",
+    "rating": 3.45,
+    "background_image": "https://media.rawg.io/media/games/1e1/1e1b965459d5cf69cf51e5d6fe7da959.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 580972,
+    "name": "Alan Wake 2",
+    "released": "2023-10-17",
+    "rating": 3.6,
+    "background_image": "https://media.rawg.io/media/games/5b9/5b963d7633cd640fa2dbc4069d1c6377.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 705258,
+    "name": "Have a Nice Death",
+    "released": "2023-03-22",
+    "rating": 3.6,
+    "background_image": "https://media.rawg.io/media/games/648/6485d70bb1166ba94353182d61fcd157.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Indie", "Action"]
+  },
+  {
+    "id": 43253,
+    "name": "Little Devil Inside",
+    "released": "2023-12-31",
+    "rating": 4.1,
+    "background_image": "https://media.rawg.io/media/games/63b/63bd91ad9f2b896cdb067ad3a5542c9e.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 845261,
+    "name": "Assassin's Creed Mirage",
+    "released": "2023-10-12",
+    "rating": 3.62,
+    "background_image": "https://media.rawg.io/media/games/fbd/fbd0128013b7965904be571e75fb30c0.jpg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 616693,
+    "name": "Replaced",
+    "released": "2023-12-31",
+    "rating": 3.12,
+    "background_image": "https://media.rawg.io/media/games/041/041e04184322bc859d617b790d8bfab9.jpg",
+    "clip": "No clip available",
+    "genres": ["Platformer", "Action"]
+  },
+  {
+    "id": 366883,
+    "name": "Everspace 2",
+    "released": "2023-04-06",
+    "rating": 3.62,
+    "background_image": "https://media.rawg.io/media/games/8a2/8a211877151a55a09e87061118012281.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Action", "Simulation"]
+  },
+  {
+    "id": 617209,
+    "name": "Redfall",
+    "released": "2023-05-01",
+    "rating": 1.86,
+    "background_image": "https://media.rawg.io/media/games/683/6834c702c73e28ef2b3b003bb2c54567.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 571689,
+    "name": "Dread Templar",
+    "released": "2023-01-26",
+    "rating": 3.5,
+    "background_image": "https://media.rawg.io/media/games/0d4/0d4ab33c89c9772db39ab67183a4a8f5.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Indie", "Action"]
+  },
+  {
+    "id": 537745,
+    "name": "HROT",
+    "released": "2023-05-16",
+    "rating": 3.84,
+    "background_image": "https://media.rawg.io/media/games/3d1/3d1a7326f4c73b76008fa51c3976e7ea.jpg",
+    "clip": "No clip available",
+    "genres": ["Shooter", "Indie", "Action"]
+  },
+  {
+    "id": 59349,
+    "name": "The Settlers - New Allies",
+    "released": "2023-02-17",
+    "rating": 3.43,
+    "background_image": "https://media.rawg.io/media/games/b57/b5742a425c87b581e680a13b1cc44152.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy"]
+  },
+  {
+    "id": 605674,
+    "name": "Lies Of P",
+    "released": "2023-09-19",
+    "rating": 3.62,
+    "background_image": "https://media.rawg.io/media/games/cc3/cc3231b0e4ef970590eeb2ce23f60ca0.jpg",
+    "clip": "No clip available",
+    "genres": ["Action", "RPG"]
+  },
+  {
+    "id": 614961,
+    "name": "Planet of Lana",
+    "released": "2023-05-23",
+    "rating": 4.19,
+    "background_image": "https://media.rawg.io/media/screenshots/848/848b8b0772f369407405d390b394e81e.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "Puzzle", "Indie", "Platformer"]
+  },
+  {
+    "id": 619744,
+    "name": "Wartales",
+    "released": "2023-04-12",
+    "rating": 4,
+    "background_image": "https://media.rawg.io/media/games/4a9/4a95e157712aa4b779c43bb4eae79b73.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Strategy", "Adventure", "RPG"]
+  },
+  {
+    "id": 949868,
+    "name": "The Murder of Sonic the Hedgehog",
+    "released": "2023-03-31",
+    "rating": 3.45,
+    "background_image": "https://media.rawg.io/media/games/e11/e118b6b051c0bab9b70ce0402719bbd6.jpg",
+    "clip": "No clip available",
+    "genres": ["Casual", "Indie", "Arcade", "Simulation"]
+  },
+  {
+    "id": 392250,
+    "name": "KartRider: Drift",
+    "released": "2023-01-09",
+    "rating": 2.5,
+    "background_image": "https://media.rawg.io/media/screenshots/be8/be8b872c00c25b32d359427c436636da.jpg",
+    "clip": "No clip available",
+    "genres": ["Racing", "Action"]
+  },
+  {
+    "id": 586042,
+    "name": "Oxenfree II: Lost Signals",
+    "released": "2023-07-12",
+    "rating": 3.67,
+    "background_image": "https://media.rawg.io/media/games/55e/55e23d1452e7f7f0295c4fe2a4d298b5.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure"]
+  },
+  {
+    "id": 398405,
+    "name": "Sons of the Forest",
+    "released": "2023-02-23",
+    "rating": 3.37,
+    "background_image": "https://media.rawg.io/media/games/7a0/7a092fa63811a7f6ed90f456a8887e91.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "Simulation"]
+  },
+  {
+    "id": 842402,
+    "name": "Dredge",
+    "released": "2023-03-29",
+    "rating": 4.34,
+    "background_image": "https://media.rawg.io/media/games/c2c/c2c9f1c026b6c1be5bc2160baf7224ea.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "RPG"]
+  },
+  {
+    "id": 362880,
+    "name": "The Last Spell",
+    "released": "2023-03-08",
+    "rating": 3.67,
+    "background_image": "https://media.rawg.io/media/games/cc6/cc6c768a71fed84682e326a8bbce3718.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "Indie", "Action", "RPG"]
+  },
+  {
+    "id": 681395,
+    "name": "The Day Before",
+    "released": "2023-11-10",
+    "rating": 2.44,
+    "background_image": "https://media.rawg.io/media/games/d0b/d0bc26b4a79b95fa5b399d18f79fc207.jpg",
+    "clip": "No clip available",
+    "genres": ["Massively Multiplayer", "Shooter", "Adventure", "Action"]
+  },
+  {
+    "id": 438620,
+    "name": "The Lord of the Rings: Gollum",
+    "released": "2023-05-25",
+    "rating": 1.4,
+    "background_image": "https://media.rawg.io/media/games/470/470fb8435cdea25bda1126e0b8e0a3b0.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 295014,
+    "name": "Darkest Dungeon 2",
+    "released": "2023-05-08",
+    "rating": 3.72,
+    "background_image": "https://media.rawg.io/media/games/aea/aeaab29c551ea9919e571c44e75a5106.jpg",
+    "clip": "No clip available",
+    "genres": ["Strategy", "RPG"]
+  },
+  {
+    "id": 850698,
+    "name": "Like a Dragon: Ishin!",
+    "released": "2023-02-21",
+    "rating": 4.05,
+    "background_image": "https://media.rawg.io/media/games/472/4722e05c50b9ffe9b984dce11fce82c7.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 742771,
+    "name": "Street Fighter 6",
+    "released": "2023-06-01",
+    "rating": 4.2,
+    "background_image": "https://media.rawg.io/media/games/ce2/ce2463db40cec363f360c29ddcc56884.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "Fighting"]
+  },
+  {
+    "id": 29239,
+    "name": "Skull & Bones",
+    "released": "2023-12-31",
+    "rating": 3.43,
+    "background_image": "https://media.rawg.io/media/games/097/097a3191f8d9bd75068e89f50f1b021c.jpg",
+    "clip": "No clip available",
+    "genres": ["Massively Multiplayer", "Action"]
+  },
+  {
+    "id": 427490,
+    "name": "Sea of Stars",
+    "released": "2023-08-28",
+    "rating": 0,
+    "background_image": "https://media.rawg.io/media/games/1de/1de8ff69ed31d7a47d4f7770f23f20b8.jpg",
+    "clip": "No clip available",
+    "genres": ["RPG"]
+  },
+  {
+    "id": 857636,
+    "name": "Wild Hearts",
+    "released": "2023-02-16",
+    "rating": 3.08,
+    "background_image": "https://media.rawg.io/media/games/f2c/f2cb7350b37378e9e622d85bd175c294.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action"]
+  },
+  {
+    "id": 616677,
+    "name": "Avatar: Frontiers of Pandora",
+    "released": "2023-12-07",
+    "rating": 0,
+    "background_image": "https://media.rawg.io/media/games/983/9837c2e9a13a92c55c47327dfc22a81f.jpeg",
+    "clip": "No clip available",
+    "genres": ["Action"]
+  },
+  {
+    "id": 801553,
+    "name": "The Last Case of Benedict Fox",
+    "released": "2023-04-27",
+    "rating": 2.89,
+    "background_image": "https://media.rawg.io/media/games/0f5/0f573a7c772decd973c41aa54da2ecd6.jpg",
+    "clip": "No clip available",
+    "genres": ["Indie", "Adventure", "Action", "RPG"]
+  },
+  {
+    "id": 871264,
+    "name": "Dave the Diver",
+    "released": "2023-06-28",
+    "rating": 4.54,
+    "background_image": "https://media.rawg.io/media/games/1ee/1eec43616e3ff00a674124d746926b23.jpg",
+    "clip": "No clip available",
+    "genres": ["Adventure", "Action", "RPG"]
+  }
+]
