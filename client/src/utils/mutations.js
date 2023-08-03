@@ -56,7 +56,6 @@ export const SAVE_GAME = gql`
         description
         title
         image
-        link
       }
     }
   }
@@ -74,7 +73,6 @@ export const REMOVE_GAME = gql`
         description
         title
         image
-        link
       }
     }
   }

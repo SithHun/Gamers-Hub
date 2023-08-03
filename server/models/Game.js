@@ -21,6 +21,12 @@ const gameSchema = new Schema({
     type: String,
     required: true,
   },
+  released: {
+    type: String,
+  },
+  genres: {
+    type: String,
+  }
 });
 
 module.exports = gameSchema;

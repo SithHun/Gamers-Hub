@@ -183,3 +183,51 @@ h6 {
   top: -15px;
   left: -25px;
 }
+
+/* STYLING FOR SEARCH GAMES */
+
+.reviewCardtwo {
+  background: linear-gradient(
+    185deg,
+    rgb(63, 243, 183),
+    rgb(52, 202, 152),
+    rgb(40, 155, 116),
+    rgb(7, 29, 22)
+  );
+  border: 4px inset rgb(255, 255, 255);
+  box-shadow: 8px 6px 5px rgb(22, 90, 81);
+  width: 95%;
+  border-radius: 0.2rem;
+  padding: 4px;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  height: 150px;
+  margin-top: 2%;
+}
+
+.card-container {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+}
+
+.card-container .card {
+  height: 100%;
+  width: 100%;
+  padding: 2px;
+  margin: 15px;
+}
+
+.card-image {
+  height: 150px;
+  object-fit: cover;
+}
+
+.fixed-button-wrapper {
+  position: absolute;
+  top: 10px; /* Adjust this value to set the desired vertical position from the top */
+  right: 10px; /* Adjust this value to set the desired horizontal position from the right */
+  z-index: 999; /* Adjust the z-index as needed to ensure the button is above other elements */
+  text-align: right; /* Center the button horizontally within the wrapper div */
+  width: 150px; /* Adjust this value to set the button width as needed */
+}

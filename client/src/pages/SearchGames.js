@@ -41,7 +41,6 @@ const SearchGames = () => {
       const gameData = results.map((game) => ({
         gameId: game.id,
         title: game.name,
-        rating: game.rating,
         image: game.background_image || "",
         released: game.released,
         genres: game.genres.map(genre => genre.name).join(', ')
@@ -69,14 +68,22 @@ const SearchGames = () => {
       return false;
     }
 
+    // const gameData = {
+    //   title: gameToSave.title,
+    //   gameId: gameToSave.gameId.toString(),
+    //   image: gameToSave.image,
+    //   released: gameToSave.released.toString(),
+    //   genres: gameToSave.genres,
+    //   link: gameToSave.link
+    // };
+
     const gameData = {
       title: gameToSave.title,
+      description: gameToSave.description || "No description available", // use a default value if no description
       gameId: gameToSave.gameId.toString(),
       image: gameToSave.image,
-      rating: gameToSave.rating,
-      released: gameToSave.released,
-      genres: gameToSave.genres
     };
+
 
     console.log("gameData: ", gameData); // logging gameData
 
@@ -138,20 +145,23 @@ const SearchGames = () => {
         <Row>
           {searchedGames.map((game, key) => {
             return (
-              <Col md="4" key={key}>
+              <Col md="3" key={key}>
+                <div className="card-container">
                 <Card key={game.gameId} border="dark">
                   {game.image ? (
                     <Card.Img
                       src={game.image}
                       alt={`The cover for ${game.title}`}
                       variant="top"
+                      className="img-fluid card-image"
                     />
                   ) : null}
-                  <Card.Body>
+                  <Card.Body className="reviewCardtwo">
                     <Card.Title>{game.title}</Card.Title>
-                    <Card.Text>{game.rating}</Card.Text>
+                    {/* <Card.Text>{game.rating}</Card.Text> */}
                     <Card.Text>{game.released}</Card.Text>
                     <Card.Text>{game.genres}</Card.Text>
+                    <div className="fixed-button-wrapper">
                     {Auth.loggedIn() && (
                       <Button
                         disabled={savedGameIds?.some(
@@ -163,12 +173,14 @@ const SearchGames = () => {
                         {savedGameIds?.some(
                           (savedGameId) => savedGameId === game.gameId
                         )
-                          ? "This game has already been saved!"
-                          : "Save this Game!"}
+                        ? "Saved"
+                        : "ADD"}
                       </Button>
                     )}
+                    </div>
                   </Card.Body>
                 </Card>
+                </div>
               </Col>
             );
           })}
