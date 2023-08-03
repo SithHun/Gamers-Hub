@@ -28,8 +28,18 @@ h6 {
   -webkit-text-stroke: 2px black;
 }
 
+.carousel-caption:hover {
+  transform: scale(105%);
+  cursor: pointer;
+}
+
 .carousel-item {
   height: 600px;
+}
+
+.carouselImage {
+  height: 600px;
+  width: 100%;
 }
 
 .btn-footer {
