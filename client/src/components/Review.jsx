@@ -5,7 +5,7 @@ export default function Review(props) {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ["Lumanosimo"],
+        families: ["Lumanosimo", "Audiowide", "Press Start 2P"],
       },
     });
   });

@@ -40,6 +40,8 @@ h6 {
 .carouselImage {
   height: 600px;
   width: 100%;
+  border-top: 4px solid rgb(52, 202, 152);
+  border-bottom: 4px solid rgb(52, 202, 152);
 }
 
 .btn-footer {
@@ -67,8 +69,17 @@ h6 {
   font-size: 30px;
   text-align: center;
   width: 100%;
-
+  padding-bottom: 2%;
   border-radius: 0.5rem;
+}
+
+.title {
+  font-size: 24px;
+  color: transparent;
+  font-family: "Audiowide";
+  background: linear-gradient(215deg, rgb(7, 6, 6), rgb(3, 109, 8));
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .reviews {
@@ -132,7 +143,7 @@ h6 {
   left: 0;
   top: -16px;
   border-radius: 0.5rem;
-  box-shadow: 0 0 2px white;
+  box-shadow: 0 0 4px rgb(0, 0, 0);
 }
 
 .flexWrapper {
@@ -149,13 +160,12 @@ h6 {
 .game:hover {
   cursor: pointer;
   color: aqua;
-  border: 2px solid aqua;
+  border-left: 2px solid black;
   padding: 1px;
-  background-color: rgba(11, 59, 11, 0.37);
-  border-radius: 0.2rem;
-  transform: scale(110%);
+  transform: scale(103%);
   margin-top: 2.5%;
-  margin-right: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 .reviewBody {
@@ -166,15 +176,6 @@ h6 {
   font-size: 14px;
   font-family: "Verdana", Geneva, Tahoma, sans-serif;
   line-height: 2;
-}
-
-.title {
-  font-size: 22px;
-  color: transparent;
-  font-family: "Lumanosimo", Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background: linear-gradient(215deg, rgb(7, 6, 6), rgb(3, 109, 8));
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 
 .reviewRating {
