@@ -1,19 +1,23 @@
 const { User } = require('../models');
+const { Discussion } = require('../models');
 const { AuthenticationError } = require('apollo-server-express');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
     Query: {
       me: async (parent, args, context) => {
-        if (context.user) {
-          const userData = await User.findOne({ _id: context.user._id })
+        // if (context.user) {
+          const userData = await User.findOne({ _id: '64cc2ee5e0fb5dc7f8fcfa95' })
             .select('-__v -password')
             .populate('savedGames');
   
           return userData;
-        }
+        // }
   
         throw new AuthenticationError('Not logged in');
+      },
+      discussions: async (parent, { gameId }, context) => {
+        return await Discussion.find({ gameId: gameId }).populate('userId');
       },
 
     },
@@ -72,6 +76,20 @@ const resolvers = {
   
         throw new AuthenticationError('You need to be logged in!');
       },
+
+      addDiscussion: async (parent, { gameId, body, userId }, context) => {
+        // if (context.user) {
+          const newDiscussion = await Discussion.create({
+            gameId,
+            body,
+            userId
+          })
+
+          return newDiscussion;
+        // }
+        throw new AuthenticationError('You need to be logged in to add a discussion!');
+      },
+
     },
   };
   
