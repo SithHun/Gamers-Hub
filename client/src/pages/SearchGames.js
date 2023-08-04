@@ -51,7 +51,7 @@ const SearchGames = () => {
 
       setLoading(false);
       setError(null);
-      console.log(gameData);
+      // console.log(gameData);
     } catch (err) {
       setLoading(false);
       setError("An error occurred while searching.");
@@ -85,14 +85,14 @@ const SearchGames = () => {
     };
 
 
-    console.log("gameData: ", gameData); // logging gameData
+    // console.log("gameData: ", gameData);
 
     try {
       const { data } = await saveGame({
         variables: { gameData },
       });
 
-      console.log("saveGame response: ", data); // logging saveGame response
+      // console.log("saveGame response: ", data);
 
       if (data.saveGame) {
         setSavedGameIds([...savedGameIds, gameToSave.gameId]);
