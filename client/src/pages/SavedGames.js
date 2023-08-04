@@ -1,22 +1,29 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Card, Button, Row, Col } from 'react-bootstrap';
+import { Container, Card, Button, Row, Col, Modal, Form } from 'react-bootstrap';
 import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_ME, QUERY_DISCUSSIONS } from '../utils/queries';
-import { REMOVE_GAME } from '../utils/mutations';
+import { REMOVE_GAME, ADD_DISCUSSION } from '../utils/mutations';
 import Auth from '../utils/auth';
 import { removeGameId } from '../utils/localStorage';
-import Modal from '../components/Modal'; 
 
 const SavedGames = () => {
   const { loading, data } = useQuery(QUERY_ME);
   const [userData, setUserData] = useState({});
-  const [showModal, setShowModal] = useState(false);
-  const [gameId, setGameId] = useState(null);
+  const [selectedGame, setSelectedGame] = useState(null);
+  const [show, setShow] = useState(false);
+  const [newDiscussion, setNewDiscussion] = useState("");
 
-  const { loading: loadingDiscussions, data: discussionsData } = useQuery(QUERY_DISCUSSIONS, {
-    variables: { gameId },
-    skip: !gameId
+  const {
+    loading: loadingDiscussions,
+    data: discussionsData,
+    refetch: refetchDiscussions,
+  } = useQuery(QUERY_DISCUSSIONS, {
+    variables: { gameId: selectedGame },
+    skip: !selectedGame,
   });
+
+  const [removeGame] = useMutation(REMOVE_GAME);
+  const [addDiscussion] = useMutation(ADD_DISCUSSION);
 
   useEffect(() => {
     if (data) {
@@ -24,12 +31,12 @@ const SavedGames = () => {
     }
   }, [data]);
 
-  const [removeGame] = useMutation(REMOVE_GAME);
-
-  const handleGameClick = (id) => {
-    setGameId(id);
-    setShowModal(true);
+  const handleShow = (gameId) => {
+    setSelectedGame(gameId);
+    setShow(true);
   };
+
+  const handleClose = () => setShow(false);
 
   const handleDeleteGame = async (gameId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
@@ -49,9 +56,28 @@ const SavedGames = () => {
           savedGames: userData.savedGames.filter((game) => game.gameId !== gameId),
         });
 
-        // upon success, remove game's id from localStorage
+        // upon success, remove book's id from localStorage
         removeGameId(gameId);
       }
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const handleAddDiscussion = async (event) => {
+    event.preventDefault();
+
+    try {
+      const { data } = await addDiscussion({
+        variables: {
+          gameId: selectedGame,
+          body: newDiscussion,
+          userId: userData._id,
+        },
+      });
+
+      refetchDiscussions();
+      setNewDiscussion("");
     } catch (err) {
       console.error(err);
     }
@@ -85,11 +111,11 @@ const SavedGames = () => {
                   <Card.Body>
                     <Card.Title>{game.title}</Card.Title>
                     <Card.Text>{game.description}</Card.Text>
-                    <Button className="btn-block" onClick={() => handleGameClick(game.gameId)}>
-                      View Discussions
-                    </Button>
                     <Button className="btn-block btn-danger" onClick={() => handleDeleteGame(game.gameId)}>
                       Delete this Game!
+                    </Button>
+                    <Button variant="primary" onClick={() => handleShow(game.gameId)}>
+                      Show Discussions
                     </Button>
                   </Card.Body>
                 </Card>
@@ -97,29 +123,44 @@ const SavedGames = () => {
             );
           })}
         </Row>
-        {showModal && (
-          <Modal 
-          isOpen={showModal} 
-          onRequestClose={() => setShowModal(false)}
-          contentLabel="Discussion Modal"
-          >
-            {loadingDiscussions ? (
-              <p>Loading discussions...</p>
-            ) : (
-              discussionsData?.discussions.length > 0 ? (
-                discussionsData.discussions.map((discussion) => (
-                  <div key={discussion._id}>
-                    <p>{discussion.body}</p>
-                    <p>By: {discussion.userId.username}</p>
-                  </div>
-                ))
-              ) : (
-                <p>No discussions for this game.</p>
-              )
-            )}
-          </Modal>
-        )}
       </Container>
+
+      {/* Discussion modal */}
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Discussions</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          {!loadingDiscussions && discussionsData && discussionsData.discussions.length > 0
+            ? discussionsData.discussions.map((discussion) => (
+                <p key={discussion._id}>
+                  <strong>{discussion.userId.username}</strong>: {discussion.body}
+                </p>
+              ))
+            : "No discussions for this game yet."}
+
+          {/* Add discussion form */}
+          <Form onSubmit={handleAddDiscussion}>
+            <Form.Group>
+              <Form.Label>Add a Discussion</Form.Label>
+              <Form.Control
+                type="text"
+                value={newDiscussion}
+                onChange={(e) => setNewDiscussion(e.target.value)}
+                placeholder="Write your discussion here..."
+              />
+            </Form.Group>
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 };

@@ -78,7 +78,7 @@ export const REMOVE_GAME = gql`
   }
 `;
 
-export const ADD_DISCUSSIONS = gql`
+export const ADD_DISCUSSION = gql`
 mutation AddDiscussion($gameId: ID!, $userId: ID!, $body: String!) {
   addDiscussion(gameId: $gameId, userId: $userId, body: $body) {
     _id
