@@ -92,7 +92,6 @@ const SavedGames = () => {
     <>
       <Container fluid className="text-light bg-dark p-5">
         <h1>Welcome back!</h1>
-        <br></br>
         <h3>{userData.username}</h3>
       </Container>
       <Container>
