@@ -1,13 +1,29 @@
 const { gql } = require('apollo-server-express');
 
+// .populate(userId)
 const typeDefs = gql`
+type Discussion {
+  _id: ID
+  userId: ID
+  body: String
+  date: String
+  gameId: String
+}
+
+type Discussion2 {
+  _id: ID
+  userId: User
+  body: String
+  date: String
+  gameId: String
+}
+
   type Game {
     description: String!
     gameId: String!
     image: String
     link: String
     title: String!
-    score: Float
   }
 
   type User {
@@ -24,7 +40,7 @@ const typeDefs = gql`
   }
 
   input GameInput {
-    description: String!
+    description: String
     gameId: String!
     image: String
     link: String
@@ -36,6 +52,7 @@ const typeDefs = gql`
     users: [User]
     user(username: String!): User
     games(username: String): [Game]
+    discussions(gameId: ID!): [Discussion2]
   }
 
   type Mutation {
@@ -43,6 +60,7 @@ const typeDefs = gql`
     createUser(username: String!, email: String!, password: String!): Auth
     saveGame(gameData: GameInput!): User
     removeGame(gameId: ID!): User
+    addDiscussion(gameId: ID!, userId: ID!, body: String!): Discussion
   }
 
   extend type Query {

@@ -19,10 +19,8 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-    // set savedBooks to be an array of data that adheres to the bookSchema
     savedGames: [gameSchema],
   },
-  // set this to use virtual below
   {
     toJSON: {
       virtuals: true,
@@ -45,7 +43,7 @@ userSchema.methods.isCorrectPassword = async function (password) {
   return bcrypt.compare(password, this.password);
 };
 
-// when we query a user, we'll also get another field called `bookCount` with the number of saved books we have
+
 userSchema.virtual('gameCount').get(function () {
   return this.savedGames.length;
 });

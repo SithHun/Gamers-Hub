@@ -277,9 +277,15 @@ h6 {
 
 .fixed-button-wrapper {
   position: absolute;
-  top: 10px; /* Adjust this value to set the desired vertical position from the top */
-  right: 10px; /* Adjust this value to set the desired horizontal position from the right */
-  z-index: 999; /* Adjust the z-index as needed to ensure the button is above other elements */
-  text-align: right; /* Center the button horizontally within the wrapper div */
-  width: 150px; /* Adjust this value to set the button width as needed */
+  top: 10px;
+  right: 10px; 
+  z-index: 999; 
+  text-align: right; 
+  width: 150px; 
+}
+
+/* STYLE FOR SEE YOUR GAMES */
+.linkstyle {
+  color: black;
+  margin: 8%;
 }

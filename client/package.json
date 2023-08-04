@@ -18,7 +18,8 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.1",
     "styled-components": "^6.0.5",
-    "tsparticles-slim": "^2.11.1"
+    "tsparticles-slim": "^2.11.1",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start --setupMiddlewares",
