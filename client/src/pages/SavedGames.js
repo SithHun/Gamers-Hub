@@ -39,6 +39,7 @@ const SavedGames = () => {
   const handleClose = () => setShow(false);
 
   const handleDeleteGame = async (gameId) => {
+    console.log(`Deleting game with ID: ${gameId}`);
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
     if (!token) {

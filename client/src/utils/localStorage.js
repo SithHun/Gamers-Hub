@@ -14,17 +14,33 @@ export const saveGameIds = (gameIdArr) => {
   }
 };
 
-export const removeGameId = (gameId) => {
-  const savedGameIds = localStorage.getItem('saved_games')
-    ? JSON.parse(localStorage.getItem('saved_games'))
-    : null;
+// export const removeGameId = (gameId) => {
+//   const savedGameIds = localStorage.getItem('saved_games')
+//     ? JSON.parse(localStorage.getItem('saved_games'))
+//     : null;
 
-  if (!savedGameIds) {
-    return false;
-  }
+//   if (!savedGameIds) {
+//     return false;
+//   }
 
-  const updatedSavedGameIds = savedGameIds?.filter((savedGameId) => savedGameId !== gameId);
+//   const updatedSavedGameIds = savedGameIds?.filter((savedGameId) => savedGameId !== gameId);
+//   localStorage.setItem('saved_games', JSON.stringify(updatedSavedGameIds));
+
+//   return true;
+// };
+
+export function removeGameId(gameIdString) {
+  let savedGameIds = JSON.parse(localStorage.getItem('saved_games')) || [];
+  
+  // Convert the gameId to number
+  const gameId = Number(gameIdString);
+
+  console.log("Before removing: ", savedGameIds); 
+
+  const updatedSavedGameIds = savedGameIds.filter((id) => id !== gameId);
+
+  console.log("After removing: ", updatedSavedGameIds); 
+  
   localStorage.setItem('saved_games', JSON.stringify(updatedSavedGameIds));
+}
 
-  return true;
-};
