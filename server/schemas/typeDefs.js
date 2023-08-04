@@ -1,6 +1,5 @@
 const { gql } = require('apollo-server-express');
 
-// .populate(userId)
 const typeDefs = gql`
 type Discussion {
   _id: ID
