@@ -39,7 +39,6 @@ const SavedGames = () => {
   const handleClose = () => setShow(false);
 
   const handleDeleteGame = async (gameId) => {
-    console.log(`Deleting game with ID: ${gameId}`);
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
     if (!token) {
@@ -54,11 +53,10 @@ const SavedGames = () => {
       if (data.removeGame) {
         setUserData({
           ...userData,
-          savedGames: userData.savedGames.filter((game) => game.gameId !== gameId),
+          savedGames: userData.savedGames.filter((game) => String(game.gameId) !== gameId),
         });
-
-        // upon success, remove book's id from localStorage
-        removeGameId(gameId);
+        
+        removeGameId(String(gameId));
       }
     } catch (err) {
       console.error(err);
