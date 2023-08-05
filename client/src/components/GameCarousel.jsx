@@ -11,9 +11,8 @@ export default function GameCarousel() {
       <Carousel>
         {gamesArr.map((game, key) => {
           return (
-            <Carousel.Item>
+            <Carousel.Item key={key}>
               <CarouselItem
-                key={key}
                 image={game.background_image}
                 clip={game.clip}
               ></CarouselItem>

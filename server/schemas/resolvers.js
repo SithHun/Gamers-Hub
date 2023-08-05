@@ -6,13 +6,13 @@ const { signToken } = require("../utils/auth");
 const resolvers = {
   Query: {
     me: async (parent, args, context) => {
-      // if (context.user) {
-      const userData = await User.findOne({ _id: "64cc2ee5e0fb5dc7f8fcfa95" })
-        .select("-__v -password")
-        .populate("savedGames");
+      if (context.user) {
+        const userData = await User.findOne({ _id: context.user._id })
+          .select("-__v -password")
+          .populate("savedGames");
 
-      return userData;
-      // }
+        return userData;
+      }
 
       throw new AuthenticationError("Not logged in");
     },
@@ -93,28 +93,27 @@ const resolvers = {
 
     deleteDiscussion: async (parent, { userId, gameId }) => {
       const discussion = await Discussion.findOne({ userId, gameId });
-    
+
       if (!discussion) {
         throw new Error("Discussion not found");
       }
-    
+
       await Discussion.findByIdAndDelete(discussion._id);
       return discussion;
     },
-    
+
     editDiscussion: async (parent, { userId, gameId, body }) => {
       const discussion = await Discussion.findOne({ userId, gameId });
-    
+
       if (!discussion) {
         throw new Error("Discussion not found");
       }
-    
+
       discussion.body = body;
-    
+
       await discussion.save();
       return discussion;
-    }
-    
+    },
   },
 };
 

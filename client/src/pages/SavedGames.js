@@ -1,10 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { Container, Card, Button, Row, Col, Modal, Form } from 'react-bootstrap';
-import { useQuery, useMutation } from '@apollo/client';
-import { QUERY_ME, QUERY_DISCUSSIONS } from '../utils/queries';
-import { REMOVE_GAME, ADD_DISCUSSION } from '../utils/mutations';
-import Auth from '../utils/auth';
-import { removeGameId } from '../utils/localStorage';
+import React, { useState, useEffect } from "react";
+import {
+  Container,
+  Card,
+  Button,
+  Row,
+  Col,
+  Modal,
+  Form,
+} from "react-bootstrap";
+import { useQuery, useMutation } from "@apollo/client";
+import { QUERY_ME, QUERY_DISCUSSIONS } from "../utils/queries";
+import { REMOVE_GAME, ADD_DISCUSSION } from "../utils/mutations";
+import Auth from "../utils/auth";
+import { removeGameId } from "../utils/localStorage";
 
 const SavedGames = () => {
   const { loading, data } = useQuery(QUERY_ME);
@@ -53,9 +61,11 @@ const SavedGames = () => {
       if (data.removeGame) {
         setUserData({
           ...userData,
-          savedGames: userData.savedGames.filter((game) => String(game.gameId) !== gameId),
+          savedGames: userData.savedGames.filter(
+            (game) => String(game.gameId) !== gameId
+          ),
         });
-        
+
         removeGameId(String(gameId));
       }
     } catch (err) {
@@ -97,8 +107,10 @@ const SavedGames = () => {
       <Container>
         <h2 className="pt-5">
           {savedGames.length
-            ? `${savedGames.length} added ${savedGames.length === 1 ? 'collection' : 'collections'}:`
-            : 'You have no saved collection!'}
+            ? `${savedGames.length} added ${
+                savedGames.length === 1 ? "collection" : "collections"
+              }:`
+            : "You have no saved collection!"}
         </h2>
         <Row>
           {savedGames.map((game) => {
@@ -106,15 +118,25 @@ const SavedGames = () => {
               <Col md="4" key={game.gameId}>
                 <Card border="dark">
                   {game.image && (
-                    <Card.Img src={game.image} alt={`The cover for ${game.title}`} variant="top" />
+                    <Card.Img
+                      src={game.image}
+                      alt={`The cover for ${game.title}`}
+                      variant="top"
+                    />
                   )}
                   <Card.Body>
                     <Card.Title>{game.title}</Card.Title>
                     <Card.Text>{game.description}</Card.Text>
-                    <Button className="btn-block btn-danger" onClick={() => handleDeleteGame(game.gameId)}>
+                    <Button
+                      className="btn-block btn-danger"
+                      onClick={() => handleDeleteGame(game.gameId)}
+                    >
                       Delete this Game!
                     </Button>
-                    <Button variant="primary" onClick={() => handleShow(game.gameId)}>
+                    <Button
+                      variant="primary"
+                      onClick={() => handleShow(game.gameId)}
+                    >
                       Show Discussions
                     </Button>
                   </Card.Body>
@@ -131,10 +153,13 @@ const SavedGames = () => {
           <Modal.Title>Discussions</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          {!loadingDiscussions && discussionsData && discussionsData.discussions.length > 0
+          {!loadingDiscussions &&
+          discussionsData &&
+          discussionsData.discussions.length > 0
             ? discussionsData.discussions.map((discussion) => (
                 <p key={discussion._id}>
-                  <strong>{discussion.userId.username}</strong>: {discussion.body}
+                  <strong>{discussion.userId.username}</strong>:{" "}
+                  {discussion.body}
                 </p>
               ))
             : "No discussions for this game yet."}
