@@ -287,10 +287,10 @@ h6 {
 /* STYLE FOR SEE YOUR GAMES */
 .navlink {
   color: azure;
-  margin-right: 105px;
+  margin-right: 78px;
   border: 1px solid teal;
   border-radius: 5px;
-  padding: 5px;
+  padding: 3px;
   box-shadow: 0px 0px 10px rgba(20, 190, 196, 0.692);
-  font-size: large;
+  font-size: larger;
 }
