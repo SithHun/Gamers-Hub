@@ -60,6 +60,8 @@ type Discussion2 {
     saveGame(gameData: GameInput!): User
     removeGame(gameId: ID!): User
     addDiscussion(gameId: ID!, userId: ID!, body: String!): Discussion
+    deleteDiscussion(userId: ID!, gameId: ID!): Discussion
+    editDiscussion(userId: ID!, gameId: ID!, body: String!): Discussion
   }
 
   extend type Query {

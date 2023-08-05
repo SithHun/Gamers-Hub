@@ -51,7 +51,7 @@ const SearchGames = () => {
 
       setLoading(false);
       setError(null);
-      console.log(gameData);
+      // console.log(gameData);
     } catch (err) {
       setLoading(false);
       setError("An error occurred while searching.");
@@ -61,11 +61,18 @@ const SearchGames = () => {
 
   const handleSaveGame = async (gameId) => {
     const gameToSave = searchedGames.find((game) => game.gameId === gameId);
+      // const gameIdStr = gameId.toString();
+      // const gameToSave = searchedGames.find((game) => game.gameId === gameIdStr);
 
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
     if (!token) {
       return false;
+    }
+
+    if (!gameToSave) {
+      console.error(`No game found with id ${gameId}`);
+      return;
     }
 
     // const gameData = {
@@ -77,22 +84,25 @@ const SearchGames = () => {
     //   link: gameToSave.link
     // };
 
+    // console.log(gameToSave);
+
     const gameData = {
       title: gameToSave.title,
       description: gameToSave.description || "No description available", // use a default value if no description
       gameId: gameToSave.gameId.toString(),
+      // gameId: gameId.toString(),
       image: gameToSave.image,
     };
 
 
-    console.log("gameData: ", gameData); // logging gameData
+    // console.log("gameData: ", gameData);
 
     try {
       const { data } = await saveGame({
         variables: { gameData },
       });
 
-      console.log("saveGame response: ", data); // logging saveGame response
+      // console.log("saveGame response: ", data);
 
       if (data.saveGame) {
         setSavedGameIds([...savedGameIds, gameToSave.gameId]);
@@ -159,7 +169,7 @@ const SearchGames = () => {
                   <Card.Body className="reviewCardtwo text-center">
                     <Card.Title>{game.title}</Card.Title>
                     {/* <Card.Text>{game.rating}</Card.Text> */}
-                    <Card.Text>Released {formatDate(game.released)}</Card.Text>
+                    <Card.Text>Released {game.released ? formatDate(game.released) : 'N/A'}</Card.Text>
                     <Card.Text>{game.genres}</Card.Text>
                     <div className="fixed-button-wrapper">
                     {Auth.loggedIn() && (

@@ -53,11 +53,10 @@ const SavedGames = () => {
       if (data.removeGame) {
         setUserData({
           ...userData,
-          savedGames: userData.savedGames.filter((game) => game.gameId !== gameId),
+          savedGames: userData.savedGames.filter((game) => String(game.gameId) !== gameId),
         });
-
-        // upon success, remove book's id from localStorage
-        removeGameId(gameId);
+        
+        removeGameId(String(gameId));
       }
     } catch (err) {
       console.error(err);
@@ -92,13 +91,14 @@ const SavedGames = () => {
   return (
     <>
       <Container fluid className="text-light bg-dark p-5">
-        <h1>Viewing saved games!</h1>
+        <h1>Welcome back!</h1>
+        <h3>{userData.username}</h3>
       </Container>
       <Container>
         <h2 className="pt-5">
           {savedGames.length
-            ? `Viewing ${savedGames.length} saved ${savedGames.length === 1 ? 'game' : 'games'}:`
-            : 'You have no saved games!'}
+            ? `${savedGames.length} added ${savedGames.length === 1 ? 'collection' : 'collections'}:`
+            : 'You have no saved collection!'}
         </h2>
         <Row>
           {savedGames.map((game) => {
