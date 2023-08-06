@@ -11,7 +11,6 @@ import Auth from "../utils/auth";
 const AppNavbar = () => {
   // set modal display state
   const [showModal, setShowModal] = useState(false);
-  const [toggleNav, setToggleNav] = useState("");
 
   return (
     <>
