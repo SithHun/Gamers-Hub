@@ -115,7 +115,7 @@ const SearchGames = () => {
   return (
     <>
       <div className="text-light bg-transparent p-5">
-        <Container style={{padding: "5px"}} >
+        <Container style={{padding: "5px", margin: "10px", }} >
           {/* <h1>Search for Games!</h1> */}
           <Form onSubmit={handleFormSubmit}>
             <Row>
