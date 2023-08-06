@@ -294,3 +294,14 @@ h6 {
   box-shadow: 0px 0px 10px rgba(20, 190, 196, 0.692);
   font-size: larger;
 }
+
+/* STYLE FOR SAVEDGAMES MODAL */
+/* .modal-backdrop.show {
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.76);
+} */
+
+.modal-content {
+  background-color: #fffbfb;
+  box-shadow: 0px 0px 2px #fffbfb;
+}
