@@ -200,13 +200,19 @@ const SearchGames = () => {
                         disabled={savedGameIds?.some(
                           (savedGameId) => savedGameId === game.gameId
                         )}
-                        className="btn-block btn-info"
+                        className={
+                          savedGameIds?.some(
+                            (savedGameId) => savedGameId === game.gameId
+                          )
+                          ? "saved-button"
+                          : "add-button"
+                        }
                         onClick={() => handleSaveGame(game.gameId)}
                       >
                         {savedGameIds?.some(
                           (savedGameId) => savedGameId === game.gameId
                         )
-                        ? "_"
+                        ? "saved"
                         : "add"}
                       </Button>
                     )}
