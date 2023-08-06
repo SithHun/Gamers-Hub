@@ -300,16 +300,29 @@ h6 {
 .navlink {
   color: azure;
   margin-right: 78px;
-  border: 1px solid teal;
+  border: 2px solid teal;
   border-radius: 5px;
-  padding: 3px;
+  padding: 10px;
   box-shadow: 0px 0px 10px rgba(20, 190, 196, 0.692);
-  font-size: larger;
+  font-size: 30px;
+  border-radius: 0.5rem;
+}
+
+.navlink:hover {
+    background-color: rgba(20, 190, 196, 0.5);
+    transform: scale(105%);
+    border-color: rgba(52, 202, 152, 0.7);
+    text-shadow: 0 0 4px rgba(52, 202, 152, 0.7);
 }
 
 .profileWelcome h1 {
-  font-family: "Press Start 2P", Impact, Haettenschweiler, "Arial Narrow Bold",
-    sans-serif;
+  font-family: "Press Start 2P";
+}
+
+.profileWelcome h3 {
+  font-size: 40px;
+  padding: 1%;
+  font-style: italic;
 }
 
 /* STYLE FOR SAVEDGAMES MODAL */
@@ -387,6 +400,11 @@ h6 {
   border: rgb(196, 190, 190);
 }
 
+#navbar {
+  position: absolute;
+  right: 2%;
+}
+
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1800px) {
   .reviewCard {
@@ -401,13 +419,10 @@ h6 {
 }
 
 @media only screen and (max-width: 1200px) {
-  .container-fluid {
-    display: flex;
-  }
-
   #navbar {
     text-align: center;
     margin-left: 10%;
+    position: relative;
   }
 
   #navbar .navlink {
@@ -415,7 +430,6 @@ h6 {
     padding: 2%;
     width: 90%;
   }
-
 
   .navbar-toggler {
     position: absolute;
