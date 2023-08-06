@@ -52,6 +52,7 @@ const SearchGames = () => {
       setLoading(false);
       setError(null);
       // console.log(gameData);
+      //data needs to adjusted and reworked
     } catch (err) {
       setLoading(false);
       setError("An error occurred while searching.");
@@ -84,7 +85,7 @@ const SearchGames = () => {
     //   link: gameToSave.link
     // };
 
-    // console.log(gameToSave);
+     console.log(gameToSave);
 
     const gameData = {
       title: gameToSave.title,
@@ -200,5 +201,4 @@ const SearchGames = () => {
   );
 };
 
-// export default SearchGames;
-//adjust code edit gane search
+ export default SearchGames;
