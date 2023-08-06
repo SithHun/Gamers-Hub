@@ -376,3 +376,90 @@ h6 {
   box-shadow: 0 0 0 0.3rem rgb(196, 190, 190);
   border: rgb(196, 190, 190);
 }
+
+.show-discussions-button {
+  /* style as you see fit */
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1800px) {
+  .reviewCard {
+    margin: 1%;
+    width: calc((100% / 2.5));
+  }
+
+  .reviews {
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carouselImage {
+    height: 300px;
+  }
+
+  .carousel-caption {
+    padding: 1px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+
+  .reviewsHeader {
+    padding-bottom: 7%;
+  }
+
+  .reviewCard {
+    margin: 1%;
+    width: 90%;
+  }
+
+  .reviews {
+    justify-content: center;
+    margin: 0;
+    border-radius: 0;
+    padding-bottom: 7%;
+    margin-bottom: 1%;
+    width: 105%;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .gamePanel {
+    padding-bottom: 4%;
+    flex-direction: column;
+  }
+
+  .game,
+  .platform {
+    margin-top: 0;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .game:hover {
+    border: none;
+    text-decoration: underline;
+    margin-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    transform: scale(105%);
+  }
+
+  .ratingText {
+    font-size: 30px;
+  }
+
+  .thumbnail {
+    width: 58px;
+    height: 58px;
+  }
+}
