@@ -130,12 +130,12 @@ const SearchGames = () => {
 
   return (
     <>
-      <div className="text-light bg-transparent p-10">
+      <div className="text-dark bg-transparent p-5">
         <Container style={{padding: "10px", margin: "5px",  }} >
           {/* <h1>Search for Games!</h1> */}
           <Form onSubmit={handleFormSubmit}>
             <Row>
-              <Col xs={10} md={8}>
+              <Col xs={9} md={3}>
                 <Form.Control
                   name="searchInput"
                   value={searchInput}
@@ -145,7 +145,7 @@ const SearchGames = () => {
                   placeholder="Search for a game"
                 />
               </Col>
-              <Col xs={8} md={4}>
+              <Col xs={6} md={3}>
                 <Button
                   type="submit"
                   variant="success"
@@ -217,4 +217,4 @@ const SearchGames = () => {
   );
 };
 
- export default SearchGames;
+//  export default SearchGames;
