@@ -340,7 +340,7 @@ h6 {
 .game-card {
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 400px;
   margin-bottom: 75px;
   position: relative;
 }
