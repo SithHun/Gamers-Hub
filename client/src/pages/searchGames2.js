@@ -114,6 +114,39 @@ const SearchGames = () => {
 
       // console.log("saveGame response: ", data);
 
+
+      
+      // console.log("saveGame response: ", data);
+
+
+      
+      // console.log("saveGame response: ", data);
+
+
+      
+      // console.log("saveGame response: ", data);
+
+
+      
+      // console.log("saveGame response: ", data);
+
+
+
+      
+      // console.log("saveGame response: ", data);
+
+
+      
+      // console.log("saveGame response: ", data);
+
+
+      
+      // console.log("saveGame response: ", data);
+
+
+      
+      // console.log("saveGame response: ", data);
+
       if (data.saveGame) {
         setSavedGameIds([...savedGameIds, gameToSave.gameId]);
       }
@@ -156,9 +189,6 @@ const SearchGames = () => {
 
       {/* {error && <div className="error">{error}</div>} */}
 
-
-
-      {/* {error && <div className="error">{error}</div>} */}
 
       <Container>
         <h2 className="pt-5">
