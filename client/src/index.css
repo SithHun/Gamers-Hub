@@ -366,5 +366,6 @@ h6 {
 
 .search-input:focus {
   outline-color: black;
-  box-shadow: 0 0 0 0.3rem rgb(196, 190, 190)
+  box-shadow: 0 0 0 0.3rem rgb(196, 190, 190);
+  border: rgb(196, 190, 190);
 }
