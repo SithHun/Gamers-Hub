@@ -61,6 +61,7 @@ const SignupForm = () => {
         <Form.Group className='mb-3'>
           <Form.Label htmlFor='username'>Username</Form.Label>
           <Form.Control
+            className='search-input'
             type='text'
             placeholder='Your username'
             name='username'
@@ -74,6 +75,7 @@ const SignupForm = () => {
         <Form.Group className='mb-3'>
           <Form.Label htmlFor='email'>Email</Form.Label>
           <Form.Control
+            className='search-input'
             type='email'
             placeholder='Your email address'
             name='email'
@@ -87,6 +89,7 @@ const SignupForm = () => {
         <Form.Group className='mb-3'>
           <Form.Label htmlFor='password'>Password</Form.Label>
           <Form.Control
+            className='search-input'
             type='password'
             placeholder='Your password'
             name='password'
@@ -99,7 +102,9 @@ const SignupForm = () => {
         <Button
           disabled={!(userFormData.username && userFormData.email && userFormData.password)}
           type='submit'
-          variant='success'>
+          variant='success'
+          style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }}
+          >
           Submit
         </Button>
       </Form>

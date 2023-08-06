@@ -194,7 +194,7 @@ const SavedGames = () => {
                         placeholder="Update your discussion here..."
                       />
                       <Button className="button-spacing hoverButton" style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={handleEditDiscussion}>Apply changes</Button>
-                      <Button onClick={() => setEditingDiscussion(null)}>Cancel</Button>
+                      <Button className="hoverButton" style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={() => setEditingDiscussion(null)}>Cancel</Button>
                     </div>
                   ) : (
                     <div>

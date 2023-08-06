@@ -114,13 +114,15 @@ const SearchGames = () => {
 
   return (
     <>
+         <Container fluid className="text-light bg-dark p-5">
       <div className="text-light bg-transparent p-5">
         <Container>
-          {/* <h1>Search for Games!</h1> */}
+          <h1>Search for Games!</h1>
           <Form onSubmit={handleFormSubmit}>
             <Row>
               <Col xs={12} md={8}>
                 <Form.Control
+                  className="search-input"
                   name="searchInput"
                   value={searchInput}
                   onChange={(e) => setSearchInput(e.target.value)}
@@ -135,23 +137,26 @@ const SearchGames = () => {
                   variant="success"
                   size="lg"
                   disabled={loading}
+                  style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }}
+                  className="hoverButton"
                 >
-                  {loading ? "Loading..." : "Submit Search"}
+                  {loading ? "Loading..." : "Search"}
                 </Button>
               </Col>
             </Row>
           </Form>
         </Container>
       </div>
+      </Container>
 
       {error && <div className="error">{error}</div>}
 
       <Container>
-        <h2 className="pt-5">
+        {/* <h2 className="pt-5">
           {searchedGames.length
             ? `Viewing ${searchedGames.length} results:`
             : "Search for a game to begin"}
-        </h2>
+        </h2> */}
         <Row>
           {searchedGames.map((game, key) => {
             return (
