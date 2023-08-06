@@ -114,40 +114,38 @@ const SearchGames = () => {
 
   return (
     <>
-         <Container fluid className="text-light bg-dark p-5">
-      <div className="text-light bg-transparent p-5">
-        <Container>
-          <h1 className="searchHeader">Search for Games!</h1>
-          <Form onSubmit={handleFormSubmit}>
-            <Row>
-              <Col xs={12} md={8}>
-                <Form.Control
-                  className="search-input"
-                  name="searchInput"
-                  value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
-                  type="text"
-                  size="lg"
-                  placeholder="Search for a game"
-                />
-              </Col>
-              <Col xs={12} md={4}>
-                <Button
-                  type="submit"
-                  variant="success"
-                  size="lg"
-                  disabled={loading}
-                  style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }}
-                  className="hoverButton"
-                >
-                  {loading ? "Loading..." : "Search"}
-                </Button>
-              </Col>
-            </Row>
-          </Form>
-        </Container>
-      </div>
-      </Container>
+<Container fluid className="text-light bg-dark p-5">
+  <Container>
+    <h1 className="searchHeader">Search for Games!</h1>
+    <Form onSubmit={handleFormSubmit}>
+      <Row style={{ margin: "4px", paddingTop: "18px" }}>
+        <Col xs={12} md={4}>
+          <Form.Control
+            className="search-input"
+            name="searchInput"
+            value={searchInput}
+            onChange={(e) => setSearchInput(e.target.value)}
+            type="text"
+            size="lg"
+            placeholder="Search for a game"
+          />
+        </Col>
+        <Col xs={12} md={2}>
+          <Button
+            type="submit"
+            variant="success"
+            size="lg"
+            disabled={loading}
+            style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }}
+            className="hoverButton"
+          >
+            {loading ? "Loading..." : "Search"}
+          </Button>
+        </Col>
+      </Row>
+    </Form>
+  </Container>
+</Container>
 
       {error && <div className="error">{error}</div>}
 
