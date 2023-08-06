@@ -119,7 +119,7 @@ const SearchGames = () => {
           {/* <h1>Search for Games!</h1> */}
           <Form onSubmit={handleFormSubmit}>
             <Row>
-              <Col xs={12} md={8}>
+              <Col xs={10} md={8}>
                 <Form.Control
                   name="searchInput"
                   value={searchInput}
