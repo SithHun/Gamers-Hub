@@ -125,6 +125,25 @@ const SearchGames = () => {
 
 //error code adjustment main search games
 
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+//error code adjustment main search games
+
   return (
     <>
       <div className="text-light bg-transparent p-10">
