@@ -64,6 +64,12 @@ h6 {
 }
 
 /* Review Cards Section */
+.reviewsHeader {
+  font-family: "Audiowide", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  text-shadow: 0 3px 4px rgb(45, 206, 152);
+}
+
 .quote {
   color: black;
   font-size: 30px;
@@ -76,7 +82,7 @@ h6 {
 .title {
   font-size: 24px;
   color: transparent;
-  font-family: "Audiowide";
+  font-family: "Press Start 2P";
   background: linear-gradient(215deg, rgb(7, 6, 6), rgb(3, 109, 8));
   background-clip: text;
   -webkit-background-clip: text;
@@ -91,6 +97,7 @@ h6 {
   gap: 20px;
   flex-direction: row;
   flex-wrap: wrap;
+  box-shadow: 0 0 8px rgba(52, 202, 152, 0.7);
 }
 
 .reviewCard {
@@ -319,7 +326,7 @@ h6 {
 
 .hoverButton:hover {
   transform: scale(1.1);
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 .game-card {
@@ -366,4 +373,87 @@ h6 {
 
 .show-discussions-button {
   /* style as you see fit */
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1800px) {
+  .reviewCard {
+    margin: 1%;
+    width: calc((100% / 2.5));
+  }
+
+  .reviews {
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carouselImage {
+    height: 300px;
+  }
+
+  .carousel-caption {
+    padding: 1px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+
+  .reviewsHeader {
+    padding-bottom: 7%;
+  }
+
+  .reviewCard {
+    margin: 1%;
+    width: 90%;
+  }
+
+  .reviews {
+    justify-content: center;
+    margin: 0;
+    border-radius: 0;
+    padding-bottom: 7%;
+    margin-bottom: 1%;
+    width: 105%;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .gamePanel {
+    padding-bottom: 4%;
+    flex-direction: column;
+  }
+
+  .game,
+  .platform {
+    margin-top: 0;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .game:hover {
+    border: none;
+    text-decoration: underline;
+    margin-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    transform: scale(105%);
+  }
+
+  .ratingText {
+    font-size: 30px;
+  }
+
+  .thumbnail {
+    width: 58px;
+    height: 58px;
+  }
 }
