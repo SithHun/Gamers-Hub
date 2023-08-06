@@ -53,6 +53,7 @@ const SearchGames = () => {
       setError(null);
       // console.log(gameData);
       //data needs to adjusted and reworked
+      // data
     } catch (err) {
       setLoading(false);
       setError("An error occurred while searching.");
