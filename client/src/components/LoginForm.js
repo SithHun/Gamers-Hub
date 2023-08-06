@@ -54,6 +54,7 @@ const LoginForm = () => {
         <Form.Group className='mb-3'>
           <Form.Label htmlFor='email'>Email</Form.Label>
           <Form.Control
+            className='search-input'
             type='text'
             placeholder='Your email'
             name='email'
@@ -67,6 +68,7 @@ const LoginForm = () => {
         <Form.Group className='mb-3'>
           <Form.Label htmlFor='password'>Password</Form.Label>
           <Form.Control
+            className='search-input'
             type='password'
             placeholder='Your password'
             name='password'
@@ -79,7 +81,10 @@ const LoginForm = () => {
         <Button
           disabled={!(userFormData.email && userFormData.password)}
           type='submit'
-          variant='success'>
+          variant='success'
+          style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }}
+          className='hoverButton'
+          >
           Submit
         </Button>
       </Form>
