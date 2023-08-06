@@ -177,7 +177,7 @@ const SearchGames = () => {
                         disabled={savedGameIds?.some(
                           (savedGameId) => savedGameId === game.gameId
                         )}
-                        // className="btn-block btn-info"
+                        className="btn-block btn-info"
                         onClick={() => handleSaveGame(game.gameId)}
                       >
                         {savedGameIds?.some(
@@ -201,3 +201,4 @@ const SearchGames = () => {
 };
 
 // export default SearchGames;
+//adjust code edit gane search
