@@ -198,7 +198,10 @@ const SavedGames = () => {
                     </div>
                   ) : (
                     <div>
-                      <Button className="button-spacing hoverButton" style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={() => {
+                      <Button 
+                      className="button-spacing hoverButton" 
+                      style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} 
+                      onClick={() => {
                         setEditingDiscussion(discussion._id);
                         setUpdatedDiscussionBody(discussion.body);
                       }}>
@@ -220,6 +223,7 @@ const SavedGames = () => {
             <Form.Group>
               {/* <Form.Label>Add a Discussion</Form.Label> */}
               <Form.Control
+                className="search-input"
                 type="text"
                 value={newDiscussion}
                 onChange={(e) => setNewDiscussion(e.target.value)}
