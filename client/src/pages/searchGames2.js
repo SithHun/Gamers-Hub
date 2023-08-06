@@ -40,9 +40,9 @@ const SearchGames = () => {
         throw new Error("something went wrong!");
       }
 
-      if (!response.ok) {
-        throw new Error("something is not correct!");
-      }
+    //   if (!response.ok) {
+    //     throw new Error("something is not correct!");
+    //   }
 
       const { results } = await response.json();
 
@@ -153,6 +153,10 @@ const SearchGames = () => {
           </Form>
         </Container>
       </div>
+
+      {/* {error && <div className="error">{error}</div>} */}
+
+
 
       {/* {error && <div className="error">{error}</div>} */}
 
