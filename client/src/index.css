@@ -323,13 +323,13 @@ h6 {
 }
 
 .game-card {
-  position: relative; /* This allows the absolute positioning of children elements */
+  position: relative;
 }
 
 .delete-button {
   position: absolute;
-  top: 10px; /* adjust this value as needed */
-  right: 10px; /* adjust this value as needed */
+  top: 10px;
+  right: 10px;
 }
 
 .game-card-row {
@@ -360,10 +360,6 @@ h6 {
 
 .absolute-button-wrapper {
   position: absolute;
-  bottom: -25px; /* adjust according to your needs */
-  left: 10px; /* adjust according to your needs */
-}
-
-.show-discussions-button {
-  /* style as you see fit */
+  bottom: -25px;
+  left: 10px;
 }
