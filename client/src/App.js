@@ -11,6 +11,7 @@ import SearchGames from "./pages/SearchGames";
 import SavedGames from "./pages/SavedGames";
 import Navbar from "./components/Navbar";
 import { setContext } from "@apollo/client/link/context";
+import SiteFooter from "./components/Footer";
 
 const httpLink = createHttpLink({
   uri: "/graphql",
@@ -33,6 +34,8 @@ const client = new ApolloClient({
 
 function App() {
   return (
+    <div className="site">
+    <div className="site-content">
     <ApolloProvider client={client}>
       <Router>
         <>
@@ -49,6 +52,9 @@ function App() {
         </>
       </Router>
     </ApolloProvider>
+    </div>
+    <SiteFooter />
+    </div>
   );
 }
 

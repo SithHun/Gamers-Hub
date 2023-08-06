@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
 export default function SiteFooter() {
   const openNewTab = (url) => {
@@ -10,18 +10,22 @@ export default function SiteFooter() {
       <footer className="text-center text-lg-start py-5">
         <div className="container d-flex justify-content-center py-5">
           <img
-            className="btn-footer mx-4"
+            onClick={() => openNewTab("https://github.com/SithHun/Gamers-Hub")}
+            className="btn-footer mx-4 img-size"
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt="#"
           ></img>
           <img
             onClick={() => openNewTab("https://facebook.com")}
             src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg"
-            className="btn-footer mx-4"
+            className="btn-footer mx-4 img-size"
+            alt="#"
           ></img>
           <img
             onClick={() => openNewTab("https://twitter.com")}
-            className="btn-footer mx-4"
+            className="btn-footer mx-4 img-size"
             src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg"
+            alt="#"
           ></img>
         </div>
         <div className="flexWrapper sm-flexWrapper">
@@ -34,6 +38,7 @@ export default function SiteFooter() {
                 onClick={() => openNewTab("https://github.com/SithHun")}
                 className="projectMember mx-4"
                 src="https://avatars.githubusercontent.com/u/125325763?v=4"
+                alt="#"
               ></img>
               <h3 className="memberName">Seth Sun</h3>
             </div>
@@ -44,6 +49,7 @@ export default function SiteFooter() {
                 }
                 className="projectMember mx-4"
                 src="https://avatars.githubusercontent.com/u/26986107?v=4"
+                alt="#"
               ></img>
                 <h3 className="memberName">Nina Sandler</h3>
             </div>
@@ -52,6 +58,7 @@ export default function SiteFooter() {
                 onClick={() => openNewTab("https://github.com/benbryant98")}
                 className="projectMember mx-4"
                 src="https://avatars.githubusercontent.com/u/96531732?v=4"
+                alt="#"
               ></img>
               <h3 className='memberName'>Ben Bryant</h3>
             </div>
@@ -60,6 +67,7 @@ export default function SiteFooter() {
                 onClick={() => openNewTab("https://github.com/Yerim17")}
                 className="projectMember mx-4"
                 src="https://avatars.githubusercontent.com/u/98900486?v=4"
+                alt="#"
               ></img>
               <h3 className="memberName">Massar Sow</h3>
             </div>

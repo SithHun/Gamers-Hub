@@ -50,6 +50,26 @@ h6 {
   border-bottom: 4px solid rgb(52, 202, 152);
 }
 
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.site-content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  justify-content: start;
+}
+
 .btn-footer {
   width: 55px;
   height: 55px;
@@ -67,6 +87,7 @@ h6 {
 
 .footerText {
   line-height: 56px;
+  /* margin-right: 100px; */
 }
 
 .projectMembers {
@@ -201,10 +222,17 @@ h6 {
   box-shadow: 0 0 4px rgb(0, 0, 0);
 }
 
+.img-size {
+  width: 45px;
+  height: 45px;
+  object-fit: scale-down;
+}
+
 .flexWrapper {
   display: flex;
   justify-content: center;
   position: relative;
+  /* align-items: center; */
 }
 
 .gamePanel {
@@ -347,7 +375,7 @@ h6 {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(20, 190, 196, 0.692);
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 0.5rem;
 }
 

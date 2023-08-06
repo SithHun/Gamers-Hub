@@ -7,7 +7,7 @@ import Auth from "../utils/auth";
 import { saveGameIds, getSavedGameIds } from "../utils/localStorage";
 import formatDate from '../utils/formatDate'
 import { useLocation } from "react-router-dom";
-import SiteFooter from "../components/Footer";
+// import SiteFooter from "../components/Footer";
 
 function useQuery() {
   return new URLSearchParams(useLocation().search);
@@ -226,7 +226,7 @@ const SearchGames = () => {
           })}
         </Row>
       </Container>
-      <SiteFooter />
+      {/* <SiteFooter /> */}
     </>
   );
 };
