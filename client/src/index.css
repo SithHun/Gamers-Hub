@@ -295,68 +295,75 @@ h6 {
   font-size: larger;
 }
 
-@media only screen and (max-width: 1800px) {
-  .reviewCard {
-    margin: 1%;
-    width: calc((100% / 2.5));
-  }
+/* STYLE FOR SAVEDGAMES MODAL */
+/* .modal-backdrop.show {
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.76);
+} */
 
-  .reviews {
-    justify-content: center;
-    margin: 0;
-  }
+.modal-content {
+  background-color: #fffbfbcb;
+  box-shadow: 0px 0px 2px #fffbfb;
 }
 
-@media only screen and (max-width: 1200px) {
-  .carousel-item {
-    height: 300px;
-  }
+.discussion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
 
-  .carouselImage {
-    height: 300px;
-  }
+.button-spacing {
+  margin-right: 5px;
+}
 
-  .carousel-caption {
-    padding: 1px;
-  }
+.hoverButton:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
 
-  .carousel-caption h3 {
-    font-size: 18px;
-  }
+.game-card {
+  position: relative; /* This allows the absolute positioning of children elements */
+}
 
-  .reviewCard {
-    margin: 1%;
-    width: 90%;
-  }
+.delete-button {
+  position: absolute;
+  top: 10px; /* adjust this value as needed */
+  right: 10px; /* adjust this value as needed */
+}
 
-  .reviews {
-    justify-content: center;
-    margin: 0;
-  }
+.game-card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .gamePanel {
-    padding-bottom: 4%;
-    flex-direction: column;
-  }
+.game-card {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin-bottom: 75px;
+  position: relative;
+}
 
-  .game,
-  .platform {
-    margin-top: 0;
-    font-size: 11px;
-    text-align: center;
-  }
+.game-card .card-body {
+  flex: 1 0 auto;
+}
 
-  .game:hover {
-    border: none;
-    text-decoration: underline;
-  }
+/* .hover-effect {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
-  .ratingText {
-    font-size: 30px;
-  }
+.hover-effect:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+} */
 
-  .thumbnail {
-    width: 58px;
-    height: 58px;
-  }
+.absolute-button-wrapper {
+  position: absolute;
+  bottom: -25px; /* adjust according to your needs */
+  left: 10px; /* adjust according to your needs */
+}
+
+.show-discussions-button {
+  /* style as you see fit */
 }
