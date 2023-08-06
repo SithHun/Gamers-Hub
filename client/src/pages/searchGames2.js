@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { Container, Col, Form, Button, Card, Row } from "react-bootstrap";
-import { useMutation } from "@apollo/client";
-import { searchRAWGGames } from "../utils/API";
-import { SAVE_GAME } from "../utils/mutations";
-import Auth from "../utils/auth";
-import { saveGameIds, getSavedGameIds } from "../utils/localStorage";
-import formatDate from '../utils/formatDate'
+// import React, { useState, useEffect } from "react";
+// import { Container, Col, Form, Button, Card, Row } from "react-bootstrap";
+// import { useMutation } from "@apollo/client";
+// import { searchRAWGGames } from "../utils/API";
+// import { SAVE_GAME } from "../utils/mutations";
+// import Auth from "../utils/auth";
+// import { saveGameIds, getSavedGameIds } from "../utils/localStorage";
+// import formatDate from '../utils/formatDate'
 
 const SearchGames = () => {
   const [searchedGames, setSearchedGames] = useState([]);
@@ -200,4 +200,4 @@ const SearchGames = () => {
   );
 };
 
-export default SearchGames;
+// export default SearchGames;
