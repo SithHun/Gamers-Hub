@@ -95,25 +95,6 @@ const SearchGames = () => {
     //   link: gameToSave.link
     // };
 
- // const gameData = {
-    //   title: gameToSave.title,
-    //   gameId: gameToSave.gameId.toString(),
-    //   image: gameToSave.image,
-    //   released: gameToSave.released.toString(),
-    //   genres: gameToSave.genres,
-    //   link: gameToSave.link
-    // };
-
-     // const gameData = {
-    //   title: gameToSave.title,
-    //   gameId: gameToSave.gameId.toString(),
-    //   image: gameToSave.image,
-    //   released: gameToSave.released.toString(),
-    //   genres: gameToSave.genres,
-    //   link: gameToSave.link
-    // };
-
-
      console.log(gameToSave);
 
     const gameData = {
