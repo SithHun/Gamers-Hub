@@ -194,11 +194,14 @@ const SavedGames = () => {
                         placeholder="Update your discussion here..."
                       />
                       <Button className="button-spacing hoverButton" style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={handleEditDiscussion}>Apply changes</Button>
-                      <Button onClick={() => setEditingDiscussion(null)}>Cancel</Button>
+                      <Button className="hoverButton" style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={() => setEditingDiscussion(null)}>Cancel</Button>
                     </div>
                   ) : (
                     <div>
-                      <Button className="button-spacing hoverButton" style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={() => {
+                      <Button 
+                      className="button-spacing hoverButton" 
+                      style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} 
+                      onClick={() => {
                         setEditingDiscussion(discussion._id);
                         setUpdatedDiscussionBody(discussion.body);
                       }}>
@@ -220,6 +223,7 @@ const SavedGames = () => {
             <Form.Group>
               {/* <Form.Label>Add a Discussion</Form.Label> */}
               <Form.Control
+                className="search-input"
                 type="text"
                 value={newDiscussion}
                 onChange={(e) => setNewDiscussion(e.target.value)}

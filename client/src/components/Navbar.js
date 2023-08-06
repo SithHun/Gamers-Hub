@@ -53,6 +53,7 @@ const AppNavbar = () => {
         show={showModal}
         onHide={() => setShowModal(false)}
         aria-labelledby="signup-modal"
+        centered 
       >
         {/* tab container to do either signup or login component */}
         <Tab.Container defaultActiveKey="login">
@@ -60,10 +61,10 @@ const AppNavbar = () => {
             <Modal.Title id="signup-modal">
               <Nav variant="pills">
                 <Nav.Item>
-                  <Nav.Link eventKey="login">Login</Nav.Link>
+                  <Nav.Link style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray', marginRight: "25px" }} eventKey="login">Member</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="signup">Sign Up</Nav.Link>
+                  <Nav.Link style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }} eventKey="signup">New User</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Modal.Title>
