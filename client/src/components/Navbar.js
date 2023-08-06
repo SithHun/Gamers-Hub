@@ -22,8 +22,8 @@ const AppNavbar = () => {
           <Navbar.Toggle aria-controls="navbar" />
           <Navbar.Collapse id="navbar">
             <Nav className="ml-auto d-flex">
-            <Nav.Link className="navlink" as={Link} to="/">
-                Homes
+            <Nav.Link className="navlink" style={{ paddingRight: "18px", paddingLeft: "18px" }} as={Link} to="/">
+                Home
               </Nav.Link>
               <Nav.Link className="navlink" as={Link} to="/search">
                 Search
@@ -31,7 +31,7 @@ const AppNavbar = () => {
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
                 <>
-                  <Nav.Link className="navlink" as={Link} to="/saved">
+                  <Nav.Link className="navlink" style={{ paddingRight: "15px", paddingLeft: "15px" }} as={Link} to="/saved">
                     Profile
                   </Nav.Link>
                   <Nav.Link className="navlink" onClick={Auth.logout}>

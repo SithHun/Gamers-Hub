@@ -342,7 +342,7 @@ h6 {
 /* STYLE FOR SEE YOUR GAMES */
 .navlink {
   color: azure;
-  margin-right: 78px;
+  margin-right: 55px;
   border: 2px solid teal;
   border-radius: 5px;
   padding: 10px;
@@ -591,4 +591,52 @@ h6 {
   transform: scale(105%);
   border-color: rgba(52, 202, 152, 0.7);
   text-shadow: 0 0 4px rgba(52, 202, 152, 0.7);
+}
+
+/* add and saved button styling */
+.add-button {
+  color: azure;
+  border: 2px solid teal;
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: 0px 0px 10px rgba(20, 190, 196, 0.692);
+  font-size: 25px;
+  border-radius: 0.5rem;
+  border-color: rgba(52, 202, 152, 0.7);
+  background-color: teal;
+}
+
+.add-button:hover {
+  background-color: rgba(20, 190, 196, 0.5);
+  transform: scale(105%);
+  border-color: rgba(52, 202, 152, 0.7);
+  text-shadow: 0 0 4px rgba(52, 202, 152, 0.7);
+}
+
+.add-button:disabled {
+  background-color: rgba(20, 190, 196, 0.5);
+  border-color: rgba(52, 202, 152, 0.7);
+}
+
+.saved-button {
+  color: azure;
+  border: 2px solid rgba(52, 202, 152, 0.7); 
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: 0px 0px 10px rgba(20, 190, 196, 0.692);
+  font-size: 25px;
+  border-radius: 0.5rem;
+  background-color: rgba(52, 202, 152, 0.7);
+}
+
+.saved-button:hover {
+  background-color: rgba(20, 190, 196, 0.5);
+  transform: scale(105%);
+  border-color: rgba(52, 202, 152, 0.7);
+  text-shadow: 0 0 4px rgba(52, 202, 152, 0.7);
+}
+
+.saved-button:disabled {
+  background-color: rgba(20, 190, 196, 0.5);
+  border-color: rgba(52, 202, 152, 0.7);
 }

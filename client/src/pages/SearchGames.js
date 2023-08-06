@@ -135,11 +135,11 @@ const SearchGames = () => {
 
   return (
     <>
-<Container fluid className="text-light bg-dark p-5">
-  <Container>
+<Container fluid className="text-light bg-dark pt-5 pb-5">
+  <Container style={{ marginLeft: "25px" }}>
     <h1 className="searchHeader">Search for Games!</h1>
     <Form onSubmit={handleFormSubmit}>
-      <Row style={{ margin: "4px", paddingTop: "18px" }}>
+      <Row style={{ margin: "4px", paddingTop: "12px" }}>
         <Col xs={12} md={4}>
           <Form.Control
             className="search-input"
@@ -201,13 +201,19 @@ const SearchGames = () => {
                         disabled={savedGameIds?.some(
                           (savedGameId) => savedGameId === game.gameId
                         )}
-                        className="btn-block btn-info"
+                        className={
+                          savedGameIds?.some(
+                            (savedGameId) => savedGameId === game.gameId
+                          )
+                          ? "saved-button"
+                          : "add-button"
+                        }
                         onClick={() => handleSaveGame(game.gameId)}
                       >
                         {savedGameIds?.some(
                           (savedGameId) => savedGameId === game.gameId
                         )
-                        ? "_"
+                        ? "saved"
                         : "add"}
                       </Button>
                     )}
