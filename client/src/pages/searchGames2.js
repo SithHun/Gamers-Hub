@@ -139,7 +139,7 @@ const SearchGames = () => {
                 <Form.Control
                   name="searchInput"
                   value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
+                //   onChange={(e) => setSearchInput(e.target.value)}
                   type="text"
                   size="lg"
                   placeholder="Search for a game"
@@ -186,7 +186,7 @@ const SearchGames = () => {
                   <Card.Body className="reviewCardtwo text-center">
                     <Card.Title>{game.title}</Card.Title>
                     {/* <Card.Text>{game.rating}</Card.Text> */}
-                    <Card.Text>Released {game.released ? formatDate(game.released) : 'N/A'}</Card.Text>
+                    {/* <Card.Text>Released {game.released ? formatDate(game.released) : 'N/A'}</Card.Text> */}
                     <Card.Text>{game.genres}</Card.Text>
                     <div className="fixed-button-wrapper">
                     {Auth.loggedIn() && (
