@@ -125,24 +125,7 @@ const SearchGames = () => {
 
 //error code adjustment main search games
 
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
-//error code adjustment main search games
+
 
   return (
     <>
