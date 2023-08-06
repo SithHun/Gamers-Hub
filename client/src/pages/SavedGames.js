@@ -139,28 +139,32 @@ const SavedGames = () => {
         <h3>{userData.username}</h3>
       </Container>
       <Container>
-        <h2 className="pt-5">
+        <br></br>
+        <br></br>
+        {/* <h2 className="pt-5">
           {savedGames.length
             ? `${savedGames.length} added ${savedGames.length === 1 ? 'collection' : 'collections'}:`
             : 'You have no saved collection!'}
-        </h2>
-        <Row>
+        </h2> */}
+        <Row className="game-card-row">
           {savedGames.map((game) => {
             return (
               <Col md="4" key={game.gameId}>
-                <Card border="dark">
+                <Card border="dark" className="game-card hover-effect">
                   {game.image && (
                     <Card.Img src={game.image} alt={`The cover for ${game.title}`} variant="top" />
                   )}
                   <Card.Body>
                     <Card.Title>{game.title}</Card.Title>
-                    <Card.Text>{game.description}</Card.Text>
-                    <Button className="btn-block btn-danger" onClick={() => handleDeleteGame(game.gameId)}>
-                      Delete this Game!
+                    {/* <Card.Text>{game.description}</Card.Text> */}
+                    <Button className="btn-block btn-danger delete-button show-discussions-button hoverButton" onClick={() => handleDeleteGame(game.gameId)}>
+                      X
                     </Button>
-                    <Button variant="primary" onClick={() => handleShow(game.gameId)}>
+                    <div className="absolute-button-wrapper">
+                    <Button variant="primary" className="hoverButton" style={{ margin: "10px" }} onClick={() => handleShow(game.gameId)}>
                       Show Discussions
                     </Button>
+                    </div>
                   </Card.Body>
                 </Card>
               </Col>
@@ -177,7 +181,7 @@ const SavedGames = () => {
         <Modal.Body style={{ margin: "10px" }}>
           {!loadingDiscussions && discussionsData && discussionsData.discussions.length > 0
             ? discussionsData.discussions.map((discussion) => (
-                <div key={discussion._id}>
+                <div key={discussion._id} className="discussion-item">
                   <p>
                     <strong>{discussion.userId.username}</strong>: {discussion.body}
                   </p>
@@ -189,18 +193,18 @@ const SavedGames = () => {
                         onChange={(e) => setUpdatedDiscussionBody(e.target.value)}
                         placeholder="Update your discussion here..."
                       />
-                      <Button onClick={handleEditDiscussion}>Apply changes</Button>
+                      <Button className="button-spacing hoverButton" style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={handleEditDiscussion}>Apply changes</Button>
                       <Button onClick={() => setEditingDiscussion(null)}>Cancel</Button>
                     </div>
                   ) : (
                     <div>
-                      <Button onClick={() => {
+                      <Button className="button-spacing hoverButton" style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={() => {
                         setEditingDiscussion(discussion._id);
                         setUpdatedDiscussionBody(discussion.body);
                       }}>
                         Edit
                       </Button>
-                      <Button onClick={() => handleDeleteDiscussion(discussion._id, discussion.gameId)}>
+                      <Button className="hoverButton" style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={() => handleDeleteDiscussion(discussion._id, discussion.gameId)}>
                         Delete
                       </Button>
                     </div>
@@ -225,7 +229,7 @@ const SavedGames = () => {
             </Form.Group>
             </Col>
             <Col xs="auto">
-            <Button variant="primary" type="submit" style={{ color: 'azure', backgroundColor: 'teal', borderColor: 'teal', marginTop: "35px" }}>
+            <Button className="hoverButton" variant="primary" type="submit" style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray', marginTop: "35px" }}>
               Submit
             </Button>
             </Col>

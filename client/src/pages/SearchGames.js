@@ -116,7 +116,7 @@ const SearchGames = () => {
     <>
       <div className="text-light bg-transparent p-5">
         <Container>
-          <h1>Search for Games!</h1>
+          {/* <h1>Search for Games!</h1> */}
           <Form onSubmit={handleFormSubmit}>
             <Row>
               <Col xs={12} md={8}>
