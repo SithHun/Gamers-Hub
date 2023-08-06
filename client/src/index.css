@@ -21,6 +21,12 @@ h6 {
   justify-content: center;
 }
 
+.carouselLink {
+  text-decoration: none;
+  color: white;
+  -webkit-text-stroke: 0px;
+}
+
 .carousel-caption {
   background-color: rgba(39, 39, 39, 0.6);
   border: 2mm ridge rgba(5, 5, 5, 0.4);
@@ -57,6 +63,43 @@ h6 {
   cursor: pointer;
   background-color: white;
   outline: 3px solid rgb(52, 202, 152);
+}
+
+.footerText {
+  line-height: 56px;
+}
+
+.projectMembers {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+}
+
+.projectMember {
+  width: 36px;
+  height: 36px;
+  border-radius: 2rem;
+  margin-bottom: 2%;
+}
+
+.memberContainer {
+  margin-right: 4%;
+}
+
+.projectMember:hover {
+  transform: scale(120%);
+  cursor: pointer;
+  outline: 1px solid rgb(52, 202, 152);
+  box-shadow: 0 0 4px rgba(52, 202, 152, 0.7);
+}
+
+.memberName {
+  color: rgb(52, 202, 152);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  margin-top: 4px;
+  border-radius: 0.3rem;
+  text-align: center;
 }
 
 .bg-slate {
@@ -511,6 +554,22 @@ h6 {
 
   .modal-content {
     width: 94%;
+  }
+
+  .sm-flexWrapper {
+    flex-direction: column;
+  }
+
+  .projectMembers {
+    justify-content: center;
+  }
+
+  .memberContainer {
+    margin: 0;
+  }
+
+  .profileWelcome {
+    text-align: center;
   }
 }
 

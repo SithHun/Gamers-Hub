@@ -19,6 +19,7 @@ import {
 import Auth from "../utils/auth";
 import { removeGameId } from "../utils/localStorage";
 import WebFont from "webfontloader";
+import SiteFooter from "../components/Footer";
 
 const SavedGames = () => {
   const { loading, data } = useQuery(QUERY_ME);
@@ -341,6 +342,7 @@ const SavedGames = () => {
           </Button>
         </Modal.Footer> */}
       </Modal>
+      <SiteFooter />
     </>
   );
 };
