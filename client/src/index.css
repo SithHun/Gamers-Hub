@@ -278,10 +278,10 @@ h6 {
 .fixed-button-wrapper {
   position: absolute;
   top: 10px;
-  right: 10px; 
-  z-index: 999; 
-  text-align: right; 
-  width: 150px; 
+  right: 10px;
+  z-index: 999;
+  text-align: right;
+  width: 150px;
 }
 
 /* STYLE FOR SEE YOUR GAMES */
@@ -293,4 +293,70 @@ h6 {
   padding: 3px;
   box-shadow: 0px 0px 10px rgba(20, 190, 196, 0.692);
   font-size: larger;
+}
+
+@media only screen and (max-width: 1800px) {
+  .reviewCard {
+    margin: 1%;
+    width: calc((100% / 2.5));
+  }
+
+  .reviews {
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carouselImage {
+    height: 300px;
+  }
+
+  .carousel-caption {
+    padding: 1px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+
+  .reviewCard {
+    margin: 1%;
+    width: 90%;
+  }
+
+  .reviews {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .gamePanel {
+    padding-bottom: 4%;
+    flex-direction: column;
+  }
+
+  .game,
+  .platform {
+    margin-top: 0;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .game:hover {
+    border: none;
+    text-decoration: underline;
+  }
+
+  .ratingText {
+    font-size: 30px;
+  }
+
+  .thumbnail {
+    width: 58px;
+    height: 58px;
+  }
 }
