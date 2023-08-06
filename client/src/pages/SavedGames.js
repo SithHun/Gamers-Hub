@@ -188,7 +188,12 @@ const SavedGames = () => {
                       <Button
                         variant="primary"
                         className="hoverButton"
-                        style={{ margin: "10px" }}
+                        style={{ 
+                        margin: "10px", 
+                        color: "black",
+                        backgroundColor: "darkgray",
+                        borderColor: "gray" 
+                      }}
                         onClick={() => handleShow(game.gameId)}
                       >
                         Show Discussions
@@ -226,6 +231,8 @@ const SavedGames = () => {
                   {editingDiscussion === discussion._id ? (
                     <div>
                       <Form.Control
+                        className="search-input"
+                        style={{ marginBottom: "5px" }}
                         type="text"
                         value={updatedDiscussionBody}
                         onChange={(e) =>
@@ -236,7 +243,7 @@ const SavedGames = () => {
                       <Button
                         className="button-spacing hoverButton"
                         style={{
-                          color: "azure",
+                          color: "black",
                           backgroundColor: "darkgray",
                           borderColor: "gray",
                         }}
@@ -261,7 +268,7 @@ const SavedGames = () => {
                       <Button
                         className="button-spacing hoverButton"
                         style={{
-                          color: "azure",
+                          color: "black",
                           backgroundColor: "darkgray",
                           borderColor: "gray",
                         }}
