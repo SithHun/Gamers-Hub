@@ -63,6 +63,11 @@ h6 {
   background-color: #081417;
 }
 
+.searchHeader {
+  font-family: "Press Start 2P", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+}
+
 /* Review Cards Section */
 .reviewsHeader {
   font-family: "Audiowide", Impact, Haettenschweiler, "Arial Narrow Bold",
@@ -302,6 +307,11 @@ h6 {
   font-size: larger;
 }
 
+.profileWelcome h1 {
+  font-family: "Press Start 2P", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+}
+
 /* STYLE FOR SAVEDGAMES MODAL */
 /* .modal-backdrop.show {
   backdrop-filter: blur(1px);
@@ -377,10 +387,6 @@ h6 {
   border: rgb(196, 190, 190);
 }
 
-.show-discussions-button {
-  /* style as you see fit */
-}
-
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1800px) {
   .reviewCard {
@@ -395,6 +401,28 @@ h6 {
 }
 
 @media only screen and (max-width: 1200px) {
+  .container-fluid {
+    display: flex;
+  }
+
+  #navbar {
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  #navbar .navlink {
+    margin-bottom: 3%;
+    padding: 2%;
+    width: 90%;
+  }
+
+
+  .navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 2%;
+  }
+
   .carousel-item {
     height: 300px;
   }
@@ -409,6 +437,10 @@ h6 {
 
   .carousel-caption h3 {
     font-size: 18px;
+  }
+
+  .searchHeader {
+    text-align: center;
   }
 
   .reviewsHeader {
@@ -461,5 +493,9 @@ h6 {
   .thumbnail {
     width: 58px;
     height: 58px;
+  }
+
+  .modal-content {
+    width: 94%;
   }
 }
