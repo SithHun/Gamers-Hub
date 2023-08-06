@@ -16,6 +16,7 @@ const SearchGames = () => {
 
 //   const [saveGame] = useMutation(SAVE_GAME);
 
+
   useEffect(() => {
     return () => saveGameIds(savedGameIds);
   });
