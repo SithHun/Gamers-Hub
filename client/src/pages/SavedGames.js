@@ -10,10 +10,15 @@ import {
 } from "react-bootstrap";
 import { useQuery, useMutation } from "@apollo/client";
 import { QUERY_ME, QUERY_DISCUSSIONS } from "../utils/queries";
-import { REMOVE_GAME, ADD_DISCUSSION, DELETE_DISCUSSION, EDIT_DISCUSSION } from "../utils/mutations";
+import {
+  REMOVE_GAME,
+  ADD_DISCUSSION,
+  DELETE_DISCUSSION,
+  EDIT_DISCUSSION,
+} from "../utils/mutations";
 import Auth from "../utils/auth";
 import { removeGameId } from "../utils/localStorage";
-
+import WebFont from "webfontloader";
 
 const SavedGames = () => {
   const { loading, data } = useQuery(QUERY_ME);
@@ -39,8 +44,15 @@ const SavedGames = () => {
   const [editDiscussion] = useMutation(EDIT_DISCUSSION);
   const [deleteDiscussion] = useMutation(DELETE_DISCUSSION);
 
+  useEffect(() => {});
 
   useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ["Lumanosimo", "Audiowide", "Press Start 2P"],
+      },
+    });
+
     if (data) {
       setUserData(data.me);
     }
@@ -68,9 +80,11 @@ const SavedGames = () => {
       if (data.removeGame) {
         setUserData({
           ...userData,
-          savedGames: userData.savedGames.filter((game) => String(game.gameId) !== gameId),
+          savedGames: userData.savedGames.filter(
+            (game) => String(game.gameId) !== gameId
+          ),
         });
-        
+
         removeGameId(String(gameId));
       }
     } catch (err) {
@@ -113,7 +127,11 @@ const SavedGames = () => {
     if (editingDiscussion && updatedDiscussionBody) {
       try {
         await editDiscussion({
-          variables: { userId: userData._id, gameId: selectedGame, body: updatedDiscussionBody },
+          variables: {
+            userId: userData._id,
+            gameId: selectedGame,
+            body: updatedDiscussionBody,
+          },
         });
         // Reset the states and refetch discussions.
         setEditingDiscussion(null);
@@ -125,7 +143,6 @@ const SavedGames = () => {
     }
   };
 
-
   if (loading) {
     return <h2>LOADING...</h2>;
   }
@@ -134,7 +151,7 @@ const SavedGames = () => {
 
   return (
     <>
-      <Container fluid className="text-light bg-dark p-5">
+      <Container fluid className="text-light bg-dark p-5 profileWelcome">
         <h1>Welcome back!</h1>
         <h3>{userData.username}</h3>
       </Container>
@@ -152,18 +169,30 @@ const SavedGames = () => {
               <Col md="4" key={game.gameId}>
                 <Card border="dark" className="game-card hover-effect">
                   {game.image && (
-                    <Card.Img src={game.image} alt={`The cover for ${game.title}`} variant="top" />
+                    <Card.Img
+                      src={game.image}
+                      alt={`The cover for ${game.title}`}
+                      variant="top"
+                    />
                   )}
                   <Card.Body>
                     <Card.Title>{game.title}</Card.Title>
                     {/* <Card.Text>{game.description}</Card.Text> */}
-                    <Button className="btn-block btn-danger delete-button show-discussions-button hoverButton" onClick={() => handleDeleteGame(game.gameId)}>
+                    <Button
+                      className="btn-block btn-danger delete-button show-discussions-button hoverButton"
+                      onClick={() => handleDeleteGame(game.gameId)}
+                    >
                       X
                     </Button>
                     <div className="absolute-button-wrapper">
-                    <Button variant="primary" className="hoverButton" style={{ margin: "10px" }} onClick={() => handleShow(game.gameId)}>
-                      Show Discussions
-                    </Button>
+                      <Button
+                        variant="primary"
+                        className="hoverButton"
+                        style={{ margin: "10px" }}
+                        onClick={() => handleShow(game.gameId)}
+                      >
+                        Show Discussions
+                      </Button>
                     </div>
                   </Card.Body>
                 </Card>
@@ -172,42 +201,91 @@ const SavedGames = () => {
           })}
         </Row>
       </Container>
-  
+
       {/* Discussion modal */}
-      <Modal show={show} onHide={handleClose} centered dialogClassName="custom-modal" size='lg'>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        centered
+        dialogClassName="custom-modal"
+        size="lg"
+      >
         <Modal.Header closeButton>
           <Modal.Title>Discussions</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ margin: "10px" }}>
-          {!loadingDiscussions && discussionsData && discussionsData.discussions.length > 0
+          {!loadingDiscussions &&
+          discussionsData &&
+          discussionsData.discussions.length > 0
             ? discussionsData.discussions.map((discussion) => (
                 <div key={discussion._id} className="discussion-item">
                   <p>
-                    <strong>{discussion.userId.username}</strong>: {discussion.body}
+                    <strong>{discussion.userId.username}</strong>:{" "}
+                    {discussion.body}
                   </p>
                   {editingDiscussion === discussion._id ? (
                     <div>
                       <Form.Control
                         type="text"
                         value={updatedDiscussionBody}
-                        onChange={(e) => setUpdatedDiscussionBody(e.target.value)}
+                        onChange={(e) =>
+                          setUpdatedDiscussionBody(e.target.value)
+                        }
                         placeholder="Update your discussion here..."
                       />
-                      <Button className="button-spacing hoverButton" style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={handleEditDiscussion}>Apply changes</Button>
-                      <Button className="hoverButton" style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={() => setEditingDiscussion(null)}>Cancel</Button>
+                      <Button
+                        className="button-spacing hoverButton"
+                        style={{
+                          color: "azure",
+                          backgroundColor: "darkgray",
+                          borderColor: "gray",
+                        }}
+                        onClick={handleEditDiscussion}
+                      >
+                        Apply changes
+                      </Button>
+                      <Button
+                        className="hoverButton"
+                        style={{
+                          color: "black",
+                          backgroundColor: "darkgray",
+                          borderColor: "gray",
+                        }}
+                        onClick={() => setEditingDiscussion(null)}
+                      >
+                        Cancel
+                      </Button>
                     </div>
                   ) : (
                     <div>
-                      <Button 
-                      className="button-spacing hoverButton" 
-                      style={{ color: 'azure', backgroundColor: 'darkgray', borderColor: 'gray' }} 
-                      onClick={() => {
-                        setEditingDiscussion(discussion._id);
-                        setUpdatedDiscussionBody(discussion.body);
-                      }}>
+                      <Button
+                        className="button-spacing hoverButton"
+                        style={{
+                          color: "azure",
+                          backgroundColor: "darkgray",
+                          borderColor: "gray",
+                        }}
+                        onClick={() => {
+                          setEditingDiscussion(discussion._id);
+                          setUpdatedDiscussionBody(discussion.body);
+                        }}
+                      >
                         Edit
                       </Button>
-                      <Button className="hoverButton" style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray' }} onClick={() => handleDeleteDiscussion(discussion._id, discussion.gameId)}>
+                      <Button
+                        className="hoverButton"
+                        style={{
+                          color: "black",
+                          backgroundColor: "darkgray",
+                          borderColor: "gray",
+                        }}
+                        onClick={() =>
+                          handleDeleteDiscussion(
+                            discussion._id,
+                            discussion.gameId
+                          )
+                        }
+                      >
                         Delete
                       </Button>
                     </div>
@@ -215,28 +293,38 @@ const SavedGames = () => {
                 </div>
               ))
             : "No discussions for this game yet."}
-  
+
           {/* Add discussion form */}
-          <Form onSubmit={handleAddDiscussion} style={{ padding: '1em' }}>
-          <Row className="align-items-center">
-          <Col>
-            <Form.Group>
-              {/* <Form.Label>Add a Discussion</Form.Label> */}
-              <Form.Control
-                className="search-input"
-                type="text"
-                value={newDiscussion}
-                onChange={(e) => setNewDiscussion(e.target.value)}
-                placeholder="Write your discussion here..."
-                style={{ marginTop: "35px" }}
-              />
-            </Form.Group>
-            </Col>
-            <Col xs="auto">
-            <Button className="hoverButton" variant="primary" type="submit" style={{ color: 'black', backgroundColor: 'darkgray', borderColor: 'gray', marginTop: "35px" }}>
-              Submit
-            </Button>
-            </Col>
+          <Form onSubmit={handleAddDiscussion} style={{ padding: "1em" }}>
+            <Row className="align-items-center">
+              <Col>
+                <Form.Group>
+                  {/* <Form.Label>Add a Discussion</Form.Label> */}
+                  <Form.Control
+                    className="search-input"
+                    type="text"
+                    value={newDiscussion}
+                    onChange={(e) => setNewDiscussion(e.target.value)}
+                    placeholder="Write your discussion here..."
+                    style={{ marginTop: "35px" }}
+                  />
+                </Form.Group>
+              </Col>
+              <Col xs="auto">
+                <Button
+                  className="hoverButton"
+                  variant="primary"
+                  type="submit"
+                  style={{
+                    color: "black",
+                    backgroundColor: "darkgray",
+                    borderColor: "gray",
+                    marginTop: "35px",
+                  }}
+                >
+                  Submit
+                </Button>
+              </Col>
             </Row>
           </Form>
         </Modal.Body>
@@ -248,7 +336,6 @@ const SavedGames = () => {
       </Modal>
     </>
   );
-  
 };
 
 export default SavedGames;

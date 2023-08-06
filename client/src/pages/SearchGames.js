@@ -117,7 +117,7 @@ const SearchGames = () => {
          <Container fluid className="text-light bg-dark p-5">
       <div className="text-light bg-transparent p-5">
         <Container>
-          <h1>Search for Games!</h1>
+          <h1 className="searchHeader">Search for Games!</h1>
           <Form onSubmit={handleFormSubmit}>
             <Row>
               <Col xs={12} md={8}>

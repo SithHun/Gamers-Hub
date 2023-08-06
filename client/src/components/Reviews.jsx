@@ -51,8 +51,8 @@ const reviewsArr = [
 export default function Reviews() {
   return (
     <div>
-      <h2 className="text-light text-center m-2 pt-4">
-        See what people are saying about their favorite games
+      <h2 className="reviewsHeader text-light text-center m-2 pt-4">
+        SEE WHAT PEOPLE ARE SAYING ABOUT THEIR FAVORITE GAMES
       </h2>
       <div className="reviews">
         {reviewsArr.map((review, key) => {
