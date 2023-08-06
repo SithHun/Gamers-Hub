@@ -187,13 +187,13 @@ const SavedGames = () => {
                     <div className="absolute-button-wrapper">
                       <Button
                         variant="primary"
-                        className="hoverButton"
-                        style={{ 
-                        margin: "10px", 
-                        color: "black",
-                        backgroundColor: "darkgray",
-                        borderColor: "gray" 
-                      }}
+                        className="hoverButton show-discussion-button"
+                      //   style={{ 
+                      //   margin: "10px", 
+                      //   color: "black",
+                      //   backgroundColor: "darkgray",
+                      //   borderColor: "gray" 
+                      // }}
                         onClick={() => handleShow(game.gameId)}
                       >
                         Show Discussions

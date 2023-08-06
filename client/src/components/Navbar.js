@@ -22,6 +22,9 @@ const AppNavbar = () => {
           <Navbar.Toggle aria-controls="navbar" />
           <Navbar.Collapse id="navbar">
             <Nav className="ml-auto d-flex">
+            <Nav.Link className="navlink" as={Link} to="/">
+                Homes
+              </Nav.Link>
               <Nav.Link className="navlink" as={Link} to="/search">
                 Search
               </Nav.Link>

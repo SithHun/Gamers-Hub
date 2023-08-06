@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import WebFont from "webfontloader";
+import { Link } from 'react-router-dom';
 
 export default function Review(props) {
+
   useEffect(() => {
     WebFont.load({
       google: {
@@ -9,14 +11,16 @@ export default function Review(props) {
       },
     });
   });
+
   return (
     <div className="reviewCard">
       <h4 className="quote">
         "<span className="title">{props.title} </span>"
       </h4>
       <div className="flexWrapper gamePanel">
-        <img className="thumbnail" src={props.image}></img>
-        <h5 className="game">{props.game}</h5>
+        <img className="thumbnail" src={props.image} alt={props.title}></img>
+        {/* <h5 className="game">{props.game}</h5> */}
+        <h5 className="game"><Link to={`/search?query=${props.game}`}>{props.game}</Link></h5>
         <h5 className="platform">{props.platform}</h5>
         <div className="reviewRating">
           <h5 className="ratingText">{props.rating}</h5>

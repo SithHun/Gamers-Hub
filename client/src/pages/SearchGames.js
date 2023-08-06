@@ -6,6 +6,11 @@ import { SAVE_GAME } from "../utils/mutations";
 import Auth from "../utils/auth";
 import { saveGameIds, getSavedGameIds } from "../utils/localStorage";
 import formatDate from '../utils/formatDate'
+import { useLocation } from "react-router-dom";
+
+function useQuery() {
+  return new URLSearchParams(useLocation().search);
+}
 
 const SearchGames = () => {
   const [searchedGames, setSearchedGames] = useState([]);
@@ -16,21 +21,36 @@ const SearchGames = () => {
 
   const [saveGame] = useMutation(SAVE_GAME);
 
+  let query = useQuery().get("query");
+
+  useEffect(() => {
+    if (query) {
+      setSearchInput(query);
+      handleFormSubmit(null, query); // manually trigger search
+    }
+  }, [query]);
+
   useEffect(() => {
     return () => saveGameIds(savedGameIds);
   });
 
-  const handleFormSubmit = async (event) => {
-    event.preventDefault();
+  const handleFormSubmit = async (event, queryInput) => {
+    if (event) event.preventDefault();
 
-    if (!searchInput) {
+    const input = queryInput || searchInput;
+
+    if (!input) {
       return false;
     }
+
+    // if (!searchInput) {
+    //   return false;
+    // }
 
     try {
       setLoading(true);
 
-      const response = await searchRAWGGames(searchInput);
+      const response = await searchRAWGGames(input);
 
       if (!response.ok) {
         throw new Error("something went wrong!");
@@ -186,8 +206,8 @@ const SearchGames = () => {
                         {savedGameIds?.some(
                           (savedGameId) => savedGameId === game.gameId
                         )
-                        ? "Saved"
-                        : "ADD"}
+                        ? "_"
+                        : "add"}
                       </Button>
                     )}
                     </div>
