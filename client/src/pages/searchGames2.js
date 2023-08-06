@@ -11,7 +11,7 @@ const SearchGames = () => {
   const [searchedGames, setSearchedGames] = useState([]);
   const [searchInput, setSearchInput] = useState("");
   const [savedGameIds, setSavedGameIds] = useState(getSavedGameIds());
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
 //   const [saveGame] = useMutation(SAVE_GAME);
@@ -24,7 +24,7 @@ const SearchGames = () => {
     event.preventDefault();
 
     if (!searchInput) {
-      return false;
+      return true;
     }
 
     try {
@@ -36,15 +36,15 @@ const SearchGames = () => {
         throw new Error("something went wrong!");
       }
 
-    //   const { results } = await response.json();
+      const { results } = await response.json();
 
-    //   const gameData = results.map((game) => ({
-    //     gameId: game.id,
-    //     title: game.name,
-    //     image: game.background_image || "",
-    //     released: game.released,
-    //     genres: game.genres.map(genre => genre.name).join(', ')
-    //   }));
+      const gameData = results.map((game) => ({
+        gameId: game.id,
+        title: game.name,
+        image: game.background_image || "",
+        released: game.released,
+        genres: game.genres.map(genre => genre.name).join(', ')
+      }));
 
       setSearchedGames(gameData);
       setSearchInput("");
@@ -129,7 +129,7 @@ const SearchGames = () => {
                   placeholder="Search for a game"
                 />
               </Col>
-              <Col xs={12} md={4}>
+              <Col xs={8} md={4}>
                 <Button
                   type="submit"
                   variant="success"
