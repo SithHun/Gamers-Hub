@@ -115,38 +115,6 @@ const SearchGames = () => {
       // console.log("saveGame response: ", data);
 
 
-      
-      // console.log("saveGame response: ", data);
-
-
-      
-      // console.log("saveGame response: ", data);
-
-
-      
-      // console.log("saveGame response: ", data);
-
-
-      
-      // console.log("saveGame response: ", data);
-
-
-
-      
-      // console.log("saveGame response: ", data);
-
-
-      
-      // console.log("saveGame response: ", data);
-
-
-      
-      // console.log("saveGame response: ", data);
-
-
-      
-      // console.log("saveGame response: ", data);
-
       if (data.saveGame) {
         setSavedGameIds([...savedGameIds, gameToSave.gameId]);
       }
