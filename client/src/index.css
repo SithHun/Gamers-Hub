@@ -302,6 +302,68 @@ h6 {
 } */
 
 .modal-content {
-  background-color: #fffbfb;
+  background-color: #fffbfbcb;
   box-shadow: 0px 0px 2px #fffbfb;
+}
+
+.discussion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+.button-spacing {
+  margin-right: 5px;
+}
+
+.hoverButton:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+.game-card {
+  position: relative; /* This allows the absolute positioning of children elements */
+}
+
+.delete-button {
+  position: absolute;
+  top: 10px; /* adjust this value as needed */
+  right: 10px; /* adjust this value as needed */
+}
+
+.game-card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin-bottom: 75px;
+  position: relative;
+}
+
+.game-card .card-body {
+  flex: 1 0 auto;
+}
+
+/* .hover-effect {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+} */
+
+.absolute-button-wrapper {
+  position: absolute;
+  bottom: -25px; /* adjust according to your needs */
+  left: 10px; /* adjust according to your needs */
+}
+
+.show-discussions-button {
+  /* style as you see fit */
 }
