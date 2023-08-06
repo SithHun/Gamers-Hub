@@ -14,7 +14,7 @@ const SearchGames = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const [saveGame] = useMutation(SAVE_GAME);
+//   const [saveGame] = useMutation(SAVE_GAME);
 
   useEffect(() => {
     return () => saveGameIds(savedGameIds);
@@ -144,7 +144,7 @@ const SearchGames = () => {
         </Container>
       </div>
 
-      {error && <div className="error">{error}</div>}
+      {/* {error && <div className="error">{error}</div>} */}
 
       <Container>
         <h2 className="pt-5">
