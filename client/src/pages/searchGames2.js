@@ -123,7 +123,7 @@ const SearchGames = () => {
     }
   };
 
-
+//error code adjustment main search games
 
   return (
     <>
