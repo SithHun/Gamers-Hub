@@ -36,15 +36,15 @@ const SearchGames = () => {
         throw new Error("something went wrong!");
       }
 
-      const { results } = await response.json();
+    //   const { results } = await response.json();
 
-      const gameData = results.map((game) => ({
-        gameId: game.id,
-        title: game.name,
-        image: game.background_image || "",
-        released: game.released,
-        genres: game.genres.map(genre => genre.name).join(', ')
-      }));
+    //   const gameData = results.map((game) => ({
+    //     gameId: game.id,
+    //     title: game.name,
+    //     image: game.background_image || "",
+    //     released: game.released,
+    //     genres: game.genres.map(genre => genre.name).join(', ')
+    //   }));
 
       setSearchedGames(gameData);
       setSearchInput("");
