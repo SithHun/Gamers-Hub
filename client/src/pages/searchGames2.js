@@ -27,6 +27,10 @@ const SearchGames = () => {
       return true;
     }
 
+    // if (!searchInput) {
+    //     return true;
+    //   }
+
     try {
       setLoading(true);
 
@@ -34,6 +38,10 @@ const SearchGames = () => {
 
       if (!response.ok) {
         throw new Error("something went wrong!");
+      }
+
+      if (!response.ok) {
+        throw new Error("something is not correct!");
       }
 
       const { results } = await response.json();
@@ -53,7 +61,7 @@ const SearchGames = () => {
       setError(null);
       // console.log(gameData);
       //data needs to adjusted and reworked
-      // data
+     
     } catch (err) {
       setLoading(false);
       setError("An error occurred while searching.");
