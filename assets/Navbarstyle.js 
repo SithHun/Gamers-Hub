@@ -85,6 +85,7 @@ const AppNavbar = () => {
                       color: "black",
                       backgroundColor: "darkgray",
                       borderColor: "gray",
+                      marginRight: "25px",
                     }}
                     eventKey="signup"
                   >
