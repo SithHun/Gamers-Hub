@@ -46,7 +46,7 @@ Usage of this application is to create a well responsive website with React for 
 ## Deployed Application
 *A list of links of deployed applications:*
 
-- [DeployedAPP](#)
+- [The-Gamers-Hub](https://the-gamers-hub-145e411c6374.herokuapp.com/)
 
 ## Contributing
 *A list of contributors on this project includes:*
@@ -74,6 +74,8 @@ Usage of this application is to create a well responsive website with React for 
 * [inquirer](#)
 * [MongoDB](#)
 * [Mongoose](#)
+* [NodeJS](#)
+* [ExpressJS](#)
 
 ## License
 *This project is licensed under the MIT.*
@@ -81,15 +83,24 @@ Usage of this application is to create a well responsive website with React for 
 
 
 ## Questions
-If you have any questions, you can reach out to me via GitHub: [@SithHun](https://github.com/SithHun)
+If you have any questions, you can reach out to me via GitHub: 
+
+[@SithHun](https://github.com/SithHun)
+
 [@Benjamin Bryant](https://github.com/benbryant98)
+
 [@Nina Sandler](https://github.com/antigravityrunner)
+
 [@Massar Sow](https://github.com/Yerim17)
 
 Feel free to contact me via email: 
+
 sithsun@gmail.com
+
 bryantbc98@gmail.com
+
 ninasandler33@gmail.com
+
 Yerimsw@gmail.com
 
 <br>
