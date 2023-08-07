@@ -32,7 +32,7 @@ const AppNavbar = () => {
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
                 <>
-                  <Nav.Link className="navlink" style={{color: "black" ,paddingRight: "15px", paddingLeft: "15px" }} as={Link} to="/saved">
+                  <Nav.Link className="navlink" style={{backgroundColor:"bleu" ,paddingRight: "15px", paddingLeft: "15px" }} as={Link} to="/saved">
                     Profile
                   </Nav.Link>
                   <Nav.Link className="navlink" onClick={Auth.logout}>
@@ -72,7 +72,7 @@ const AppNavbar = () => {
                       backgroundColor: "darkgray",
                       borderColor: "gray",
                       marginRight: "25px",
-                      marginleft: "25px"
+                      marginleft: "35px"
                     }}
                     eventKey="login"
                   >
