@@ -71,7 +71,7 @@ const AppNavbar = () => {
                       color: "black",
                       backgroundColor: "darkgray",
                       borderColor: "gray",
-                      marginRight: "25px",
+                      marginRight: "35px",
                       marginleft: "35px"
                     }}
                     eventKey="login"
