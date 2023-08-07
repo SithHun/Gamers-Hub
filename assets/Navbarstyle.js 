@@ -70,7 +70,7 @@ const AppNavbar = () => {
                     style={{
                       color: "black",
                       backgroundColor: "darkgray",
-                      borderColor: "gray",
+                      borderColor: "black",
                       marginRight: "25px",
                       marginleft: "25px"
                     }}
