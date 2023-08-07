@@ -68,7 +68,7 @@ const AppNavbar = () => {
                 <Nav.Item>
                   <Nav.Link
                     style={{
-                      color: "black",
+                      color: "bleu",
                       backgroundColor: "darkgray",
                       borderColor: "gray",
                       marginRight: "25px",
